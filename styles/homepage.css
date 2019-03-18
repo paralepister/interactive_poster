@@ -1,0 +1,5822 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&subset=latin-ext");
+@import url("https://fonts.googleapis.com/css?family=Unica+One&subset=latin-ext");
+
+html {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a img {
+  border: none;
+}
+
+article,
+footer,
+header,
+main,
+menu,
+nav,
+section {
+  display: block;
+}
+
+html,
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  color: #18191b;
+}
+
+a {
+  font-family: "Montserrat", cursive;
+  font-weight: 400;
+  color: #cd927a;
+  text-transform: uppercase;
+  letter-spacing: 0.3vw;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ p {
+  display: block;
+}
+
+@media (max-width: 767px) {
+  html {
+    font-size: 3vw;
+  }
+  body,
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  a,
+  ul,
+  ol {
+    font-size: 3.5vw;
+    line-height: 1.67em;
+  }
+
+  p {
+    margin-bottom: 0.80025em;
+  }
+
+   p {
+    font-size: 1.13849em;
+    margin: 0.85387em;
+    line-height: 1.42311em;
+  }
+
+  h1 {
+    font-size: 1.68002em;
+    margin: 0.84001em 0;
+    line-height: 1.26002em;
+  }
+
+  h2 {
+    font-size: 1.57453em;
+    margin: 0.78726em 0;
+    line-height: 1.1809em;
+  }
+
+  h3 {
+   font-size: 1.47566em;
+   margin: 0.73783em 0;
+   line-height: 1.10675em;
+  }
+
+  h4 {
+   font-size: 1.383em;
+   margin: 0.6915em 0;
+   line-height: 1.03725em;
+  }
+
+  h5 {
+   font-size: 1.29616em;
+   margin: 0.64808em 0;
+   line-height: 0.97212em;
+  }
+
+  h6 {
+   font-size: 1.21477em;
+   line-height: 0.91108em;
+  }
+
+  ul li,
+  ol li {
+   font-size: 1.067em;
+   line-height: 1.33375em;
+  }
+
+  ul,
+  ol {
+   margin: 2.0273em;
+  }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+  html {
+   font-size: 2vw;
+  }
+  body,
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  a,
+  ul,
+  ol {
+   font-size: 1.067em;
+   line-height: 1.33375em;
+  }
+
+ p {
+   margin-bottom: 0.80025em;
+ }
+
+ p {
+   font-size: 1.13849em;
+   margin: 0.85387em;
+   line-height: 1.42311em;
+ }
+
+ h1 {
+  font-size: 1.68002em;
+  margin: 0.84001em 0;
+  line-height: 1.26002em;
+ }
+
+ h2 {
+  font-size: 1.57453em;
+  margin: 0.78726em 0;
+  line-height: 1.1809em;
+ }
+
+ h3 {
+  font-size: 1.47566em;
+  margin: 0.73783em 0;
+  line-height: 1.10675em;
+ }
+
+ h4 {
+  font-size: 1.383em;
+  margin: 0.6915em 0;
+  line-height: 1.03725em;
+ }
+
+ h5 {
+  font-size: 1.29616em;
+  margin: 0.64808em 0;
+  line-height: 0.97212em;
+ }
+
+ h6 {
+  font-size: 1.21477em;
+  margin: 0.60738em 0;
+  line-height: 0.91108em;
+ }
+
+ ul li,
+ ol li {
+  font-size: 1.067em;
+  line-height: 1.33375em;
+ }
+
+ ul,
+ ol {
+  margin: 2.0273em;
+ }
+}
+
+@media (min-width: 1025px) {
+  html {
+   font-size: 1vw;
+  }
+
+  body,
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  a,
+  ul,
+  ol {
+   font-size: 1.067em;
+   line-height: 1.33375em;
+  }
+  p {
+   margin-bottom: 0.80025em;
+  }
+
+  p {
+   font-size: 1.13849em;
+   margin: 0.85387em;
+   line-height: 1.42311em;
+  }
+
+  h1 {
+   font-size: 1.68002em;
+   margin: 0.84001em 0;
+   line-height: 1.26002em;
+  }
+
+  h2 {
+   font-size: 1.57453em;
+   margin: 0.78726em 0;
+   line-height: 1.1809em;
+  }
+
+  h3 {
+   font-size: 1.47566em;
+   margin: 0.73783em 0;
+   line-height: 1.10675em;
+  }
+
+  h4 {
+   font-size: 1.383em;
+   margin: 0.6915em 0;
+   line-height: 1.03725em;
+  }
+
+  h5 {
+   font-size: 1.29616em;
+   margin: 0.64808em 0;
+   line-height: 0.97212em;
+  }
+
+  h6 {
+   font-size: 1.21477em;
+   margin: 0.60738em 0;
+   line-height: 0.91108em;
+  }
+
+  ul li,
+  ol li {
+   font-size: 1.067em;
+   line-height: 1.33375em;
+  }
+
+  ul,
+  ol {
+   margin: 2.0273em;
+  }
+}
+
+ul {
+ list-style: disc;
+}
+
+#menu label {
+ display: none;
+}
+
+@media (max-width: 1025px) {
+  .homepage-header .homepage-header-inner,
+  .from-hedonism-to-nature {
+    height: 0.5vw;
+    z-index: 800;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+  .homepage-header .homepage-header-inner,
+  .from-hedonism-to-nature {
+    height: 0.2vw;
+  }
+}
+
+.vertical-pink-line,
+.from-hedonism-to-nature .under-hedonism .vertical-fading-line {
+    height: 36vw;
+    width: 0.1vw;
+    background-color: #18191b;
+    /* Content for ie 8.
+  Min version: unspecified.
+  User threshold to keep: 0.1%. If ie 8 are omitted: 4.46163%. */
+    *zoom: 1;
+    filter: progid: DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF18191B', endColorstr='#FFB88A74');
+    /* Content for ie 9.
+  Min version: unspecified.
+  User threshold to keep: 0.1%. If ie 9 are omitted: 2.6001%. */
+    /* Creating new -svg context. */
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzE4MTkxYiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2I4OGE3NCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+    background-size: 100%;
+    /* Content for android 2.1 - 3.
+  Min version: unspecified.
+  User threshold to keep: 0.1%. If android 2.1 - 3 are omitted: 1.11224%. */
+    /* Creating new -owg context. */
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #18191b), color-stop(100%, #b88a74));
+    /* Capability css-gradients is prefixed with -moz because 0.75106% of users need it which is more than the threshold of 0.1%. */
+    /* Creating new -moz context. */
+    background-image: -moz-linear-gradient(top, #18191b 0%, #b88a74 100%);
+    /* Capability css-gradients is not prefixed with -ms because 0% of users are affected which is less than the threshold of 0.1. */
+    /* Capability css-gradients is not prefixed with -o because 0.07115% of users are affected which is less than the threshold of 0.1. */
+    /* Capability css-gradients is prefixed with -webkit because 9.61489% of users need it which is more than the threshold of 0.1%. */
+    /* Creating new -webkit context. */
+    background-image: -webkit-linear-gradient(top, #18191b 0%, #b88a74 100%);
+    background-image: linear-gradient(to bottom, #18191b 0%, #b88a74 100%);
+}
+
+
+/* line 31, sass/_partials/_gradient-lines.scss */
+
+.black-pink-line,
+.from-nature-to-products .personal-approach-group .horizontal-gradient-line {
+    width: 64vw;
+    height: 0.1vw;
+    background-color: #18191b;
+    /* Content for ie 8.
+  Min version: unspecified.
+  User threshold to keep: 0.1%. If ie 8 are omitted: 4.46163%. */
+    *zoom: 1;
+    filter: progid: DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#FF18191B', endColorstr='#FFDAB19C');
+    /* Content for ie 9.
+  Min version: unspecified.
+  User threshold to keep: 0.1%. If ie 9 are omitted: 2.6001%. */
+    /* Creating new -svg context. */
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzE4MTkxYiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2RhYjE5YyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+    background-size: 100%;
+    /* Content for android 2.1 - 3.
+  Min version: unspecified.
+  User threshold to keep: 0.1%. If android 2.1 - 3 are omitted: 1.11224%. */
+    /* Creating new -owg context. */
+    background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #18191b), color-stop(100%, #dab19c));
+    /* Capability css-gradients is prefixed with -moz because 0.75106% of users need it which is more than the threshold of 0.1%. */
+    /* Creating new -moz context. */
+    background-image: -moz-linear-gradient(left, #18191b 0%, #dab19c 100%);
+    /* Capability css-gradients is not prefixed with -ms because 0% of users are affected which is less than the threshold of 0.1. */
+    /* Capability css-gradients is not prefixed with -o because 0.07115% of users are affected which is less than the threshold of 0.1. */
+    /* Capability css-gradients is prefixed with -webkit because 9.61489% of users need it which is more than the threshold of 0.1%. */
+    /* Creating new -webkit context. */
+    background-image: -webkit-linear-gradient(left, #18191b 0%, #dab19c 100%);
+    background-image: linear-gradient(to right, #18191b 0%, #dab19c 100%);
+}
+
+
+/* line 40, sass/_partials/_gradient-lines.scss */
+
+.vertical-pink-beige-line,
+.homepage-products .products-vertical-line {
+    height: 17vw;
+    width: 0.1vw;
+    background-color: #c6a89a;
+    /* Content for ie 8.
+  Min version: unspecified.
+  User threshold to keep: 0.1%. If ie 8 are omitted: 4.46163%. */
+    *zoom: 1;
+    filter: progid: DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFC6A89A', endColorstr='#FFEDEDED');
+    /* Content for ie 9.
+  Min version: unspecified.
+  User threshold to keep: 0.1%. If ie 9 are omitted: 2.6001%. */
+    /* Creating new -svg context. */
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2M2YTg5YSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2VkZWRlZCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+    background-size: 100%;
+    /* Content for android 2.1 - 3.
+  Min version: unspecified.
+  User threshold to keep: 0.1%. If android 2.1 - 3 are omitted: 1.11224%. */
+    /* Creating new -owg context. */
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c6a89a), color-stop(100%, #ededed));
+    /* Capability css-gradients is prefixed with -moz because 0.75106% of users need it which is more than the threshold of 0.1%. */
+    /* Creating new -moz context. */
+    background-image: -moz-linear-gradient(top, #c6a89a 0%, #ededed 100%);
+    /* Capability css-gradients is not prefixed with -ms because 0% of users are affected which is less than the threshold of 0.1. */
+    /* Capability css-gradients is not prefixed with -o because 0.07115% of users are affected which is less than the threshold of 0.1. */
+    /* Capability css-gradients is prefixed with -webkit because 9.61489% of users need it which is more than the threshold of 0.1%. */
+    /* Creating new -webkit context. */
+    background-image: -webkit-linear-gradient(top, #c6a89a 0%, #ededed 100%);
+    background-image: linear-gradient(to bottom, #c6a89a 0%, #ededed 100%);
+}
+
+
+/* line 49, sass/_partials/_gradient-lines.scss */
+
+.horizontal-pink-beige-line,
+.homepage-products .products-presentation .products-next-arrow .products-horizontal-line {
+    width: 12vw;
+    height: 0.1vw;
+    background-color: #c6a89a;
+    /* Content for ie 8.
+  Min version: unspecified.
+  User threshold to keep: 0.1%. If ie 8 are omitted: 4.46163%. */
+    *zoom: 1;
+    filter: progid: DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#FFEDEDED', endColorstr='#FFC6A89A');
+    /* Content for ie 9.
+  Min version: unspecified.
+  User threshold to keep: 0.1%. If ie 9 are omitted: 2.6001%. */
+    /* Creating new -svg context. */
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VkZWRlZCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2M2YTg5YSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+    background-size: 100%;
+    /* Content for android 2.1 - 3.
+  Min version: unspecified.
+  User threshold to keep: 0.1%. If android 2.1 - 3 are omitted: 1.11224%. */
+    /* Creating new -owg context. */
+    background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #ededed), color-stop(100%, #c6a89a));
+    /* Capability css-gradients is prefixed with -moz because 0.75106% of users need it which is more than the threshold of 0.1%. */
+    /* Creating new -moz context. */
+    background-image: -moz-linear-gradient(left, #ededed 0%, #c6a89a 100%);
+    /* Capability css-gradients is not prefixed with -ms because 0% of users are affected which is less than the threshold of 0.1. */
+    /* Capability css-gradients is not prefixed with -o because 0.07115% of users are affected which is less than the threshold of 0.1. */
+    /* Capability css-gradients is prefixed with -webkit because 9.61489% of users need it which is more than the threshold of 0.1%. */
+    /* Creating new -webkit context. */
+    background-image: -webkit-linear-gradient(left, #ededed 0%, #c6a89a 100%);
+    background-image: linear-gradient(to right, #ededed 0%, #c6a89a 100%);
+}
+
+
+/* line 2, sass/_pages/_header.scss */
+
+.white-title,
+.from-hedonism-to-nature .under-hedonism .three-words,
+.from-hedonism-to-nature .under-hedonism .skin-title {
+    font-family: 'Unica One', cursive;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.yellow-sentance {
+  font-family: "Montserrat", cursive;
+  font-weight: 400;
+  color: 	#FDDC22;
+  text-transform: uppercase;
+  letter-spacing: 0.3vw;
+  font-size: 0.8vw;
+  letter-spacing: 2.12vw;
+}
+
+
+@media (max-width: 1025px) {
+  .yellow-sentance {
+    font-size: 4vw;
+  }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+  .yellow-sentance {
+    font-size: 3vw;
+  }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: landscape) {
+    .yellow-sentance {
+      font-size: 1.6vw;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hh-slash {
+    /* Capability transforms2d is prefixed with -moz because 0.77252% of users need it which is more than the threshold of 0.1%. */
+    /* Creating new -moz context. */
+    -moz-transform: rotate(135deg);
+    /* Capability transforms2d is prefixed with -ms because 2.6001% of users need it which is more than the threshold of 0.1%. */
+    /* Creating new -ms context. */
+    -ms-transform: rotate(135deg);
+    /* Capability transforms2d is not prefixed with -o because 0.08196% of users are affected which is less than the threshold of 0.1. */
+    /* Capability transforms2d is prefixed with -webkit because 52.08628% of users need it which is more than the threshold of 0.1%. */
+    /* Creating new -webkit context. */
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+    width: 14.7vw;
+    height: 0.05vw;
+    background-color: white;
+    opacity: 0;
+}
+
+@media (max-width: 1025px) {
+    /* line 55, sass/_pages/_header.scss */
+    .hh-slash {
+        height: 0.5vw;
+        width: 35.7vw;
+        opacity: 1;
+        filter: blur(0px);
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 55, sass/_pages/_header.scss */
+    .hh-slash {
+        width: 28.7vw;
+        height: 0.2vw;
+    }
+}
+
+/* line 91, sass/_pages/_header.scss */
+
+img.homeheader-logo {
+    width: 3.5vw;
+}
+
+@media (max-width: 1025px) {
+    /* line 91, sass/_pages/_header.scss */
+    img.homeheader-logo {
+        width: 8.5vw;
+        position: relative;
+        z-index: 3000;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 91, sass/_pages/_header.scss */
+    img.homeheader-logo {
+        width: 6.5vw;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: landscape) {
+    /* line 91, sass/_pages/_header.scss */
+    img.homeheader-logo {
+        width: 4.5vw;
+    }
+}
+
+.homepage-header {
+    background-color: #18191b;
+}
+
+@media (max-width: 1025px) {
+    .homepage-header {
+        background-color: transparent;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 113, sass/_pages/_header.scss */
+    .homepage-header {
+        margin-bottom: -30vw !important;
+    }
+}
+
+
+/* line 118, sass/_pages/_header.scss */
+
+.homepage-header .homepage-header-inner {
+    position: relative;
+    overflow: hidden;
+    height: 81vw;
+    margin-top: -2.8vw;
+}
+
+@media (max-width: 1025px) {
+    /* line 118, sass/_pages/_header.scss */
+    .homepage-header .homepage-header-inner {
+        height: 183vw;
+        margin-top: 0;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: landscape) {
+    /* line 118, sass/_pages/_header.scss */
+    .homepage-header .homepage-header-inner {
+        margin-top: 2.2vw;
+    }
+}
+
+
+/* line 130, sass/_pages/_header.scss */
+
+.homepage-header .homepage-header-inner #branding {
+    opacity: 0;
+    filter: blur(3px);
+    padding: 4vw 5vw 0 5vw;
+    /* Capability flexbox is not prefixed with -moz because 0% of users are affected which is less than the threshold of 0.01. */
+    /* Capability flexbox is not prefixed with -ms because 0% of users are affected which is less than the threshold of 0.01. */
+    /* Capability flexbox is not prefixed with -o because 0% of users are affected which is less than the threshold of 0.01. */
+    /* Capability flexbox is prefixed with -webkit because 9.47897% of users need it which is more than the threshold of 0.01%. */
+    /* Creating new -webkit context. */
+    display: -webkit-flex;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    z-index: 5000;
+    margin-top: 3vw;
+    margin-bottom: -2vw;
+}
+
+@media (max-width: 1025px) {
+    /* line 130, sass/_pages/_header.scss */
+    .homepage-header .homepage-header-inner #branding {
+        padding: 8vw 0 0 8vw;
+        filter: blur(0px);
+        width: 69vw;
+        margin: 0;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 130, sass/_pages/_header.scss */
+    .homepage-header .homepage-header-inner #branding {
+        padding: 5vw 0 0 8vw;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: landscape) {
+    /* line 130, sass/_pages/_header.scss */
+    .homepage-header .homepage-header-inner #branding {
+        margin-top: -1vw;
+    }
+}
+
+
+/* line 152, sass/_pages/_header.scss */
+
+.homepage-header .homepage-header-inner #branding .language-switch {
+    /* Capability flexbox is not prefixed with -moz because 0% of users are affected which is less than the threshold of 0.01. */
+    /* Capability flexbox is not prefixed with -ms because 0% of users are affected which is less than the threshold of 0.01. */
+    /* Capability flexbox is not prefixed with -o because 0% of users are affected which is less than the threshold of 0.01. */
+    /* Capability flexbox is prefixed with -webkit because 9.47897% of users need it which is more than the threshold of 0.01%. */
+    /* Creating new -webkit context. */
+    display: -webkit-flex;
+    display: flex;
+    /* Capability flexbox is not prefixed with -moz because 0% of users are affected which is less than the threshold of 0.01. */
+    /* Capability flexbox is not prefixed with -ms because 0% of users are affected which is less than the threshold of 0.01. */
+    /* Capability flexbox is not prefixed with -o because 0% of users are affected which is less than the threshold of 0.01. */
+    /* Capability flexbox is prefixed with -webkit because 9.47897% of users need it which is more than the threshold of 0.01%. */
+    /* Creating new -webkit context. */
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    font-family: "Montserrat", cursive;
+    font-weight: 400;
+    color: #cd927a;
+    text-transform: uppercase;
+    letter-spacing: 0.3vw;
+    font-size: 1vw;
+    margin-top: 0.5vw;
+}
+
+@media (max-width: 1025px) {
+    /* line 152, sass/_pages/_header.scss */
+    .homepage-header .homepage-header-inner #branding .language-switch {
+        font-size: 5vw;
+        margin: 3vw 0 0 0;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 152, sass/_pages/_header.scss */
+    .homepage-header .homepage-header-inner #branding .language-switch {
+        font-size: 4vw;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: landscape) {
+    /* line 152, sass/_pages/_header.scss */
+    .homepage-header .homepage-header-inner #branding .language-switch {
+        font-size: 2.05vw;
+    }
+}
+
+@media (max-width: 1025px) {
+    /* line 168, sass/_pages/_header.scss */
+    .homepage-header .homepage-header-inner #branding .language-switch a {
+        margin-top: -1.2vw;
+    }
+}
+
+
+/* line 173, sass/_pages/_header.scss */
+
+.homepage-header .homepage-header-inner #branding .language-switch .inactive {
+    transition: all 0.3s;
+}
+
+
+/* line 176, sass/_pages/_header.scss */
+
+.homepage-header .homepage-header-inner #branding .language-switch .inactive:hover {
+    color: white;
+}
+
+@media (max-width: 1025px) {
+    /* line 180, sass/_pages/_header.scss */
+    .homepage-header .homepage-header-inner #branding .eng {
+        padding-left: 1vw;
+    }
+}
+
+@media (max-width: 1025px) {
+    /* line 185, sass/_pages/_header.scss */
+    .homepage-header .homepage-header-inner #branding .cro {
+        padding-right: 1vw;
+    }
+}
+
+
+/* line 190, sass/_pages/_header.scss */
+
+.homepage-header .homepage-header-inner #branding .language-switch-active {
+    font-size: 1.5vw;
+    color: #ffffff;
+    margin-top: -0.15vw;
+}
+
+@media (max-width: 1025px) {
+    /* line 190, sass/_pages/_header.scss */
+    .homepage-header .homepage-header-inner #branding .language-switch-active {
+        font-size: 7vw;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 190, sass/_pages/_header.scss */
+    .homepage-header .homepage-header-inner #branding .language-switch-active {
+        font-size: 5vw;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: landscape) {
+    /* line 190, sass/_pages/_header.scss */
+    .homepage-header .homepage-header-inner #branding .language-switch-active {
+        font-size: 2.05vw;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: landscape) {
+    /* line 190, sass/_pages/_header.scss */
+    .homepage-header .homepage-header-inner #branding .language-switch-active {
+        font-size: 2vw;
+    }
+}
+
+
+/* line 209, sass/_pages/_header.scss */
+
+ul#menu-glavni-hr {
+    display: none;
+}
+
+.homepage-header .homepage-header-inner #menu ul#menu-glavni-meni,
+.homepage-header .homepage-header-inner #menu #menu-glavni-hr {
+    /* Capability transforms2d is prefixed with -moz because 0.77252% of users need it which is more than the threshold of 0.1%. */
+    /* Creating new -moz context. */
+    -moz-transform: rotate(90deg);
+    /* Capability transforms2d is prefixed with -ms because 2.6001% of users need it which is more than the threshold of 0.1%. */
+    /* Creating new -ms context. */
+    -ms-transform: rotate(90deg);
+    /* Capability transforms2d is not prefixed with -o because 0.08196% of users are affected which is less than the threshold of 0.1. */
+    /* Capability transforms2d is prefixed with -webkit because 52.08628% of users need it which is more than the threshold of 0.1%. */
+    /* Creating new -webkit context. */
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    /* Capability transforms2d is prefixed with -moz because 0.77252% of users need it which is more than the threshold of 0.1%. */
+    /* Creating new -moz context. */
+    -moz-transform-origin: 98% 50%;
+    /* Capability transforms2d is prefixed with -ms because 2.6001% of users need it which is more than the threshold of 0.1%. */
+    /* Creating new -ms context. */
+    -ms-transform-origin: 98% 50%;
+    /* Capability transforms2d is not prefixed with -o because 0.08196% of users are affected which is less than the threshold of 0.1. */
+    /* Capability transforms2d is prefixed with -webkit because 52.08628% of users need it which is more than the threshold of 0.1%. */
+    /* Creating new -webkit context. */
+    -webkit-transform-origin: 98% 50%;
+    transform-origin: 98% 50%;
+    float: right;
+    margin-right: 4vw;
+    margin-top: 66.9vh;
+    z-index: 1000;
+    position: relative;
+    opacity: 0;
+    filter: blur(5px);
+}
+
+@media (max-width: 1025px) {
+    /* line 209, sass/_pages/_header.scss */
+    .homepage-header .homepage-header-inner #menu ul#menu-glavni-meni,
+    .homepage-header .homepage-header-inner #menu #menu-glavni-hr {
+        opacity: 1;
+        filter: blur(0px);
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: landscape) {
+    /* line 209, sass/_pages/_header.scss */
+    .homepage-header .homepage-header-inner #menu ul#menu-glavni-meni,
+    .homepage-header .homepage-header-inner #menu #menu-glavni-hr {
+        margin-top: 43vw;
+    }
+}
+
+
+/* line 227, sass/_pages/_header.scss */
+
+.homepage-header .homepage-header-inner #menu ul#menu-glavni-meni a,
+.homepage-header .homepage-header-inner #menu #menu-glavni-hr a {
+    font-family: "Montserrat", cursive;
+    font-weight: 400;
+    color: #cd927a;
+    text-transform: uppercase;
+    letter-spacing: 0.3vw;
+    text-decoration: none;
+    font-size: 1vw;
+    padding: 1.8vw;
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: landscape) {
+    /* line 227, sass/_pages/_header.scss */
+    .homepage-header .homepage-header-inner #menu ul#menu-glavni-meni a,
+    .homepage-header .homepage-header-inner #menu #menu-glavni-hr a {
+        font-size: 1.7vw;
+    }
+}
+
+
+/* line 238, sass/_pages/_header.scss */
+
+.homepage-header .homepage-header-inner .clearfix::after {
+    display: none;
+}
+
+
+/* line 241, sass/_pages/_header.scss */
+
+.homepage-header .homepage-header-inner .homeheader-letter {
+
+    font-family: "Unica one", cursive;
+    font-weight: 400;
+    color: #cd927a;
+    text-transform: uppercase;
+    letter-spacing: 0.3vw;
+    position: absolute;
+    font-size: 16vw !important;
+    line-height: 10vw;
+    z-index: 100;
+}
+
+@media (max-width: 1025px) {
+    /* line 241, sass/_pages/_header.scss */
+    .homepage-header .homepage-header-inner .homeheader-letter {
+        line-height: 30vw;
+        font-size: 39vw !important;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 241, sass/_pages/_header.scss */
+    .homepage-header .homepage-header-inner .homeheader-letter {
+        font-size: 31vw !important;
+    }
+}
+
+
+/* line 255, sass/_pages/_header.scss */
+
+.homepage-header .homepage-header-inner .homeheader-sentance {
+    font-family: "Montserrat", cursive;
+    font-weight: 400;
+    color: #cd927a;
+    text-transform: uppercase;
+    letter-spacing: 0.3vw;
+    color: #fff;
+    letter-spacing: 0.5vw;
+    /* Capability flexbox is not prefixed with -moz because 0% of users are affected which is less than the threshold of 0.01. */
+    /* Capability flexbox is not prefixed with -ms because 0% of users are affected which is less than the threshold of 0.01. */
+    /* Capability flexbox is not prefixed with -o because 0% of users are affected which is less than the threshold of 0.01. */
+    /* Capability flexbox is prefixed with -webkit because 9.47897% of users need it which is more than the threshold of 0.01%. */
+    /* Creating new -webkit context. */
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 68.7vw;
+    font-size: 1.3vw;
+    letter-spacing: 0.88vw;
+    top: 52.9vh;
+    left: 14.6vw;
+}
+
+@media (max-width: 1025px) {
+    /* line 255, sass/_pages/_header.scss */
+    .homepage-header .homepage-header-inner .homeheader-sentance {
+        display: none;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: landscape) {
+    /* line 255, sass/_pages/_header.scss */
+    .homepage-header .homepage-header-inner .homeheader-sentance {
+        font-size: 2vw;
+    }
+}
+
+
+/* line 274, sass/_pages/_header.scss */
+
+.homepage-header .homepage-header-inner .homeheader-sentance-mobile {
+    /* Capability transforms2d is prefixed with -moz because 0.77252% of users need it which is more than the threshold of 0.1%. */
+    /* Creating new -moz context. */
+    -moz-transform: rotate(90deg);
+    /* Capability transforms2d is prefixed with -ms because 2.6001% of users need it which is more than the threshold of 0.1%. */
+    /* Creating new -ms context. */
+    -ms-transform: rotate(90deg);
+    /* Capability transforms2d is not prefixed with -o because 0.08196% of users are affected which is less than the threshold of 0.1. */
+    /* Capability transforms2d is prefixed with -webkit because 52.08628% of users need it which is more than the threshold of 0.1%. */
+    /* Creating new -webkit context. */
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    /* Capability transforms2d is prefixed with -moz because 0.77252% of users need it which is more than the threshold of 0.1%. */
+    /* Creating new -moz context. */
+    -moz-transform-origin: 98% 50%;
+    /* Capability transforms2d is prefixed with -ms because 2.6001% of users need it which is more than the threshold of 0.1%. */
+    /* Creating new -ms context. */
+    -ms-transform-origin: 98% 50%;
+    /* Capability transforms2d is not prefixed with -o because 0.08196% of users are affected which is less than the threshold of 0.1. */
+    /* Capability transforms2d is prefixed with -webkit because 52.08628% of users need it which is more than the threshold of 0.1%. */
+    /* Creating new -webkit context. */
+    -webkit-transform-origin: 98% 50%;
+    transform-origin: 98% 50%;
+    display: block !important;
+    width: 81vw;
+    font-size: 5vw;
+    letter-spacing: 4vw;
+    top: 109vw;
+    left: -28.5vw;
+    /* Capability flexbox is not prefixed with -moz because 0% of users are affected which is less than the threshold of 0.01. */
+    /* Capability flexbox is not prefixed with -ms because 0% of users are affected which is less than the threshold of 0.01. */
+    /* Capability flexbox is not prefixed with -o because 0% of users are affected which is less than the threshold of 0.01. */
+    /* Capability flexbox is prefixed with -webkit because 9.47897% of users need it which is more than the threshold of 0.01%. */
+    /* Creating new -webkit context. */
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    font-family: "Montserrat", cursive;
+    font-weight: 400;
+    color: #cd927a;
+    text-transform: uppercase;
+    letter-spacing: 0.3vw;
+    color: #fff;
+    z-index: 500;
+}
+
+@media (min-width: 1025px) {
+    /* line 274, sass/_pages/_header.scss */
+    .homepage-header .homepage-header-inner .homeheader-sentance-mobile {
+        display: none !important;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 274, sass/_pages/_header.scss */
+    .homepage-header .homepage-header-inner .homeheader-sentance-mobile {
+        width: 80vw;
+        font-size: 3vw;
+        top: 95vw;
+    }
+}
+
+
+/* line 298, sass/_pages/_header.scss */
+
+.homepage-header .homepage-header-inner .hhs1m,
+.homepage-header .homepage-header-inner .hhs2m {
+    padding: 3vw;
+    letter-spacing: 4vw;
+    opacity: 0;
+}
+
+
+/* line 304, sass/_pages/_header.scss */
+
+.homepage-header .homepage-header-inner .hhs2 {
+    letter-spacing: 0.7vw;
+}
+
+
+/* line 307, sass/_pages/_header.scss */
+
+.homepage-header .homepage-header-inner .hhs2m {
+    text-align: right;
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 307, sass/_pages/_header.scss */
+    .homepage-header .homepage-header-inner .hhs2m {
+        text-align: center;
+    }
+}
+
+
+/* line 313, sass/_pages/_header.scss */
+
+.homepage-header .homepage-header-inner .hhl1 {
+    top: 9.5vw;
+    left: 32vw;
+    opacity: 0;
+    filter: blur(10px);
+}
+
+@media (max-width: 1025px) {
+    /* line 313, sass/_pages/_header.scss */
+    .homepage-header .homepage-header-inner .hhl1 {
+        top: 51vw;
+        left: 12vw;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 313, sass/_pages/_header.scss */
+    .homepage-header .homepage-header-inner .hhl1 {
+        top: 18vw;
+        left: 22vw;
+    }
+}
+
+
+/* line 327, sass/_pages/_header.scss */
+
+.homepage-header .homepage-header-inner .hhl2 {
+    top: 23.8vw;
+    left: 60vw;
+    z-index: 250;
+    opacity: 0;
+    filter: blur(10px);
+}
+
+@media (max-width: 1025px) {
+    /* line 327, sass/_pages/_header.scss */
+    .homepage-header .homepage-header-inner .hhl2 {
+        top: 73vw;
+        left: 69vw;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 327, sass/_pages/_header.scss */
+    .homepage-header .homepage-header-inner .hhl2 {
+        top: 46vw;
+        left: 66vw;
+    }
+}
+
+
+/* line 342, sass/_pages/_header.scss */
+
+.homepage-header .homepage-header-inner .hhl3 {
+    top: 79.5vh;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    filter: blur(10px);
+}
+
+@media (max-width: 1025px) {
+    /* line 342, sass/_pages/_header.scss */
+    .homepage-header .homepage-header-inner .hhl3 {
+        top: 123vw;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 342, sass/_pages/_header.scss */
+    .homepage-header .homepage-header-inner .hhl3 {
+        top: 83vw;
+    }
+}
+
+
+/* line 356, sass/_pages/_header.scss */
+
+.homepage-header .homepage-header-inner .circle-overlay {
+    width: 25vw;
+    height: 25vw;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 200;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+@media (max-width: 1025px) {
+    /* line 356, sass/_pages/_header.scss */
+    .homepage-header .homepage-header-inner .circle-overlay {
+        display: none;
+    }
+}
+
+
+/* line 369, sass/_pages/_header.scss */
+
+.homepage-header .homepage-header-inner .co1 {
+    top: 20.2vh;
+    background-color: #373737;
+    opacity: 0;
+    z-index: 200;
+}
+
+@media (max-width: 1025px) {
+    /* line 369, sass/_pages/_header.scss */
+    .homepage-header .homepage-header-inner .co1 {
+        opacity: 1;
+    }
+}
+
+
+/* line 378, sass/_pages/_header.scss */
+
+.homepage-header .homepage-header-inner .co2 {
+    top: 41.5vh;
+    opacity: 0;
+    z-index: 190;
+    background: -moz-linear-gradient(289deg, rgba(150, 150, 150, 0.1) 39%, rgba(147, 147, 147, 0.1) 40%, #343434 78%, #1e1e1e 87%);
+    /* ff3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(39%, rgba(150, 150, 150, 0.1)), color-stop(40%, rgba(147, 147, 147, 0.1)), color-stop(78%, #343434), color-stop(87%, #1e1e1e));
+    /* safari4+,chrome */
+    background: -webkit-linear-gradient(289deg, rgba(150, 150, 150, 0.1) 39%, rgba(147, 147, 147, 0.1) 40%, #343434 78%, #1e1e1e 87%);
+    /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(289deg, rgba(150, 150, 150, 0.815) 39%, rgba(147, 147, 147, 0.1) 40%, #343434 78%, #1e1e1e 87%);
+    /* opera 11.10+ */
+    background: -ms-linear-gradient(289deg, rgba(150, 150, 150, 0.1) 39%, rgba(147, 147, 147, 0.1) 40%, #343434 78%, #1e1e1e 87%);
+    /* ie10+ */
+    background: linear-gradient(161deg, rgba(150, 150, 150, 0.1) 39%, rgba(147, 147, 147, 0.1) 40%, #343434 78%, #1e1e1e 87%);
+    /* w3c */
+    /*filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#969696', endColorstr='#1e1e1e', GradientType=0);
+   ie6-9 */
+}
+
+@media (max-width: 1025px) {
+    /* line 378, sass/_pages/_header.scss */
+    .homepage-header .homepage-header-inner .co2 {
+        opacity: 1;
+    }
+}
+
+
+/* line 400, sass/_pages/_header.scss */
+
+.homepage-header .homepage-header-inner .hh-vertical-line {
+    width: 0.07vw;
+    background-color: #161619;
+    /* Content for ie 8.
+  Min version: unspecified.
+  User threshold to keep: 0.1%. If ie 8 are omitted: 4.46163%. */
+    *zoom: 1;
+    filter: progid: DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF161619', endColorstr='#FF161619');
+    /* Content for ie 9.
+  Min version: unspecified.
+  User threshold to keep: 0.1%. If ie 9 are omitted: 2.6001%. */
+    /* Creating new -svg context. */
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzE2MTYxOSIvPjxzdG9wIG9mZnNldD0iMTAlIiBzdG9wLWNvbG9yPSIjMmYyZjM1Ii8+PHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiM3YzdjN2MiLz48c3RvcCBvZmZzZXQ9Ijc2JSIgc3RvcC1jb2xvcj0iIzJmMzEzNSIvPjxzdG9wIG9mZnNldD0iOTklIiBzdG9wLWNvbG9yPSIjMTYxNjE5Ii8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+    background-size: 100%;
+    /* Content for android 2.1 - 3.
+  Min version: unspecified.
+  User threshold to keep: 0.1%. If android 2.1 - 3 are omitted: 1.11224%. */
+    /* Creating new -owg context. */
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #161619), color-stop(10%, #2f2f35), color-stop(50%, #7c7c7c), color-stop(76%, #2f3135), color-stop(99%, #161619));
+    /* Capability css-gradients is prefixed with -moz because 0.75106% of users need it which is more than the threshold of 0.1%. */
+    /* Creating new -moz context. */
+    background-image: -moz-linear-gradient(top, #161619 0%, #2f2f35 10%, #7c7c7c 50%, #2f3135 76%, #161619 99%);
+    /* Capability css-gradients is not prefixed with -ms because 0% of users are affected which is less than the threshold of 0.1. */
+    /* Capability css-gradients is not prefixed with -o because 0.07115% of users are affected which is less than the threshold of 0.1. */
+    /* Capability css-gradients is prefixed with -webkit because 9.61489% of users need it which is more than the threshold of 0.1%. */
+    /* Creating new -webkit context. */
+    background-image: -webkit-linear-gradient(top, #161619 0%, #2f2f35 10%, #7c7c7c 50%, #2f3135 76%, #161619 99%);
+    background-image: linear-gradient(to bottom, #161619 0%, #2f2f35 10%, #7c7c7c 50%, #2f3135 76%, #161619 99%);
+    margin-left: 49.8%;
+    position: relative;
+    z-index: 300;
+    margin-top: -8vw;
+}
+
+@media (max-width: 1025px) {
+    /* line 400, sass/_pages/_header.scss */
+    .homepage-header .homepage-header-inner .hh-vertical-line {
+        margin-top: -230vw;
+        width: 0.35vw;
+        height: 164vw;
+        background-color: #1d1e22;
+        /* Content for ie 8.
+    Min version: unspecified.
+    User threshold to keep: 0.1%. If ie 8 are omitted: 4.46163%. */
+        *zoom: 1;
+        filter: progid: DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF1D1E22', endColorstr='#FF1D1E22');
+        /* Content for ie 9.
+    Min version: unspecified.
+    User threshold to keep: 0.1%. If ie 9 are omitted: 2.6001%. */
+        /* Creating new -svg context. */
+        background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzFkMWUyMiIvPjxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjOGI3MzY3Ii8+PHN0b3Agb2Zmc2V0PSI1MiUiIHN0b3AtY29sb3I9IiNiYzg2NmQiLz48c3RvcCBvZmZzZXQ9IjY1JSIgc3RvcC1jb2xvcj0iIzhiNzM2NyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzFkMWUyMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+        background-size: 100%;
+        /* Content for android 2.1 - 3.
+    Min version: unspecified.
+    User threshold to keep: 0.1%. If android 2.1 - 3 are omitted: 1.11224%. */
+        /* Creating new -owg context. */
+        background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #1d1e22), color-stop(35%, #8b7367), color-stop(52%, #bc866d), color-stop(65%, #8b7367), color-stop(100%, #1d1e22));
+        /* Capability css-gradients is prefixed with -moz because 0.75106% of users need it which is more than the threshold of 0.1%. */
+        /* Creating new -moz context. */
+        background-image: -moz-linear-gradient(top, #1d1e22 0%, #8b7367 35%, #bc866d 52%, #8b7367 65%, #1d1e22 100%);
+        /* Capability css-gradients is not prefixed with -ms because 0% of users are affected which is less than the threshold of 0.1. */
+        /* Capability css-gradients is not prefixed with -o because 0.07115% of users are affected which is less than the threshold of 0.1. */
+        /* Capability css-gradients is prefixed with -webkit because 9.61489% of users need it which is more than the threshold of 0.1%. */
+        /* Creating new -webkit context. */
+        background-image: -webkit-linear-gradient(top, #1d1e22 0%, #8b7367 35%, #bc866d 52%, #8b7367 65%, #1d1e22 100%);
+        background-image: linear-gradient(to bottom, #1d1e22 0%, #8b7367 35%, #bc866d 52%, #8b7367 65%, #1d1e22 100%);
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 400, sass/_pages/_header.scss */
+    .homepage-header .homepage-header-inner .hh-vertical-line {
+        width: 0.2vw;
+    }
+}
+
+@media (max-width: 1025px) {
+    /* line 421, sass/_pages/_header.scss */
+    .homepage-header .homepage-header-inner .header-line {
+        opacity: 0;
+    }
+}
+
+
+/* line 426, sass/_pages/_header.scss */
+
+.homepage-header .homepage-header-inner .hh-slash1 {
+    position: absolute;
+    top: 46.3vw;
+    left: 42.2vw;
+    z-index: 300;
+}
+
+@media (max-width: 1025px) {
+    /* line 426, sass/_pages/_header.scss */
+    .homepage-header .homepage-header-inner .hh-slash1 {
+        top: 138.45vw;
+        left: 32vw;
+        opacity: 0;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 426, sass/_pages/_header.scss */
+    .homepage-header .homepage-header-inner .hh-slash1 {
+        top: 98vw;
+        left: 35vw;
+    }
+}
+
+
+/* line 441, sass/_pages/_header.scss */
+
+.homepage-header .homepage-header-inner .hh-shopnow {
+    font-family: "Montserrat", cursive;
+    font-weight: 400;
+    color: #cd927a;
+    text-transform: uppercase;
+    letter-spacing: 0.3vw;
+    position: absolute;
+    top: 56.7vw;
+    font-size: 1.1vw;
+    letter-spacing: 0.7vw;
+    z-index: 10;
+    opacity: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 400;
+    cursor: pointer;
+}
+
+@media (max-width: 1025px) {
+    /* line 441, sass/_pages/_header.scss */
+    .homepage-header .homepage-header-inner .hh-shopnow {
+        opacity: 0;
+        font-size: 2vw !important;
+        top: 162vw;
+    }
+    .homepage-header .homepage-header-inner .hh-shopnow a {
+        font-size: 4.5vw !important;
+    }
+}
+
+
+/* line 454, sass/_pages/_header.scss */
+
+.homepage-header .homepage-header-inner .hh-shopnow-slash {
+    opacity: 0;
+    position: absolute;
+    top: 57.37vw;
+    left: 43.5vw;
+    z-index: 500;
+}
+
+@media (max-width: 1025px) {
+    /* line 454, sass/_pages/_header.scss */
+    .homepage-header .homepage-header-inner .hh-shopnow-slash {}
+}
+
+@media (max-width: 1025px) {
+    /* line 468, sass/_pages/_header.scss */
+    .homeheader-girl {
+        display: none;
+    }
+}
+
+
+
+@media (max-width: 1025px) {
+    /* line 474, sass/_pages/_header.scss */
+    .homeheader-girl img {
+        opacity: 1;
+        filter: blur(0px);
+    }
+}
+
+
+@media (min-width: 1025px) {
+    /* line 488, sass/_pages/_header.scss */
+    .homeheader-girl-mobile {
+        display: none;
+    }
+}
+
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 498, sass/_pages/_header.scss */
+    .homeheader-girl-mobile img {
+        margin-top: -8vw;
+    }
+}
+
+
+/* line 505, sass/_pages/_header.scss */
+
+.hhs1,
+.hhs2 {
+    z-index: 10;
+}
+
+
+/* line 510, sass/_pages/_header.scss */
+
+.homepage-header .homepage-header-inner .hh-vertical-line {
+    opacity: 0;
+}
+
+@media (max-width: 1025px) {
+    /* line 510, sass/_pages/_header.scss */
+    .homepage-header .homepage-header-inner .hh-vertical-line {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 1025px) {
+    /* line 518, sass/_pages/_header.scss */
+    #menu label#toggle-menu {
+        position: absolute !important;
+        top: 5.8vw !important;
+        right: 8.5vw !important;
+        z-index: 15000;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 518, sass/_pages/_header.scss */
+    #menu label#toggle-menu {
+        top: 2vw !important;
+    }
+}
+
+@media (max-width: 1025px) {
+    /* line 530, sass/_pages/_header.scss */
+    .homepage-header .homepage-header-inner #menu ul#menu-glavni-meni,
+    .homepage-header .homepage-header-inner #menu ul#menu-glavni-hr {
+        -moz-transform: none;
+        -ms-transform: none;
+        -webkit-transform: none;
+        transform: none;
+        -moz-transform-origin: none;
+        -ms-transform-origin: none;
+        -webkit-transform-origin: none;
+        transform-origin: none;
+        float: none;
+        margin-right: 0;
+        margin-top: 0;
+        z-index: 10000;
+        position: absolute;
+        opacity: 1;
+        filter: none;
+        width: 100%;
+        background-color: #131416;
+        padding: 38vw 0 84vw 0vw;
+        top: 0;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 530, sass/_pages/_header.scss */
+    .homepage-header .homepage-header-inner #menu ul#menu-glavni-meni,
+    .homepage-header .homepage-header-inner #menu ul#menu-glavni-hr {
+        padding: 26vw 0 70vw 0;
+    }
+}
+
+@media (max-width: 1025px) {
+    /* line 556, sass/_pages/_header.scss */
+    .homepage-header .homepage-header-inner #menu ul#menu-glavni-meni a,
+    .homepage-header .homepage-header-inner #menu ul#menu-glavni-hr a {
+
+        font-weight: 400;
+        color: #cd927a;
+        text-transform: uppercase;
+        letter-spacing: 0.3vw;
+        text-decoration: none;
+        font-size: 6vw;
+        letter-spacing: 1vw;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 556, sass/_pages/_header.scss */
+    .homepage-header .homepage-header-inner #menu ul#menu-glavni-meni a,
+    .homepage-header .homepage-header-inner #menu ul#menu-glavni-hr a {
+        font-size: 4vw;
+    }
+}
+
+
+/* line 567, sass/_pages/_header.scss */
+
+.homepage-header .homepage-header-inner #menu ul#menu-glavni-meni li,
+.homepage-header .homepage-header-inner #menu ul#menu-glavni-hr li {
+    padding: 3vw 0;
+}
+
+@media (max-width: 1025px) {
+    /* line 567, sass/_pages/_header.scss */
+    .homepage-header .homepage-header-inner #menu ul#menu-glavni-meni li,
+    .homepage-header .homepage-header-inner #menu ul#menu-glavni-hr li {
+        text-align: center;
+    }
+}
+
+
+/* line 575, sass/_pages/_header.scss */
+
+#hamburger {
+    width: 8vw;
+    height: 11vw;
+    cursor: pointer;
+    opacity: 0;
+    filter: blur(7px);
+}
+
+
+/* line 581, sass/_pages/_header.scss */
+
+#hamburger .hambi-crta {
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #cd927a;
+    border-radius: 10%;
+}
+
+
+/* line 588, sass/_pages/_header.scss */
+
+#hamburger .hambi-crta:nth-child(2) {
+    top: 2.5vw;
+}
+
+
+/* line 591, sass/_pages/_header.scss */
+
+#hamburger .hambi-crta:nth-child(3) {
+    top: 5vw;
+}
+
+
+/* line 597, sass/_pages/_header.scss */
+
+#hamburger.open div {
+    background: red;
+    transition: 0.6s;
+}
+
+
+/* line 601, sass/_pages/_header.scss */
+
+#hamburger.open div:nth-child(1) {
+    transform: translateY(45px);
+    opacity: 0;
+}
+
+
+/* line 605, sass/_pages/_header.scss */
+
+#hamburger.open div:nth-child(2) {
+    transform: rotate(45deg);
+}
+
+
+/* line 608, sass/_pages/_header.scss */
+
+#hamburger.open div:nth-child(3) {
+    transform: rotate(-45deg);
+}
+
+
+/* line 611, sass/_pages/_header.scss */
+
+#hamburger.open div:nth-child(4) {
+    transform: translateY(-45px);
+    opacity: 0;
+}
+
+
+/* line 628, sass/_pages/_header.scss */
+
+.loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 101vh;
+    background: #18191B;
+    z-index: 9999;
+    font-weight: 500;
+    font-size: 1.8vw;
+}
+
+@media (max-width: 1025px) {
+    /* line 628, sass/_pages/_header.scss */
+    .loading {
+        font-size: 7vw;
+        margin-top: -2vw;
+    }
+}
+
+
+/* line 642, sass/_pages/_header.scss */
+
+.loading::before {
+    content: "";
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("/../img/noise.png");
+    animation: 0.2s infinite noise;
+    pointer-events: none;
+    opacity: 1;
+}
+
+
+/* line 657, sass/_pages/_header.scss */
+
+.loading-text {
+    position: absolute;
+    top: 0vh;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    height: 5vw;
+    line-height: 5vw;
+    font-size: 1.5vw;
+    z-index: 100;
+}
+
+@media (max-width: 1025px) {
+    /* line 657, sass/_pages/_header.scss */
+    .loading-text {
+        font-size: 7vw;
+        height: 2vh;
+        line-height: 2vh;
+    }
+}
+
+
+/* line 667, sass/_pages/_header.scss */
+
+.loading-text span {
+    display: inline-block;
+    margin: 0 0.38vw;
+    color: #fff;
+}
+
+@media (max-width: 1025px) {
+    /* line 667, sass/_pages/_header.scss */
+    .loading-text span {
+        margin: 0 1vw !important;
+    }
+}
+
+
+/* line 675, sass/_pages/_header.scss */
+
+.loading-text span:nth-child(1) {
+    filter: blur(0px);
+    animation: blur-text 1.5s 0s infinite linear alternate;
+}
+
+
+/* line 675, sass/_pages/_header.scss */
+
+.loading-text span:nth-child(2) {
+    filter: blur(0px);
+    animation: blur-text 1.5s 0.2s infinite linear alternate;
+}
+
+
+/* line 675, sass/_pages/_header.scss */
+
+.loading-text span:nth-child(3) {
+    filter: blur(0px);
+    animation: blur-text 1.5s 0.4s infinite linear alternate;
+}
+
+
+/* line 675, sass/_pages/_header.scss */
+
+.loading-text span:nth-child(4) {
+    filter: blur(0px);
+    animation: blur-text 1.5s 0.6s infinite linear alternate;
+}
+
+
+/* line 675, sass/_pages/_header.scss */
+
+.loading-text span:nth-child(5) {
+    filter: blur(0px);
+    animation: blur-text 1.5s 0.8s infinite linear alternate;
+}
+
+
+/* line 675, sass/_pages/_header.scss */
+
+.loading-text span:nth-child(6) {
+    filter: blur(0px);
+    animation: blur-text 1.5s 1s infinite linear alternate;
+}
+
+
+/* line 675, sass/_pages/_header.scss */
+
+.loading-text span:nth-child(7) {
+    filter: blur(0px);
+    animation: blur-text 1.5s 1.2s infinite linear alternate;
+}
+
+
+/* line 675, sass/_pages/_header.scss */
+
+.loading-text span:nth-child(8) {
+    filter: blur(0px);
+    animation: blur-text 1.5s 1.4s infinite linear alternate;
+}
+
+
+/* line 675, sass/_pages/_header.scss */
+
+.loading-text span:nth-child(9) {
+    filter: blur(0px);
+    animation: blur-text 1.5s 1.6s infinite linear alternate;
+}
+
+
+/* line 675, sass/_pages/_header.scss */
+
+.loading-text span:nth-child(10) {
+    filter: blur(0px);
+    animation: blur-text 1.5s 1.8s infinite linear alternate;
+}
+
+
+/* line 675, sass/_pages/_header.scss */
+
+.loading-text span:nth-child(11) {
+    filter: blur(0px);
+    animation: blur-text 1.5s 2s infinite linear alternate;
+}
+
+@keyframes blur-text {
+    0% {
+        filter: blur(1px);
+    }
+    100% {
+        filter: blur(4px);
+    }
+}
+
+@keyframes noise {
+    0%,
+    100% {
+        background-position: 0 0;
+    }
+    10% {
+        background-position: -5% -10%;
+    }
+    20% {
+        background-position: -15% 5%;
+    }
+    30% {
+        background-position: 7% -25%;
+    }
+    40% {
+        background-position: 20% 25%;
+    }
+    50% {
+        background-position: -25% 10%;
+    }
+    60% {
+        background-position: 15% 5%;
+    }
+    70% {
+        background-position: 0% 15%;
+    }
+    80% {
+        background-position: 25% 35%;
+    }
+    90% {
+        background-position: -10% 10%;
+    }
+}
+
+
+/* line 730, sass/_pages/_header.scss */
+
+.hambi-crta,
+.hambi-crta:after,
+.hambi-crta:before {
+    width: 100%;
+    height: 2px;
+}
+
+
+/* line 737, sass/_pages/_header.scss */
+
+.hambi-crta {
+    position: relative;
+    transform: translateY(7vw);
+    background: #cd927a;
+    transition: all 0ms 300ms;
+}
+
+
+/* line 744, sass/_pages/_header.scss */
+
+.hambi-crta.animate {
+    background: rgba(255, 255, 255, 0) !important;
+}
+
+
+/* line 748, sass/_pages/_header.scss */
+
+.hambi-crta:before {
+    content: "";
+    width: 120%;
+    position: absolute;
+    left: 0;
+    bottom: 2.15vw;
+    background: #cd927a;
+    transition: bottom 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+
+/* line 758, sass/_pages/_header.scss */
+
+.hambi-crta:after {
+    content: "";
+    width: 120%;
+    position: absolute;
+    left: 0;
+    top: 2.15vw;
+    background: #cd927a;
+    transition: top 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+
+/* line 768, sass/_pages/_header.scss */
+
+.hambi-crta.animate:after {
+    top: 0;
+    transform: rotate(45deg);
+    transition: top 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+
+/* line 774, sass/_pages/_header.scss */
+
+.hambi-crta.animate:before {
+    bottom: 0;
+    transform: rotate(-45deg);
+    transition: bottom 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+
+/* line 781, sass/_pages/_header.scss */
+
+ul#menu-glavni-meni a,
+ul#menu-footer-menu a,
+ul#menu-footer-link a,
+ul#menu-glavni-hr a {
+    transition: 0.5s ease all;
+}
+
+
+/* line 788, sass/_pages/_header.scss */
+
+ul#menu-glavni-meni a:hover,
+ul#menu-footer-menu a:hover,
+ul#menu-glavni-hr a:hover,
+ul#menu-footer-link a:hover,
+.footer-email a:hover {
+    color: #fff !important;
+}
+
+@media (max-width: 1025px) {
+    /* line 796, sass/_pages/_header.scss */
+    ul#menu-footer-menu {
+        margin-top: 0vw;
+        margin-bottom: 0;
+    }
+}
+
+
+/* line 803, sass/_pages/_header.scss */
+
+.mobile-menu-bottom {
+    display: block;
+    position: absolute;
+    color: #ffffff;
+    margin-top: 98vw;
+    text-align: center;
+    z-index: 50000;
+    text-transform: uppercase;
+    opacity: 0;
+    width: 100%;
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 803, sass/_pages/_header.scss */
+    .mobile-menu-bottom {
+        margin-top: 72vw;
+    }
+}
+
+
+/* line 815, sass/_pages/_header.scss */
+
+.mobile-menu-bottom .mobile-menu-collections-title {
+    font-size: 14.5vw;
+    font-weight: bold;
+    letter-spacing: 2.35vw;
+    margin-left: -1.5vw;
+    color: #303236;
+}
+
+.mm-collection a {
+    font-size: 5vw;
+}
+
+
+/* line 822, sass/_pages/_header.scss */
+
+.mobile-menu-bottom .mobile-menu-collections {
+    font-size: 4vw;
+    font-family: "Montserrat", cursive;
+    letter-spacing: 1.3vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    line-height: 8vw;
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 822, sass/_pages/_header.scss */
+    .mobile-menu-bottom .mobile-menu-collections {
+        margin-top: 3vw;
+    }
+}
+
+
+/* line 835, sass/_pages/_header.scss */
+
+.mobile-menu-bottom .mm-collection {
+    width: 42%;
+    text-align: center;
+}
+
+
+/* line 1, sass/_pages/_fluid_grid_system.scss */
+
+.parent_element {
+    /* Capability flexbox is not prefixed with -moz because 0% of users are affected which is less than the threshold of 0.01. */
+    /* Capability flexbox is not prefixed with -ms because 0% of users are affected which is less than the threshold of 0.01. */
+    /* Capability flexbox is not prefixed with -o because 0% of users are affected which is less than the threshold of 0.01. */
+    /* Capability flexbox is prefixed with -webkit because 9.47897% of users need it which is more than the threshold of 0.01%. */
+    /* Creating new -webkit context. */
+    display: -webkit-flex;
+    display: flex;
+    /* Capability flexbox is not prefixed with -moz because 0% of users are affected which is less than the threshold of 0.01. */
+    /* Capability flexbox is not prefixed with -ms because 0% of users are affected which is less than the threshold of 0.01. */
+    /* Capability flexbox is not prefixed with -o because 0% of users are affected which is less than the threshold of 0.01. */
+    /* Capability flexbox is prefixed with -webkit because 9.47897% of users need it which is more than the threshold of 0.01%. */
+    /* Creating new -webkit context. */
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+@media (max-width: 1025px) {
+    /* line 9, sass/_pages/_fluid_grid_system.scss */
+    .parent_element {
+        display: block;
+    }
+}
+
+
+/* line 1, sass/_pages/_responsive_ready.scss */
+
+.morph_me {
+    width: 150px;
+    height: 150px;
+}
+
+@media (max-width: 1025px) {
+    /* line 1, sass/_pages/_responsive_ready.scss */
+    .morph_me {
+        background-color: red;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 1, sass/_pages/_responsive_ready.scss */
+    .morph_me {
+        background-color: blue;
+    }
+}
+
+@media (min-width: 1025px) {
+    /* line 1, sass/_pages/_responsive_ready.scss */
+    .morph_me {
+        background-color: black;
+    }
+}
+
+
+/* line 15, sass/_pages/_responsive_ready.scss */
+
+.media_parent_element {
+    /* Capability flexbox is not prefixed with -moz because 0% of users are affected which is less than the threshold of 0.01. */
+    /* Capability flexbox is not prefixed with -ms because 0% of users are affected which is less than the threshold of 0.01. */
+    /* Capability flexbox is not prefixed with -o because 0% of users are affected which is less than the threshold of 0.01. */
+    /* Capability flexbox is prefixed with -webkit because 9.47897% of users need it which is more than the threshold of 0.01%. */
+    /* Creating new -webkit context. */
+    display: -webkit-flex;
+    display: flex;
+    /* Capability flexbox is not prefixed with -moz because 0% of users are affected which is less than the threshold of 0.01. */
+    /* Capability flexbox is not prefixed with -ms because 0% of users are affected which is less than the threshold of 0.01. */
+    /* Capability flexbox is not prefixed with -o because 0% of users are affected which is less than the threshold of 0.01. */
+    /* Capability flexbox is prefixed with -webkit because 9.47897% of users need it which is more than the threshold of 0.01%. */
+    /* Creating new -webkit context. */
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+@media (max-width: 1025px) {
+    /* line 21, sass/_pages/_responsive_ready.scss */
+    .media_parent_element {
+        display: block;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 29, sass/_pages/_responsive_ready.scss */
+    .media_child {
+        margin: 3vw;
+    }
+}
+
+@media (min-width: 1025px) {
+    /* line 34, sass/_pages/_responsive_ready.scss */
+    .media_child {
+        margin: 3vw;
+    }
+}
+
+
+/* line 1, sass/_pages/_footer.scss */
+
+#footer {
+
+    position: relative;
+    z-index: 700;
+}
+
+
+/* line 4, sass/_pages/_footer.scss */
+
+#footer #mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
+    position: absolute !important;
+    background-color: transparent !important;
+    left: 2.6vw !important;
+    text-transform: uppercase !important;
+    top: -2vw;
+    margin: 0;
+}
+
+@media (max-width: 1025px) {
+    /* line 4, sass/_pages/_footer.scss */
+    #footer #mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
+        left: -13vw !important;
+        top: 22vw !important;
+        width: 65vw !important;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: landscape) {
+    /* line 4, sass/_pages/_footer.scss */
+    #footer #mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
+        top: -4vw;
+        width: 20vw;
+        left: 2.6vw !important;
+    }
+}
+
+
+/* line 23, sass/_pages/_footer.scss */
+
+#footer #mc_embed_signup .mc-field-group {
+    width: 50% !important;
+    padding-bottom: 0.6vw;
+    margin-right: 4.3vw;
+}
+
+@media (max-width: 1025px) {
+    /* line 23, sass/_pages/_footer.scss */
+    #footer #mc_embed_signup .mc-field-group {
+        text-align: center;
+        margin-right: 0;
+    }
+}
+
+
+/* line 32, sass/_pages/_footer.scss */
+
+#footer #mc_embed_signup form {
+    padding: 0 !important;
+    margin-bottom: -0.3vw;
+}
+
+
+/* line 36, sass/_pages/_footer.scss */
+
+#footer #mc_embed_signup_scroll {
+    /* Capability flexbox is not prefixed with -moz because 0% of users are affected which is less than the threshold of 0.01. */
+    /* Capability flexbox is not prefixed with -ms because 0% of users are affected which is less than the threshold of 0.01. */
+    /* Capability flexbox is not prefixed with -o because 0% of users are affected which is less than the threshold of 0.01. */
+    /* Capability flexbox is prefixed with -webkit because 9.47897% of users need it which is more than the threshold of 0.01%. */
+    /* Creating new -webkit context. */
+    display: -webkit-flex;
+    display: flex;
+    /* Capability flexbox is not prefixed with -moz because 0% of users are affected which is less than the threshold of 0.01. */
+    /* Capability flexbox is not prefixed with -ms because 0% of users are affected which is less than the threshold of 0.01. */
+    /* Capability flexbox is not prefixed with -o because 0% of users are affected which is less than the threshold of 0.01. */
+    /* Capability flexbox is prefixed with -webkit because 9.47897% of users need it which is more than the threshold of 0.01%. */
+    /* Creating new -webkit context. */
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    width: 49.5vw;
+    padding-top: 6.6vw;
+    margin-top: 13vw;
+    background-color: #111111;
+    position: relative;
+}
+
+@media (max-width: 1025px) {
+    /* line 36, sass/_pages/_footer.scss */
+    #footer #mc_embed_signup_scroll {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+}
+
+
+/* line 49, sass/_pages/_footer.scss */
+
+#footer #mc_embed_signup_scroll #mce-responses,
+#footer #mc_embed_signup_scroll #mce-EMAIL {
+    width: 70%;
+    text-align: center;
+    padding-bottom: 1.5vw;
+    margin-left: 3vw;
+}
+
+@media (max-width: 1025px) {
+    /* line 49, sass/_pages/_footer.scss */
+    #footer #mc_embed_signup_scroll #mce-responses,
+    #footer #mc_embed_signup_scroll #mce-EMAIL {
+        font-size: 3.5vw;
+        letter-spacing: 1.5vw;
+        padding: 0;
+        line-height: 10vw;
+        margin-left: 0;
+        display: inline-block;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 49, sass/_pages/_footer.scss */
+    #footer #mc_embed_signup_scroll #mce-responses,
+    #footer #mc_embed_signup_scroll #mce-EMAIL {
+        font-size: 2.5vw !important;
+    }
+}
+
+
+/* line 67, sass/_pages/_footer.scss */
+
+#footer #mc_embed_signup_scroll input#mce-EMAIL {
+    background-color: #111111;
+    border: none;
+    color: #ffffff;
+    padding-top: 0.2vw;
+    padding-bottom: 0;
+}
+
+
+/* line 74, sass/_pages/_footer.scss */
+
+#footer #mc_embed_signup_scroll input[type="email" i] {
+    letter-spacing: 0.5vw;
+    font-size: 0.9vw;
+    font-family: "Montserrat" !important;
+    text-transform: initial;
+    color: white;
+    font-weight: 400;
+    opacity: 1;
+}
+
+
+/* line 82, sass/_pages/_footer.scss */
+
+#footer #mc_embed_signup_scroll input[type="email" i] ::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    color: #ffffff !important;
+    letter-spacing: 0.5vw;
+    font-size: 0.9vw;
+    font-family: "Montserrat" !important;
+    font-weight: 400;
+    opacity: 1;
+}
+
+
+/* line 91, sass/_pages/_footer.scss */
+
+#footer #mc_embed_signup_scroll input[type="email" i] :-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #ffffff !important;
+    letter-spacing: 0.5vw;
+    font-size: 0.9vw;
+    font-family: "Montserrat" !important;
+    font-weight: 400;
+    opacity: 1;
+}
+
+
+/* line 100, sass/_pages/_footer.scss */
+
+#footer #mc_embed_signup_scroll input[type="email" i] ::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #ffffff !important;
+    letter-spacing: 0.5vw;
+    font-size: 0.9vw;
+    font-family: "Unica One" !important;
+    font-weight: 400;
+    opacity: 1;
+}
+
+
+/* line 109, sass/_pages/_footer.scss */
+
+#footer #mc_embed_signup_scroll input[type="email" i] :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #ffffff !important;
+    letter-spacing: 0.5vw;
+    font-size: 0.9vw;
+    font-family: "Unica One" !important;
+    font-weight: 400;
+    opacity: 1;
+}
+
+
+/* line 118, sass/_pages/_footer.scss */
+
+#footer #mc_embed_signup_scroll input[type="email" i] ::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #ffffff !important;
+    letter-spacing: 0.5vw;
+    font-size: 0.9vw;
+    font-family: "Unica One" !important;
+    font-weight: 400;
+    opacity: 1;
+}
+
+
+/* line 127, sass/_pages/_footer.scss */
+
+#footer #mc_embed_signup_scroll input[type="email" i] ::placeholder {
+    /* Most modern browsers support this now. */
+    color: #ffffff !important;
+    letter-spacing: 0.5vw;
+    font-size: 0.9vw;
+    font-family: "Unica One" !important;
+    font-weight: 400;
+    opacity: 1;
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: landscape) {
+    /* line 74, sass/_pages/_footer.scss */
+    #footer #mc_embed_signup_scroll input[type="email" i] {
+        font-size: 1.6vw;
+    }
+}
+
+
+/* line 140, sass/_pages/_footer.scss */
+
+#footer #mc_embed_signup_scroll #mc-embedded-subscribe {
+    font-size: 0.9vw;
+    font-family: "Unica One";
+    background-color: #111111;
+    text-transform: uppercase;
+    letter-spacing: 0.5vw;
+    width: 100%;
+    color: #cd927a;
+    font-family: "Unica One" !important;
+    transition: all 0.3s;
+}
+
+@media (max-width: 1025px) {
+    /* line 140, sass/_pages/_footer.scss */
+    #footer #mc_embed_signup_scroll #mc-embedded-subscribe {
+        font-size: 4vw !important;
+        padding-top: 3vw !important;
+        letter-spacing: 1.5vw !important;
+        line-height: 6vw;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 140, sass/_pages/_footer.scss */
+    #footer #mc_embed_signup_scroll #mc-embedded-subscribe {
+        font-size: 3vw !important;
+        padding-top: 0vw !important;
+        line-height: 15vw;
+        height: 13vw;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: landscape) {
+    /* line 140, sass/_pages/_footer.scss */
+    #footer #mc_embed_signup_scroll #mc-embedded-subscribe {
+        font-size: 1.6vw;
+    }
+}
+
+
+/* line 166, sass/_pages/_footer.scss */
+
+#footer #mc_embed_signup_scroll #mc-embedded-subscribe:hover {
+    color: #ffffff;
+}
+
+
+/* line 169, sass/_pages/_footer.scss */
+
+#footer #mc_embed_signup_scroll #mce-responses {
+    display: block;
+    position: absolute;
+    left: 44vw;
+    text-align: left;
+    width: auto;
+    top: 0;
+}
+
+@media (max-width: 1025px) {
+    /* line 169, sass/_pages/_footer.scss */
+    #footer #mc_embed_signup_scroll #mce-responses {
+        position: relative;
+        text-align: center;
+        left: 0;
+    }
+}
+
+
+/* line 183, sass/_pages/_footer.scss */
+
+#footer #mc_embed_signup_scroll #mce-responses #mce-error-response,
+#footer #mc_embed_signup_scroll #mce-responses #mce-success-response {
+    font-size: 1vw;
+    font-family: "Unica One", cursive;
+    font-weight: 400;
+    color: #cd927a;
+    text-transform: uppercase;
+    letter-spacing: 0.3vw;
+    color: #ffffff;
+    width: 35vw;
+    height: 4vw;
+    margin: 0;
+    float: none;
+    overflow: visible;
+    background-color: #111111;
+    padding-top: 6.65vw;
+    padding-right: 12vw;
+    padding-left: 5vw;
+}
+
+@media (max-width: 1025px) {
+    /* line 183, sass/_pages/_footer.scss */
+    #footer #mc_embed_signup_scroll #mce-responses #mce-error-response,
+    #footer #mc_embed_signup_scroll #mce-responses #mce-success-response {
+        font-size: 4vw;
+        width: 64vw;
+        height: auto;
+        padding-top: 2vw;
+        padding-right: 0;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: landscape) {
+    /* line 183, sass/_pages/_footer.scss */
+    #footer #mc_embed_signup_scroll #mce-responses #mce-error-response,
+    #footer #mc_embed_signup_scroll #mce-responses #mce-success-response {
+        font-size: 1.5vw;
+        padding-top: 7.25vw;
+        height: 6vw;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 183, sass/_pages/_footer.scss */
+    #footer #mc_embed_signup_scroll #mce-responses #mce-error-response,
+    #footer #mc_embed_signup_scroll #mce-responses #mce-success-response {
+        font-size: 3vw;
+    }
+}
+
+
+/* line 215, sass/_pages/_footer.scss */
+
+#footer #mc_embed_signup_scroll .newsletter-email {
+    color: #ffffff;
+}
+
+
+
+@media (max-width: 1025px) {
+    /* line 218, sass/_pages/_footer.scss */
+    #footer #mc_embed_signup_scroll .newsletter-border {
+        position: relative;
+        height: 0.5vw;
+        width: 65vw;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 218, sass/_pages/_footer.scss */
+    #footer #mc_embed_signup_scroll .newsletter-border {
+        height: 0.2vw;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: landscape) {
+    /* line 218, sass/_pages/_footer.scss */
+    #footer #mc_embed_signup_scroll .newsletter-border {
+        padding-right: 4vw;
+    }
+}
+
+
+/* line 238, sass/_pages/_footer.scss */
+
+#footer .footer_second_row {
+    /* Capability flexbox is not prefixed with -moz because 0% of users are affected which is less than the threshold of 0.01. */
+    /* Capability flexbox is not prefixed with -ms because 0% of users are affected which is less than the threshold of 0.01. */
+    /* Capability flexbox is not prefixed with -o because 0% of users are affected which is less than the threshold of 0.01. */
+    /* Capability flexbox is prefixed with -webkit because 9.47897% of users need it which is more than the threshold of 0.01%. */
+    /* Creating new -webkit context. */
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    background-color: #111111;
+    padding-top: 8vw;
+}
+
+@media (max-width: 1025px) {
+    /* line 238, sass/_pages/_footer.scss */
+    #footer .footer_second_row {
+        padding-top: 8vw;
+    }
+    .footer_newsletter {
+        margin-top: -13vw;
+    }
+}
+
+
+/* line 246, sass/_pages/_footer.scss */
+
+#footer .footer_second_row img {
+    width: 15.6vw;
+}
+
+@media (max-width: 1025px) {
+    /* line 246, sass/_pages/_footer.scss */
+    #footer .footer_second_row img {
+        width: 40vw;
+        opacity: 0;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 246, sass/_pages/_footer.scss */
+    #footer .footer_second_row img {
+        display: none;
+    }
+}
+
+
+/* line 258, sass/_pages/_footer.scss */
+
+#footer .footer_third_row {
+
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    background-color: #111111;
+    justify-content: center;
+    padding-top: 4vw;
+    padding-bottom: 9vw;
+}
+
+@media (max-width: 1025px) {
+    /* line 258, sass/_pages/_footer.scss */
+    #footer .footer_third_row {
+        width: 100%;
+        padding-top: 10vw;
+    }
+}
+
+
+/* line 271, sass/_pages/_footer.scss */
+
+#footer .footer_third_row .menu ul,
+#footer .footer_third_row .footer_social_menu ul {
+    list-style: none !important;
+}
+
+@media (max-width: 1025px) {
+    /* line 271, sass/_pages/_footer.scss */
+    #footer .footer_third_row .menu ul,
+    #footer .footer_third_row .footer_social_menu ul {
+        margin: -1vw 0 0 7vw;
+    }
+}
+
+
+/* line 277, sass/_pages/_footer.scss */
+
+#footer .footer_third_row .menu a,
+#footer .footer_third_row .footer_social_menu a {
+    font-family: "Unica One", cursive;
+    font-weight: 400;
+    color: #cd927a;
+    text-transform: uppercase;
+    letter-spacing: 0.3vw;
+    font-size: 1.5vw;
+    letter-spacing: 0.7vw;
+    text-decoration: none;
+    line-height: 3vw;
+}
+
+@media (max-width: 1025px) {
+    /* line 277, sass/_pages/_footer.scss */
+    #footer .footer_third_row .menu a,
+    #footer .footer_third_row .footer_social_menu a {
+        font-size: 4vw;
+        line-height: 7.5vw;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 277, sass/_pages/_footer.scss */
+    #footer .footer_third_row .menu a,
+    #footer .footer_third_row .footer_social_menu a {
+        font-size: 3vw;
+    }
+}
+
+
+/* line 292, sass/_pages/_footer.scss */
+
+#footer .footer_third_row .element1 {
+    width: 25vw;
+    margin-top: -0.8vw;
+}
+
+@media (max-width: 1025px) {
+    /* line 292, sass/_pages/_footer.scss */
+    #footer .footer_third_row .element1 {
+        width: 50%;
+        border-right: 0.5vw solid #594740;
+        margin-top: 0;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 292, sass/_pages/_footer.scss */
+    #footer .footer_third_row .element1 {
+        border-right: 0.2vw solid #594740;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: landscape) {
+    /* line 292, sass/_pages/_footer.scss */
+    #footer .footer_third_row .element1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+
+
+/* не трогай */
+#footer .footer_third_row .element3 {
+    width: 23vw !important;
+    margin-right: 1vw;
+    text-align: right;
+    margin-top: -0.5vw;
+}
+
+
+
+@media (max-width: 1025px) {
+    /* line 309, sass/_pages/_footer.scss */
+    #footer .footer_third_row .element3 {
+        width: 50% !important;
+        margin-top: 0;
+        margin-right: 0;
+    }
+
+}
+
+@media (max-width: 1025px) {
+    /* line 322, sass/_pages/_footer.scss */
+    #footer .footer_third_row .element3 a {
+        font-size: 4vw;
+        line-height: 7.5vw;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 322, sass/_pages/_footer.scss */
+    #footer .footer_third_row .element3 a {
+        font-size: 3vw;
+    }
+}
+
+@media (max-width: 1025px) {
+    /* line 334, sass/_pages/_footer.scss */
+    #footer .footer_third_row  {
+        margin: 0vw 7vw 0 0 !important;
+    }
+}
+
+
+/* line 340, sass/_pages/_footer.scss */
+
+#footer .footer_third_row .footer_full {
+    border-left: 0.15vw solid #594740;
+    border-right: 0.15vw solid #594740;
+    font-size: 2.3vw;
+    letter-spacing: 0.55vw;
+    padding: 3.3vw 4vw 3.3vw 4vw;
+    margin-top: 2vw;
+    margin-left: -2vw;
+}
+
+@media (max-width: 1025px) {
+    /* line 340, sass/_pages/_footer.scss */
+    #footer .footer_third_row .footer_full {
+        display: none;
+    }
+}
+
+
+/* не трогай */
+#footer .footer_fourth_row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-direction: column;
+
+  background-color: #111111;
+  padding: 0 11.6vw 4vw 10.3vw;
+  font-family: "Montserrat", cursive;
+  text-transform: uppercase;
+}
+
+
+@media (max-width: 1025px) {
+    /* line 353, sass/_pages/_footer.scss */
+    #footer .footer_fourth_row {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 353, sass/_pages/_footer.scss */
+    #footer .footer_fourth_row {
+        flex-direction: row;
+        padding: 0 8vw 4vw 10.3vw;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: landscape) {
+    /* line 353, sass/_pages/_footer.scss */
+    #footer .footer_fourth_row {
+        padding: 0 11.6vw 4vw 10.3vw;
+    }
+}
+
+
+/*не трогай*/
+#footer .footer_fourth_row .left {
+    color: #505050 !important;
+    font-size: 1vw;
+    font-weight: 400;
+    letter-spacing: 0.12vw;
+}
+
+
+@media (max-width: 1025px) {
+    /* line 370, sass/_pages/_footer.scss */
+    #footer .footer_fourth_row .left,
+    #footer .footer_fourth_row .center {
+        display: none;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: landscape) {
+    /* line 370, sass/_pages/_footer.scss */
+    #footer .footer_fourth_row .left,
+    #footer .footer_fourth_row .center {
+        font-size: 1.2vw;
+    }
+}
+
+
+/*не трогай*/
+#footer .footer_fourth_row .right img {
+    width: 7.2vw;
+}
+
+
+
+@media (max-width: 1025px) {
+    /* line 383, sass/_pages/_footer.scss */
+    #footer .footer_fourth_row .right img {
+        width: 26vw;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 383, sass/_pages/_footer.scss */
+    #footer .footer_fourth_row .right img {
+        width: 20vw;
+    }
+}
+
+
+@media (max-width: 1025px) {
+    /* line 393, sass/_pages/_footer.scss */
+    #footer .footer_fourth_row .designedby-mobile {
+        display: block;
+        color: #505050 !important;
+        font-size: 4vw;
+        font-weight: 400;
+        text-align: center;
+        margin: 6vw 2vw;
+        line-height: 5.5vw;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 393, sass/_pages/_footer.scss */
+    #footer .footer_fourth_row .designedby-mobile {
+        font-size: 2.8vw;
+        margin: 6vw 13.5vw 6vw 0;
+        text-align: left;
+    }
+}
+
+
+/* line 410, sass/_pages/_footer.scss */
+
+#footer .footer-email {
+    font-size: 1.2vw;
+    margin-top: 2vw;
+    text-align: center;
+}
+
+@media (max-width: 1025px) {
+    /* line 417, sass/_pages/_footer.scss */
+    ul#menu-footer-menu-hr {
+        margin-top: 0;
+    }
+}
+
+
+/* line 1, sass/_pages/_home.scss */
+
+html {
+    -webkit-font-smoothing: antialiased;
+    height: 100%;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.25),
+only screen and (min-device-pixel-ratio: 1.25),
+only screen and (min-resolution: 200dpi),
+only screen and (min-resolution: 1.25dppx) {
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+
+/* line 13, sass/_pages/_home.scss */
+
+body {
+    -webkit-backface-visibility: hidden;
+    margin: 0;
+    font-smoothing: antialiased !important;
+    height: 100%;
+}
+
+
+/* line 21, sass/_pages/_home.scss */
+
+#wrapper {
+    overflow-x: hidden;
+    position: relative;
+}
+
+
+/* line 26, sass/_pages/_home.scss */
+
+.from-hedonism-to-nature {
+    position: relative;
+    margin-top: -8.3vw;
+}
+
+@media (max-width: 1025px) {
+    /* line 26, sass/_pages/_home.scss */
+    .from-hedonism-to-nature {
+        margin-top: -2.5vw;
+    }
+}
+
+
+/* line 32, sass/_pages/_home.scss */
+
+.from-hedonism-to-nature .pink-fading-line {
+    position: absolute;
+    opacity: 0;
+    top: 8.2vw;
+}
+
+@media (max-width: 1025px) {
+    /* line 32, sass/_pages/_home.scss */
+    .from-hedonism-to-nature .pink-fading-line {
+        top: 36.5vw;
+        width: 90vw;
+        opacity: 1;
+        z-index: 10;
+    }
+}
+
+@media (max-width: 1025px) {
+    /* line 44, sass/_pages/_home.scss */
+    .from-hedonism-to-nature .pfl1 {
+        margin-left: -150vw;
+    }
+}
+
+
+/* line 49, sass/_pages/_home.scss */
+
+.from-hedonism-to-nature .ps1 {
+    margin-left: 7.7vw;
+}
+
+@media (max-width: 1025px) {
+    /* line 49, sass/_pages/_home.scss */
+    .from-hedonism-to-nature .ps1 {
+        position: absolute;
+        top: 23vw;
+        left: 12vw;
+        margin-left: 0;
+        z-index: 500;
+        opacity: 0;
+        filter: blur(5px);
+    }
+}
+
+
+/* line 62, sass/_pages/_home.scss */
+
+.from-hedonism-to-nature .under-hedonism .three-words {
+    font-size: 7vw;
+    line-height: 10vw;
+    margin-top: 4.4vw;
+    margin-left: 7.2vw;
+    letter-spacing: 0.8vw;
+    opacity: 0;
+    filter: blur(5px);
+}
+
+@media (max-width: 1025px) {
+    /* line 62, sass/_pages/_home.scss */
+    .from-hedonism-to-nature .under-hedonism .three-words {
+        position: absolute;
+        margin-left: -8vw;
+        left: 18vw;
+        top: 30vw;
+        font-size: 12vw;
+        filter: blur(0px);
+        opacity: 0;
+        z-index: 600;
+    }
+}
+
+
+/* line 82, sass/_pages/_home.scss */
+
+.from-hedonism-to-nature .under-hedonism .image {
+    margin-top: -2.50vw;
+    position: relative;
+    z-index: -1;
+}
+
+@media (max-width: 1025px) {
+    /* line 82, sass/_pages/_home.scss */
+    .from-hedonism-to-nature .under-hedonism .image {
+        overflow-x: hidden;
+        z-index: 0;
+    }
+}
+
+
+/* line 92, sass/_pages/_home.scss */
+
+.from-hedonism-to-nature .under-hedonism .image img {
+    width: 54.5%;
+    float: right;
+    opacity: 0;
+    filter: blur(5px);
+}
+
+@media (max-width: 1025px) {
+    /* line 92, sass/_pages/_home.scss */
+    .from-hedonism-to-nature .under-hedonism .image img {
+        width: 181vw;
+        float: none;
+        margin-left: -15vw;
+        filter: blur(0px);
+        opacity: 1;
+    }
+    .under-hedonism {
+        margin-top: 2.5vw;
+    }
+}
+
+
+/* line 106, sass/_pages/_home.scss */
+
+.from-hedonism-to-nature .under-hedonism .ps2 {
+    position: absolute;
+    z-index: 500;
+    top: 11.5vw;
+    left: 49.7vw;
+    letter-spacing: 2.34vw;
+    font-size: 1.3vw;
+}
+
+@media (max-width: 1025px) {
+    /* line 106, sass/_pages/_home.scss */
+    .from-hedonism-to-nature .under-hedonism .ps2 {
+        font-size: 4vw;
+        top: 48vw;
+        opacity: 0;
+        filter: blur(0px);
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: landscape) {
+    /* line 106, sass/_pages/_home.scss */
+    .from-hedonism-to-nature .under-hedonism .ps2 {
+        font-size: 1.6vw;
+    }
+}
+
+
+/* line 123, sass/_pages/_home.scss */
+
+.from-hedonism-to-nature .under-hedonism .pfl2 {
+    position: relative;
+    margin-top: 19.3vw !important;
+    width: 0;
+    top: 0 !important;
+}
+
+@media (max-width: 1025px) {
+    /* line 123, sass/_pages/_home.scss */
+    .from-hedonism-to-nature .under-hedonism .pfl2 {
+        width: 0.5vw !important;
+        height: 55vw;
+        background-color: #1d1e22;
+        /* Content for ie 8.
+    Min version: unspecified.
+    User threshold to keep: 0.1%. If ie 8 are omitted: 4.46163%. */
+        *zoom: 1;
+        filter: progid: DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF1D1E22', endColorstr='#FF1D1E22');
+        /* Content for ie 9.
+    Min version: unspecified.
+    User threshold to keep: 0.1%. If ie 9 are omitted: 2.6001%. */
+        /* Creating new -svg context. */
+        background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzFkMWUyMiIvPjxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjOGI3MzY3Ii8+PHN0b3Agb2Zmc2V0PSI1MiUiIHN0b3AtY29sb3I9IiNiYzg2NmQiLz48c3RvcCBvZmZzZXQ9IjY1JSIgc3RvcC1jb2xvcj0iIzhiNzM2NyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzFkMWUyMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+        background-size: 100%;
+        /* Content for android 2.1 - 3.
+    Min version: unspecified.
+    User threshold to keep: 0.1%. If android 2.1 - 3 are omitted: 1.11224%. */
+        /* Creating new -owg context. */
+        background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #1d1e22), color-stop(35%, #8b7367), color-stop(52%, #bc866d), color-stop(65%, #8b7367), color-stop(100%, #1d1e22));
+        /* Capability css-gradients is prefixed with -moz because 0.75106% of users need it which is more than the threshold of 0.1%. */
+        /* Creating new -moz context. */
+        background-image: -moz-linear-gradient(top, #1d1e22 0%, #8b7367 35%, #bc866d 52%, #8b7367 65%, #1d1e22 100%);
+        /* Capability css-gradients is not prefixed with -ms because 0% of users are affected which is less than the threshold of 0.1. */
+        /* Capability css-gradients is not prefixed with -o because 0.07115% of users are affected which is less than the threshold of 0.1. */
+        /* Capability css-gradients is prefixed with -webkit because 9.61489% of users need it which is more than the threshold of 0.1%. */
+        /* Creating new -webkit context. */
+        background-image: -webkit-linear-gradient(top, #1d1e22 0%, #8b7367 35%, #bc866d 52%, #8b7367 65%, #1d1e22 100%);
+        background-image: linear-gradient(to bottom, #1d1e22 0%, #8b7367 35%, #bc866d 52%, #8b7367 65%, #1d1e22 100%);
+        position: absolute;
+        left: 50%;
+        margin-left: 0vw;
+        top: 110vw !important;
+        z-index: 90;
+        margin-top: -25vw;
+        opacity: 0;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 123, sass/_pages/_home.scss */
+    .from-hedonism-to-nature .under-hedonism .pfl2 {
+        width: 0.2vw !important;
+        top: 95vw !important;
+    }
+}
+
+
+/* line 147, sass/_pages/_home.scss */
+
+.from-hedonism-to-nature .under-hedonism .home-play-button {
+    width: 9.5vw;
+    height: 9.5vw;
+    border-radius: 50%;
+    position: absolute;
+    left: 45%;
+    top: 21vw;
+    opacity: 0;
+    cursor: pointer;
+    background: -moz-linear-gradient(130deg, rgba(54, 54, 54, 0) 15%, rgba(54, 54, 54, 0.37) 35%, rgba(54, 54, 54, 0.69) 69%, #363636 100%);
+    /* ff3.6+ */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #363636), color-stop(31%, rgba(54, 54, 54, 0.69)), color-stop(65%, rgba(54, 54, 54, 0.37)), color-stop(85%, rgba(54, 54, 54, 0)));
+    /* safari4+,chrome */
+    background: -webkit-linear-gradient(130deg, rgba(54, 54, 54, 0) 15%, rgba(54, 54, 54, 0.37) 35%, rgba(54, 54, 54, 0.69) 69%, #363636 100%);
+    /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(130deg, rgba(54, 54, 54, 0) 15%, rgba(54, 54, 54, 0.37) 35%, rgba(54, 54, 54, 0.69) 69%, #363636 100%);
+    /* opera 11.10+ */
+    background: -ms-linear-gradient(130deg, rgba(54, 54, 54, 0) 15%, rgba(54, 54, 54, 0.37) 35%, rgba(54, 54, 54, 0.69) 69%, #363636 100%);
+    /* ie10+ */
+    background: linear-gradient(320deg, rgba(54, 54, 54, 0) 15%, rgba(54, 54, 54, 0.37) 35%, rgba(54, 54, 54, 0.69) 69%, #363636 100%);
+    /* w3c */
+}
+
+@media (max-width: 1025px) {
+    /* line 147, sass/_pages/_home.scss */
+    .from-hedonism-to-nature .under-hedonism .home-play-button {
+        width: 26vw;
+        height: 26vw;
+        top: 70vw;
+        left: 37%;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 147, sass/_pages/_home.scss */
+    .from-hedonism-to-nature .under-hedonism .home-play-button {
+        width: 16vw;
+        height: 16vw;
+        top: 70vw;
+        left: 42%;
+        margin-top: -14vw;
+    }
+}
+
+
+/* line 181, sass/_pages/_home.scss */
+
+.from-hedonism-to-nature .under-hedonism .home-play-button .play-triangle {
+    width: 0;
+    height: 0;
+    border-top: 1.2vw solid transparent;
+    border-bottom: 1.2vw solid transparent;
+    border-left: 2vw solid #cd927a;
+    margin-top: 3vw;
+    margin-left: 4.2vw;
+    opacity: 0;
+}
+
+@media (max-width: 1025px) {
+    /* line 181, sass/_pages/_home.scss */
+    .from-hedonism-to-nature .under-hedonism .home-play-button .play-triangle {
+        opacity: 1;
+        margin-top: 9.5vw;
+        margin-left: 11.5vw;
+        border-top: 3.5vw solid transparent;
+        border-bottom: 3.5vw solid transparent;
+        border-left: 5.5vw solid #cd927a;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 181, sass/_pages/_home.scss */
+    .from-hedonism-to-nature .under-hedonism .home-play-button .play-triangle {
+        margin-top: 6.5vw;
+        margin-left: 7.5vw;
+        border-top: 1.5vw solid transparent;
+        border-bottom: 1.5vw solid transparent;
+        border-left: 2vw solid #cd927a;
+    }
+}
+
+@media (max-width: 1025px) {
+    /* line 207, sass/_pages/_home.scss */
+    .from-hedonism-to-nature .under-hedonism .vertical-fading-line {
+        display: none;
+    }
+}
+
+
+/* line 212, sass/_pages/_home.scss */
+
+.from-hedonism-to-nature .under-hedonism .ps3 {
+    position: absolute;
+    top: 44.2vw;
+    right: 19vw;
+}
+
+@media (max-width: 1025px) {
+    /* line 212, sass/_pages/_home.scss */
+    .from-hedonism-to-nature .under-hedonism .ps3 {
+        top: 163vw;
+        width: 20vw;
+        right: 14vw;
+        opacity: 0;
+        filter: blur(5px);
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 212, sass/_pages/_home.scss */
+    .from-hedonism-to-nature .under-hedonism .ps3 {
+        top: 139vw;
+        line-height: 5vw;
+    }
+}
+
+
+/* line 228, sass/_pages/_home.scss */
+
+.from-hedonism-to-nature .under-hedonism .ps4 {
+    position: absolute;
+    top: 68.4vw;
+    left: 13.7vw;
+    width: 18vw;
+    line-height: 2.4vw;
+}
+
+@media (max-width: 1025px) {
+    /* line 228, sass/_pages/_home.scss */
+    .from-hedonism-to-nature .under-hedonism .ps4 {
+        top: 263vw;
+        z-index: 600;
+        color: #111111;
+        line-height: 5vw;
+        left: 8vw;
+        opacity: 0;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 228, sass/_pages/_home.scss */
+    .from-hedonism-to-nature .under-hedonism .ps4 {
+        top: 240vw;
+    }
+}
+
+
+/* line 247, sass/_pages/_home.scss */
+
+.from-hedonism-to-nature .under-hedonism .skin-title {
+    font-size: 12.25vw;
+    line-height: 7vw;
+    position: absolute;
+    top: 49.5vw;
+    right: 17vw;
+    letter-spacing: 1.2vw;
+    opacity: 0;
+    filter: blur(5px);
+}
+
+@media (max-width: 1025px) {
+    /* line 247, sass/_pages/_home.scss */
+    .from-hedonism-to-nature .under-hedonism .skin-title {
+        top: 191vw;
+        z-index: 600;
+        font-size: 37vw;
+        letter-spacing: 4vw;
+        right: 8vw;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 247, sass/_pages/_home.scss */
+    .from-hedonism-to-nature .under-hedonism .skin-title {
+        font-size: 30vw;
+        right: 14vw;
+        margin-top: -18vw;
+    }
+}
+
+
+/* line 270, sass/_pages/_home.scss */
+
+.from-hedonism-to-nature .under-hedonism .leaf-image {
+    margin-top: 17.8vw;
+    margin-left: 36.2vw;
+    position: relative;
+    z-index: 500;
+    visibility: hidden;
+}
+
+@media (max-width: 1025px) {
+    /* line 270, sass/_pages/_home.scss */
+    .from-hedonism-to-nature .under-hedonism .leaf-image {
+        margin-top: 45.8vw;
+        margin-left: 22.5vw;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 270, sass/_pages/_home.scss */
+    .from-hedonism-to-nature .under-hedonism .leaf-image {
+        margin-top: 24.8vw;
+        left: 0.5vw;
+    }
+}
+
+
+/* line 284, sass/_pages/_home.scss */
+
+.from-hedonism-to-nature .under-hedonism .leaf-image img {
+    width: 27vw;
+}
+
+@media (max-width: 1025px) {
+    /* line 284, sass/_pages/_home.scss */
+    .from-hedonism-to-nature .under-hedonism .leaf-image img {
+        visibility: hidden;
+        width: 55vw;
+        margin-top: 10vw;
+    }
+}
+
+
+/* line 293, sass/_pages/_home.scss */
+
+.from-hedonism-to-nature .under-hedonism .vertical-fading-line {
+    position: absolute;
+    left: 10.1vw;
+    top: 36.7vw;
+}
+
+
+/* line 299, sass/_pages/_home.scss */
+
+.from-hedonism-to-nature .under-hedonism .nature-title-wrapper {
+    background-color: #F1DCD7;
+    margin-top: -29vw;
+    padding-bottom: 12vw;
+    width: 54vw;
+    padding-top: 2.7vw;
+}
+
+@media (max-width: 1025px) {
+    /* line 299, sass/_pages/_home.scss */
+    .from-hedonism-to-nature .under-hedonism .nature-title-wrapper {
+        margin-top: -66vw;
+        padding-bottom: 28vw;
+        position: relative;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 299, sass/_pages/_home.scss */
+    .from-hedonism-to-nature .under-hedonism .nature-title-wrapper {
+        padding-bottom: 19vw;
+    }
+}
+
+
+/* line 314, sass/_pages/_home.scss */
+
+.from-hedonism-to-nature .under-hedonism .nature-title {
+    font-size: 12.25vw;
+    padding-left: 11.9vw;
+    line-height: 8.5vw;
+    position: relative;
+    z-index: 700;
+    letter-spacing: 1.25vw;
+    opacity: 0;
+    filter: blur(5px);
+}
+
+@media (max-width: 1025px) {
+    /* line 314, sass/_pages/_home.scss */
+    .from-hedonism-to-nature .under-hedonism .nature-title {
+        position: absolute;
+        top: 67vw;
+        font-size: 22vw;
+        padding-left: 6vw;
+        letter-spacing: 2.5vw;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 314, sass/_pages/_home.scss */
+    .from-hedonism-to-nature .under-hedonism .nature-title {
+        font-size: 17vw;
+    }
+}
+
+
+/* line 336, sass/_pages/_home.scss */
+
+.from-nature-to-products {
+    position: relative;
+    background-color: #F1DCD7;
+    margin-top: -7.7vw;
+}
+
+@media (max-width: 1025px) {
+    /* line 336, sass/_pages/_home.scss */
+    .from-nature-to-products {
+        margin-top: 0;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 336, sass/_pages/_home.scss */
+    .from-nature-to-products {
+        padding-top: 6vw;
+    }
+}
+
+
+/* line 346, sass/_pages/_home.scss */
+
+.from-nature-to-products .atom-image {
+    position: absolute;
+    right: 0;
+    width: 41.5vw;
+    overflow: hidden;
+}
+
+@media (max-width: 1025px) {
+    /* line 346, sass/_pages/_home.scss */
+    .from-nature-to-products .atom-image {
+        width: 60vw;
+        opacity: 0;
+        top: 0vw;
+    }
+}
+
+
+/* line 356, sass/_pages/_home.scss */
+
+.from-nature-to-products .atom-image img {
+    width: 49.7vw;
+    margin-top: -38.9vw;
+    position: relative;
+    z-index: 100;
+    visibility: hidden;
+}
+
+@media (max-width: 1025px) {
+    /* line 356, sass/_pages/_home.scss */
+    .from-nature-to-products .atom-image img {
+        width: 70vw;
+        visibility: visible;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 356, sass/_pages/_home.scss */
+    .from-nature-to-products .atom-image img {
+        width: 61vw;
+    }
+}
+
+
+/* line 371, sass/_pages/_home.scss */
+
+.from-nature-to-products .bs1 {
+    padding-top: 26.2vw;
+    padding-left: 15.7vw;
+    padding-bottom: 4.5vw;
+}
+
+@media (max-width: 1025px) {
+    /* line 371, sass/_pages/_home.scss */
+    .from-nature-to-products .bs1 {
+        padding-top: 63.2vw;
+        padding-left: 8.2vw;
+        padding-bottom: 7.5vw;
+        filter: blur(5px);
+        opacity: 0;
+    }
+}
+
+
+/* line 383, sass/_pages/_home.scss */
+
+.from-nature-to-products .science-title {
+    font-size: 15.1vw;
+    line-height: 13vw;
+    padding-left: 14.5vw;
+    letter-spacing: 3vw;
+    position: relative;
+    z-index: 400;
+    opacity: 0;
+    filter: blur(5px);
+    margin-top: 5vw;
+}
+
+@media (max-width: 1025px) {
+    /* line 383, sass/_pages/_home.scss */
+    .from-nature-to-products .science-title {
+        font-size: 22vw;
+        padding-left: 6vw;
+        letter-spacing: 2.5vw;
+        padding-bottom: 30vw;
+        opacity: 0;
+        filter: blur(0px) !important;
+        padding-top: 0vw;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 383, sass/_pages/_home.scss */
+    .from-nature-to-products .science-title {
+        font-size: 19vw;
+        padding-bottom: 11vw;
+    }
+}
+
+
+/* line 406, sass/_pages/_home.scss */
+
+.from-nature-to-products .expression-wrapper {
+    position: absolute;
+    width: 50%;
+    right: 0;
+    top: 28vw;
+    background-color: #f1dcd7;
+    /* Content for ie 8.
+  Min version: unspecified.
+  User threshold to keep: 0.1%. If ie 8 are omitted: 4.46163%. */
+    *zoom: 1;
+    filter: progid: DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFF1DCD7', endColorstr='#FFF9F1EE');
+    /* Content for ie 9.
+  Min version: unspecified.
+  User threshold to keep: 0.1%. If ie 9 are omitted: 2.6001%. */
+    /* Creating new -svg context. */
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2YxZGNkNyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2Y5ZjFlZSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+    background-size: 100%;
+    /* Content for android 2.1 - 3.
+  Min version: unspecified.
+  User threshold to keep: 0.1%. If android 2.1 - 3 are omitted: 1.11224%. */
+    /* Creating new -owg context. */
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f1dcd7), color-stop(100%, #f9f1ee));
+    /* Capability css-gradients is prefixed with -moz because 0.75106% of users need it which is more than the threshold of 0.1%. */
+    /* Creating new -moz context. */
+    background-image: -moz-linear-gradient(top, #f1dcd7 0%, #f9f1ee 100%);
+    /* Capability css-gradients is not prefixed with -ms because 0% of users are affected which is less than the threshold of 0.1. */
+    /* Capability css-gradients is not prefixed with -o because 0.07115% of users are affected which is less than the threshold of 0.1. */
+    /* Capability css-gradients is prefixed with -webkit because 9.61489% of users need it which is more than the threshold of 0.1%. */
+    /* Creating new -webkit context. */
+    background-image: -webkit-linear-gradient(top, #f1dcd7 0%, #f9f1ee 100%);
+    background-image: linear-gradient(to bottom, #f1dcd7 0%, #f9f1ee 100%);
+    height: 65.4vw;
+}
+
+@media (max-width: 1025px) {
+    /* line 406, sass/_pages/_home.scss */
+    .from-nature-to-products .expression-wrapper {
+        top: 112vw;
+        height: 57.4vw;
+    }
+}
+
+
+/* line 421, sass/_pages/_home.scss */
+
+.from-nature-to-products .bs2 {
+    padding-top: 33.2vw;
+    margin-left: 6.3vw;
+}
+
+@media (max-width: 1025px) {
+    /* line 421, sass/_pages/_home.scss */
+    .from-nature-to-products .bs2 {
+        padding-top: 27.2vw;
+        margin-left: 6vw;
+        font-size: 4vw;
+        opacity: 0;
+        filter: blur(2px);
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 421, sass/_pages/_home.scss */
+    .from-nature-to-products .bs2 {
+        font-size: 3vw;
+        margin-top: -22vw;
+    }
+}
+
+
+/* line 436, sass/_pages/_home.scss */
+
+.from-nature-to-products .bs3 {
+    font-size: 4.15vw;
+    line-height: 4vw;
+    margin-left: 5.5vw;
+    margin-top: 2.9vw;
+    letter-spacing: 1.15vw;
+    opacity: 0;
+    filter: blur(5px);
+}
+
+@media (max-width: 1025px) {
+    /* line 436, sass/_pages/_home.scss */
+    .from-nature-to-products .bs3 {
+        margin-top: 16vw;
+        font-size: 6vw;
+        filter: blur(2px);
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 436, sass/_pages/_home.scss */
+    .from-nature-to-products .bs3 {
+        font-size: 5vw;
+    }
+}
+
+
+/* line 452, sass/_pages/_home.scss */
+
+.from-nature-to-products .hh-slash2 {
+    margin-top: 11.5vw;
+    margin-left: 40.5vw;
+    position: relative;
+    z-index: 200;
+    height: 0.15vw;
+    width: 18vw;
+}
+
+@media (max-width: 1025px) {
+    /* line 452, sass/_pages/_home.scss */
+    .from-nature-to-products .hh-slash2 {
+        margin-left: 32vw;
+        height: 0.5vw;
+        width: 35vw;
+        opacity: 0;
+        filter: blur(5px);
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 452, sass/_pages/_home.scss */
+    .from-nature-to-products .hh-slash2 {
+        height: 0.2vw;
+    }
+}
+
+
+/* line 470, sass/_pages/_home.scss */
+
+.from-nature-to-products .line-under-slash {
+    width: 0.1vw;
+    height: 22vw;
+    margin: auto;
+    background-color: #DDBCAE;
+    position: relative;
+    z-index: 400;
+    margin-top: 0.1vw;
+}
+
+@media (max-width: 1025px) {
+    /* line 470, sass/_pages/_home.scss */
+    .from-nature-to-products .line-under-slash {
+        margin-left: 49.5vw;
+        /*height: 45vw;*/
+        width: 0.5vw;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 470, sass/_pages/_home.scss */
+    .from-nature-to-products .line-under-slash {
+        width: 0.2vw;
+    }
+}
+
+
+/* line 487, sass/_pages/_home.scss */
+
+.from-nature-to-products .personal-approach-group {
+    background-color: #E5CFC2;
+    position: relative;
+    z-index: 200;
+    width: 58.8vw;
+    padding-top: 2.1vw;
+    padding-bottom: 1.7vw;
+}
+
+@media (max-width: 1025px) {
+    /* line 487, sass/_pages/_home.scss */
+    .from-nature-to-products .personal-approach-group {
+        background-color: transparent;
+        padding-top: 0;
+        overflow-x: hidden !important;
+        width: 100%;
+    }
+}
+
+@media (max-width: 1025px) {
+    /* line 500, sass/_pages/_home.scss */
+    .from-nature-to-products .personal-approach-group  {
+        overflow-x: hidden !important;
+        width: 190%;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 500, sass/_pages/_home.scss */
+    .from-nature-to-products .personal-approach-group  {
+        width: 120%;
+    }
+}
+
+
+/* line 508, sass/_pages/_home.scss */
+
+.from-nature-to-products .personal-approach-group  img {
+    width: 63.7vw;
+    margin-left: -1.4vw;
+    visibility: hidden;
+}
+
+@media (max-width: 1025px) {
+    /* line 508, sass/_pages/_home.scss */
+    .from-nature-to-products .personal-approach-group  img {
+        /*margin-top: 20vw;*/
+        width: 100%;
+        visibility: visible;
+        /*opacity: 0;*/
+        overflow-x: hidden;
+    }
+}
+
+
+/* line 521, sass/_pages/_home.scss */
+
+.from-nature-to-products .personal-approach-group .ai2 {
+    overflow-x: hidden;
+    position: absolute;
+    top: -32.5vw;
+}
+
+@media (max-width: 1025px) {
+    /* line 521, sass/_pages/_home.scss */
+    .from-nature-to-products .personal-approach-group .ai2 {
+        display: none;
+    }
+}
+
+
+/* line 528, sass/_pages/_home.scss */
+
+.from-nature-to-products .personal-approach-group .ai2 img {
+    width: 46vw;
+    margin-left: -20vw;
+    visibility: hidden;
+}
+
+
+/* line 534, sass/_pages/_home.scss */
+
+.from-nature-to-products .personal-approach-group .personal-title {
+    position: absolute;
+    font-size: 9.8vw;
+    top: 17.8vw;
+    line-height: 8vw;
+    left: 13.6vw;
+    letter-spacing: 2.27vw;
+    opacity: 0;
+    filter: blur(5px);
+}
+
+@media (max-width: 1025px) {
+    /* line 534, sass/_pages/_home.scss */
+    .from-nature-to-products .personal-approach-group .personal-title {
+        font-size: 17vw;
+        top: 48vw;
+        line-height: 17vw;
+        letter-spacing: 1.8vw;
+        left: 10vw;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 534, sass/_pages/_home.scss */
+    .from-nature-to-products .personal-approach-group .personal-title {
+        font-size: 7vw;
+        margin-top: -18vw;
+    }
+}
+
+
+/* line 555, sass/_pages/_home.scss */
+
+.from-nature-to-products .personal-approach-group .horizontal-gradient-line {
+    position: absolute;
+    top: 21.7vw;
+}
+
+
+/* line 560, sass/_pages/_home.scss */
+
+.from-nature-to-products .personal-approach-group .personal-subtitle {
+    font-size: 1.7vw;
+    letter-spacing: 2.85vw;
+    position: absolute;
+    top: 29.7vw;
+    left: 33.7vw;
+}
+
+@media (max-width: 1025px) {
+    /* line 560, sass/_pages/_home.scss */
+    .from-nature-to-products .personal-approach-group .personal-subtitle {
+        font-size: 6.5vw;
+        letter-spacing: 1.8vw;
+        top: 74vw;
+        left: 10vw;
+        opacity: 0;
+        filter: blur(5px);
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 560, sass/_pages/_home.scss */
+    .from-nature-to-products .personal-approach-group .personal-subtitle {
+        font-size: 4.5vw;
+        top: 43vw;
+    }
+}
+
+
+/* line 580, sass/_pages/_home.scss */
+
+.from-nature-to-products .scarf-general-wrapper {
+    margin-top: -28.3vw;
+    background-color: #faf0ee;
+    position: relative;
+    /* Content for ie 8.
+  Min version: unspecified.
+  User threshold to keep: 0.1%. If ie 8 are omitted: 4.46163%. */
+    *zoom: 1;
+    filter: progid: DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#FFFAF0EE', endColorstr='#FFF1DCD7');
+    /* Content for ie 9.
+  Min version: unspecified.
+  User threshold to keep: 0.1%. If ie 9 are omitted: 2.6001%. */
+    /* Creating new -svg context. */
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjEuMCIgeDI9IjEuMCIgeTI9IjAuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZhZjBlZSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2YxZGNkNyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+    background-size: 100%;
+    /* Content for android 2.1 - 3.
+  Min version: unspecified.
+  User threshold to keep: 0.1%. If android 2.1 - 3 are omitted: 1.11224%. */
+    /* Creating new -owg context. */
+    background-image: -webkit-gradient(linear, 0% 100%, 100% 0%, color-stop(0%, #faf0ee), color-stop(100%, #f1dcd7));
+    /* Capability css-gradients is prefixed with -moz because 0.75106% of users need it which is more than the threshold of 0.1%. */
+    /* Creating new -moz context. */
+    background-image: -moz-linear-gradient(left bottom, #faf0ee 0%, #f1dcd7 100%);
+    /* Capability css-gradients is not prefixed with -ms because 0% of users are affected which is less than the threshold of 0.1. */
+    /* Capability css-gradients is not prefixed with -o because 0.07115% of users are affected which is less than the threshold of 0.1. */
+    /* Capability css-gradients is prefixed with -webkit because 9.61489% of users need it which is more than the threshold of 0.1%. */
+    /* Creating new -webkit context. */
+    background-image: -webkit-linear-gradient(left bottom, #faf0ee 0%, #f1dcd7 100%);
+    background-image: linear-gradient(to right top, #faf0ee 0%, #f1dcd7 100%);
+}
+
+@media (max-width: 1025px) {
+    /* line 580, sass/_pages/_home.scss */
+    .from-nature-to-products .scarf-general-wrapper {
+        margin-top: -60vw;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 580, sass/_pages/_home.scss */
+    .from-nature-to-products .scarf-general-wrapper {
+        margin-top: -25vw;
+    }
+}
+
+
+/* line 593, sass/_pages/_home.scss */
+
+.from-nature-to-products .scarf-mockup {
+    position: relative;
+    z-index: 500;
+    padding-left: 9.5vw;
+    padding-top: 8vw;
+}
+
+@media (max-width: 1025px) {
+    /* line 593, sass/_pages/_home.scss */
+    .from-nature-to-products .scarf-mockup {
+        padding: 0;
+        margin-left: -54vw;
+        width: 154vw;
+        overflow: hidden;
+        opacity: 0;
+        margin-top: 27vw;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 593, sass/_pages/_home.scss */
+    .from-nature-to-products .scarf-mockup {
+        margin-left: -8vw;
+    }
+}
+
+
+/* line 609, sass/_pages/_home.scss */
+
+.from-nature-to-products .scarf-mockup img,
+.from-nature-to-products .scarf-mockup svg {
+    width: 77.5vw;
+    z-index: 10;
+}
+
+@media (max-width: 1025px) {
+    /* line 609, sass/_pages/_home.scss */
+    .from-nature-to-products .scarf-mockup img,
+    .from-nature-to-products .scarf-mockup svg {
+        width: 206.5vw !important;
+        visibility: visible;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 609, sass/_pages/_home.scss */
+    .from-nature-to-products .scarf-mockup img,
+    .from-nature-to-products .scarf-mockup svg {
+        width: 122vw !important;
+    }
+}
+
+
+/* line 622, sass/_pages/_home.scss */
+
+.from-nature-to-products .bs4 {
+    margin-top: -2.6vw;
+    padding-bottom: 9.6vw;
+    letter-spacing: 1.21vw;
+    text-align: center;
+    width: 100%;
+    font-size: 1.3vw;
+    opacity: 0;
+    filter: blur(5px);
+}
+
+@media (max-width: 1025px) {
+    /* line 622, sass/_pages/_home.scss */
+    .from-nature-to-products .bs4 {
+        padding-bottom: 15vw;
+        letter-spacing: 2.4vw;
+        font-size: 6vw;
+        margin: 7vw 0vw 5vw 0;
+        text-align: center;
+        line-height: 8vw;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 622, sass/_pages/_home.scss */
+    .from-nature-to-products .bs4 {
+        font-size: 4vw;
+        margin: 7vw auto 5vw auto;
+        width: 77vw;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: landscape) {
+    /* line 622, sass/_pages/_home.scss */
+    .from-nature-to-products .bs4 {
+        font-size: 1.7vw;
+    }
+}
+
+
+/* line 649, sass/_pages/_home.scss */
+
+.homepage-products {
+    text-align: center;
+    margin-top: -1.1vw;
+    position: relative;
+}
+
+@media (max-width: 1025px) {
+    /* line 649, sass/_pages/_home.scss */
+    .homepage-products {
+        margin-top: -8vw;
+    }
+}
+
+
+/* line 656, sass/_pages/_home.scss */
+
+.homepage-products .products-slash {
+    display: inline-block;
+
+    transform: rotate(45deg);
+    width: 11vw;
+    height: 0.15vw;
+    background-color: #FDA996;
+}
+
+@media (max-width: 1025px) {
+    /* line 656, sass/_pages/_home.scss */
+    .homepage-products .products-slash {
+        width: 33vw;
+        height: 0.5vw;
+        opacity: 0;
+        filter: blur(5px);
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 656, sass/_pages/_home.scss */
+    .homepage-products .products-slash {
+        height: 0.2vw;
+    }
+}
+
+
+/* line 672, sass/_pages/_home.scss */
+
+.homepage-products .logo-big {
+    width: 100%;
+    display: inline-block;
+    margin-top: 7.5vw;
+}
+
+@media (max-width: 1025px) {
+    /* line 672, sass/_pages/_home.scss */
+    .homepage-products .logo-big {
+        margin-top: 25vw;
+        height: 25vw;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 672, sass/_pages/_home.scss */
+    .homepage-products .logo-big {
+        margin-top: 15vw;
+    }
+}
+
+
+/* line 683, sass/_pages/_home.scss */
+
+.homepage-products .logo-big img {
+    width: 50.1vw;
+}
+
+@media (max-width: 1025px) {
+    /* line 683, sass/_pages/_home.scss */
+    .homepage-products .logo-big img {
+        width: 85vw;
+        opacity: 0;
+        filter: blur(2px);
+        margin-top: 10vw;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 683, sass/_pages/_home.scss */
+    .homepage-products .logo-big img {
+        width: 60vw;
+    }
+}
+
+
+/* line 696, sass/_pages/_home.scss */
+
+.homepage-products .products-shorttext {
+    color: white;
+    width: 43vw;
+    margin: 4.3vw 0 2vw 0;
+    display: inline-block;
+}
+
+@media (max-width: 1025px) {
+    /* line 696, sass/_pages/_home.scss */
+    .homepage-products .products-shorttext {
+        width: 78vw;
+        margin: 10vw 0 2vw 0;
+        font-size: 4vw;
+        line-height: 5vw;
+        opacity: 0;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 696, sass/_pages/_home.scss */
+    .homepage-products .products-shorttext {
+        font-size: 2.6vw;
+        margin: 0 0 2vw 0;
+    }
+}
+
+
+/* line 714, sass/_pages/_home.scss */
+
+.homepage-products .products-readmore {
+    letter-spacing: 0.67vw;
+    font-size: 1.12vw;
+    margin-top: 1.4vw;
+	transition: 0.5s ease all;
+}
+
+.homepage-products .products-readmore:hover {
+    color: #fff;
+}
+
+@media (max-width: 1025px) {
+    /* line 714, sass/_pages/_home.scss */
+    .homepage-products .products-readmore {
+        font-size: 5vw;
+        margin-top: 10vw;
+        opacity: 0;
+        filter: blur(5px);
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 714, sass/_pages/_home.scss */
+    .homepage-products .products-readmore {
+        font-size: 4vw;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: landscape) {
+    /* line 714, sass/_pages/_home.scss */
+    .homepage-products .products-readmore {
+        font-size: 1.6vw;
+    }
+}
+
+
+/* line 731, sass/_pages/_home.scss */
+
+.homepage-products .products-vertical-line {
+    display: inline-block;
+    margin-top: 4vw;
+}
+
+@media (max-width: 1025px) {
+    /* line 731, sass/_pages/_home.scss */
+    .homepage-products .products-vertical-line {
+        margin-top: 14vw;
+        width: 0.5vw !important;
+        height: 0vw;
+        opacity: 0;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 731, sass/_pages/_home.scss */
+    .homepage-products .products-vertical-line {
+        width: 0.2vw !important;
+        margin-top: 7vw;
+    }
+}
+
+@media (max-width: 1025px) {
+    /* line 746, sass/_pages/_home.scss */
+    .homepage-products .line-wrapper {
+        margin-bottom: -15vw;
+    }
+}
+
+
+/* line 751, sass/_pages/_home.scss */
+
+.homepage-products .products-presentation {
+    display: inline-flex;
+    /* Capability flexbox is not prefixed with -moz because 0% of users are affected which is less than the threshold of 0.01. */
+    /* Capability flexbox is not prefixed with -ms because 0% of users are affected which is less than the threshold of 0.01. */
+    /* Capability flexbox is not prefixed with -o because 0% of users are affected which is less than the threshold of 0.01. */
+    /* Capability flexbox is prefixed with -webkit because 9.47897% of users need it which is more than the threshold of 0.01%. */
+    /* Creating new -webkit context. */
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    margin-top: -6.5vw;
+    height: 48.5vw;
+    align-items: center;
+    position: relative;
+    z-index: 200;
+}
+
+@media (max-width: 1025px) {
+    /* line 751, sass/_pages/_home.scss */
+    .homepage-products .products-presentation {
+        height: 100%;
+        margin-top: 30vw;
+        opacity: 0;
+    }
+}
+
+
+/* line 764, sass/_pages/_home.scss */
+
+.homepage-products .products-presentation .left-menu {
+    background-color: #111111;
+    width: 21.4vw;
+    /* Capability flexbox is not prefixed with -moz because 0% of users are affected which is less than the threshold of 0.01. */
+    /* Capability flexbox is not prefixed with -ms because 0% of users are affected which is less than the threshold of 0.01. */
+    /* Capability flexbox is not prefixed with -o because 0% of users are affected which is less than the threshold of 0.01. */
+    /* Capability flexbox is prefixed with -webkit because 9.47897% of users need it which is more than the threshold of 0.01%. */
+    /* Creating new -webkit context. */
+    display: -webkit-flex;
+    display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    margin-left: 2.3vw !important;
+    height: 100%;
+}
+
+@media (max-width: 1025px) {
+    /* line 764, sass/_pages/_home.scss */
+    .homepage-products .products-presentation .left-menu {
+        display: none;
+    }
+}
+
+
+/* line 776, sass/_pages/_home.scss */
+
+.homepage-products .products-presentation .left-menu .left-menu-products {
+    margin-top: -2vw;
+}
+
+
+/* line 779, sass/_pages/_home.scss */
+
+.homepage-products .products-presentation .left-menu .menu-product {
+    padding: 1.1vw 0 1.1vw 5.5vw;
+    letter-spacing: 0.27vw;
+    text-transform: initial;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+
+/* line 786, sass/_pages/_home.scss */
+
+.homepage-products .products-presentation .left-menu .menu-product:hover {
+    color: #ffffff;
+}
+
+
+/* line 790, sass/_pages/_home.scss */
+
+.homepage-products .products-presentation .right-product {
+    background-color: #EDEDED;
+    width: 59.5vw;
+}
+
+@media (max-width: 1025px) {
+    /* line 790, sass/_pages/_home.scss */
+    .homepage-products .products-presentation .right-product {
+        width: 100vw;
+        display: block;
+    }
+}
+
+
+/* line 797, sass/_pages/_home.scss */
+
+.homepage-products .products-presentation .right-product .product-slide {
+    /* Capability flexbox is not prefixed with -moz because 0% of users are affected which is less than the threshold of 0.01. */
+    /* Capability flexbox is not prefixed with -ms because 0% of users are affected which is less than the threshold of 0.01. */
+    /* Capability flexbox is not prefixed with -o because 0% of users are affected which is less than the threshold of 0.01. */
+    /* Capability flexbox is prefixed with -webkit because 9.47897% of users need it which is more than the threshold of 0.01%. */
+    /* Creating new -webkit context. */
+    display: -webkit-flex;
+    display: flex;
+    /* Capability flexbox is not prefixed with -moz because 0% of users are affected which is less than the threshold of 0.01. */
+    /* Capability flexbox is not prefixed with -ms because 0% of users are affected which is less than the threshold of 0.01. */
+    /* Capability flexbox is not prefixed with -o because 0% of users are affected which is less than the threshold of 0.01. */
+    /* Capability flexbox is prefixed with -webkit because 9.47897% of users need it which is more than the threshold of 0.01%. */
+    /* Creating new -webkit context. */
+    -webkit-flex-direction: row;
+    flex-direction: row;
+}
+
+@media (max-width: 1025px) {
+    /* line 797, sass/_pages/_home.scss */
+    .homepage-products .products-presentation .right-product .product-slide {
+        display: block;
+        text-align: center;
+    }
+}
+
+
+/* line 805, sass/_pages/_home.scss */
+
+.homepage-products .products-presentation .right-product .product-image {
+    margin-top: 1.5vw;
+    width: 58%;
+}
+
+@media (max-width: 1025px) {
+    /* line 805, sass/_pages/_home.scss */
+    .homepage-products .products-presentation .right-product .product-image {
+        margin-top: 4.5vw;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+/* line 813, sass/_pages/_home.scss */
+
+.homepage-products .products-presentation .right-product .product-image img {
+    width: 28.6vw;
+    margin-left: 5.8vw;
+}
+
+@media (max-width: 1025px) {
+    /* line 813, sass/_pages/_home.scss */
+    .homepage-products .products-presentation .right-product .product-image img {
+        width: 63vw;
+        margin-left: 0;
+        display: inline-block;
+    }
+}
+
+
+/* line 823, sass/_pages/_home.scss */
+
+.homepage-products .products-presentation .right-product .product-info {
+    /* Capability flexbox is not prefixed with -moz because 0% of users are affected which is less than the threshold of 0.01. */
+    /* Capability flexbox is not prefixed with -ms because 0% of users are affected which is less than the threshold of 0.01. */
+    /* Capability flexbox is not prefixed with -o because 0% of users are affected which is less than the threshold of 0.01. */
+    /* Capability flexbox is prefixed with -webkit because 9.47897% of users need it which is more than the threshold of 0.01%. */
+    /* Creating new -webkit context. */
+    display: -webkit-flex;
+    display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-top: 7.6vw;
+    width: 42%;
+    text-align: left;
+}
+
+@media (max-width: 1025px) {
+    /* line 823, sass/_pages/_home.scss */
+    .homepage-products .products-presentation .right-product .product-info {
+        align-items: center;
+        width: 100%;
+        text-align: center;
+        padding-top: 0;
+        margin-top: -4vw;
+    }
+}
+
+
+/* line 836, sass/_pages/_home.scss */
+
+.homepage-products .products-presentation .right-product .product-info .product-name {
+    font-size: 2.3vw;
+    line-height: 2.8vw;
+    letter-spacing: 0.1vw;
+    width: 20vw;
+    margin-top: 7.1vw;
+}
+
+@media (max-width: 1025px) {
+    /* line 836, sass/_pages/_home.scss */
+    .homepage-products .products-presentation .right-product .product-info .product-name {
+        width: 100vw;
+        font-size: 6vw;
+        line-height: 6vw;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 836, sass/_pages/_home.scss */
+    .homepage-products .products-presentation .right-product .product-info .product-name {
+        font-size: 5vw;
+    }
+}
+
+
+/* line 851, sass/_pages/_home.scss */
+
+.homepage-products .products-presentation .right-product .product-info  {
+    width: 19vw;
+    margin-top: 2.5vw;
+}
+
+@media (max-width: 1025px) {
+    /* line 851, sass/_pages/_home.scss */
+    .homepage-products .products-presentation .right-product .product-info  {
+        width: 80vw;
+        margin-top: 5vw;
+        display: inline-block;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: landscape) {
+    /* line 851, sass/_pages/_home.scss */
+    .homepage-products .products-presentation .right-product .product-info  {
+        width: 21.2vw;
+    }
+}
+
+
+/* line 863, sass/_pages/_home.scss */
+
+.homepage-products .products-presentation .right-product .product-info .product-collection {
+    margin-top: 2vw;
+}
+
+@media (max-width: 1025px) {
+    /* line 863, sass/_pages/_home.scss */
+    .homepage-products .products-presentation .right-product .product-info .product-collection {
+        margin-top: 11vw;
+        margin-bottom: -1vw;
+    }
+}
+
+
+/* line 870, sass/_pages/_home.scss */
+
+.homepage-products .products-presentation .right-product .product-info .product-collection a {
+    color: #797979;
+    letter-spacing: 0.65vw;
+}
+
+.product-shopnow a:hover {
+    color: #000;
+}
+
+
+/* line 874, sass/_pages/_home.scss */
+
+.homepage-products .products-presentation .right-product .product-info .product-shopnow {
+    margin-top: 2.8vw;
+    margin-bottom: 4.5vw;
+    letter-spacing: 0.65vw;
+}
+
+@media (max-width: 1025px) {
+    /* line 874, sass/_pages/_home.scss */
+    .homepage-products .products-presentation .right-product .product-info .product-shopnow {
+        margin-top: 9vw;
+        margin-bottom: 17vw;
+    }
+    .product-shopnow a {
+        font-size: 7vw;
+        line-height: 0;
+    }
+}
+
+
+/* line 883, sass/_pages/_home.scss */
+
+.homepage-products .products-presentation .right-product .product-info .product-logo img {
+    width: 5.5vw;
+    margin-top: -2vw;
+}
+
+@media (max-width: 1025px) {
+    /* line 883, sass/_pages/_home.scss */
+    .homepage-products .products-presentation .right-product .product-info .product-logo img {
+        display: none;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: landscape) {
+    /* line 883, sass/_pages/_home.scss */
+    .homepage-products .products-presentation .right-product .product-info .product-logo img {
+        display: none;
+    }
+}
+
+
+/* line 894, sass/_pages/_home.scss */
+
+.homepage-products .products-presentation .right-product .pi2,
+.homepage-products .products-presentation .right-product .pii2,
+.homepage-products .products-presentation .right-product .pi3,
+.homepage-products .products-presentation .right-product .pii3 {
+    display: none;
+}
+
+@media (max-width: 1025px) {
+    /* line 894, sass/_pages/_home.scss */
+    .homepage-products .products-presentation .right-product .pi2,
+    .homepage-products .products-presentation .right-product .pii2,
+    .homepage-products .products-presentation .right-product .pi3,
+    .homepage-products .products-presentation .right-product .pii3 {
+        display: block;
+    }
+}
+
+@media (max-width: 1025px) {
+    /* line 903, sass/_pages/_home.scss */
+    .homepage-products .products-presentation .right-product .pi3 img {
+        margin-left: 10.2vw;
+        width: 72vw;
+        margin-top: -7vw;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 903, sass/_pages/_home.scss */
+    .homepage-products .products-presentation .right-product .pi3 img {
+        width: 61vw;
+        margin-top: -2vw;
+    }
+}
+
+@media (max-width: 1025px) {
+    /* line 914, sass/_pages/_home.scss */
+    .homepage-products .products-presentation .right-product .pii3 {
+        margin-top: -22vw;
+    }
+}
+
+@media (max-width: 1025px) {
+    /* line 919, sass/_pages/_home.scss */
+    .homepage-products .products-presentation .right-product .pi2 img {
+        margin-left: 10.5vw;
+        width: 68vw;
+        margin-top: -5vw;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 919, sass/_pages/_home.scss */
+    .homepage-products .products-presentation .right-product .pi2 img {
+        width: 60vw;
+        margin-top: -1vw;
+    }
+}
+
+@media (max-width: 1025px) {
+    /* line 930, sass/_pages/_home.scss */
+    .homepage-products .products-presentation .right-product .pii2 {
+        margin-top: -20.3vw;
+    }
+}
+
+
+/* line 935, sass/_pages/_home.scss */
+
+.homepage-products .products-presentation .right-product .pi1 img {
+    margin-left: 1.2vw;
+}
+
+@media (max-width: 1025px) {
+    /* line 935, sass/_pages/_home.scss */
+    .homepage-products .products-presentation .right-product .pi1 img {
+        width: 61vw;
+        margin-top: 5vw;
+        margin-left: 0;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 935, sass/_pages/_home.scss */
+    .homepage-products .products-presentation .right-product .pi1 img {
+        width: 50vw;
+    }
+}
+
+@media (max-width: 1025px) {
+    /* line 946, sass/_pages/_home.scss */
+    .homepage-products .products-presentation .right-product .pii1 {
+        margin-top: -6vw;
+    }
+}
+
+@media (max-width: 1025px) {
+    /* line 950, sass/_pages/_home.scss */
+    .homepage-products .products-presentation .right-product .pii1  {
+        width: 85vw !important;
+    }
+}
+
+
+/* line 957, sass/_pages/_home.scss */
+
+.homepage-products .products-presentation .products-next-arrow {
+    /* Capability flexbox is not prefixed with -moz because 0% of users are affected which is less than the threshold of 0.01. */
+    /* Capability flexbox is not prefixed with -ms because 0% of users are affected which is less than the threshold of 0.01. */
+    /* Capability flexbox is not prefixed with -o because 0% of users are affected which is less than the threshold of 0.01. */
+    /* Capability flexbox is prefixed with -webkit because 9.47897% of users need it which is more than the threshold of 0.01%. */
+    /* Creating new -webkit context. */
+    display: -webkit-flex;
+    display: flex;
+    /* Capability flexbox is not prefixed with -moz because 0% of users are affected which is less than the threshold of 0.01. */
+    /* Capability flexbox is not prefixed with -ms because 0% of users are affected which is less than the threshold of 0.01. */
+    /* Capability flexbox is not prefixed with -o because 0% of users are affected which is less than the threshold of 0.01. */
+    /* Capability flexbox is prefixed with -webkit because 9.47897% of users need it which is more than the threshold of 0.01%. */
+    /* Creating new -webkit context. */
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    margin-left: -8.4vw;
+    align-items: center;
+    display: none;
+}
+
+.right-arrow-products {
+    margin-top: -5.7vw;
+    width: 5.5vw;
+    margin-left: 12.4vw;
+    position: absolute;
+    transition: 0.6s ease all;
+    float: right;
+}
+
+.right-arrow-products:hover {
+    fill: #000;
+}
+
+@media (max-width: 1025px) {
+    /* line 957, sass/_pages/_home.scss */
+    .homepage-products .products-presentation .products-next-arrow {
+        position: absolute;
+        margin-left: 0;
+        right: 8vw;
+        top: 50vw;
+        display: block;
+    }
+    .right-arrow-products {
+        display: none;
+    }
+}
+
+
+/* line 970, sass/_pages/_home.scss */
+
+.homepage-products .products-presentation .products-next-arrow .products-horizontal-line {
+    width: 12vw;
+    position: relative;
+    z-index: 300;
+}
+
+@media (max-width: 1025px) {
+    /* line 970, sass/_pages/_home.scss */
+    .homepage-products .products-presentation .products-next-arrow .products-horizontal-line {
+        height: 0.5vw;
+        margin-top: 1.5vw;
+        float: left;
+    }
+}
+
+
+/* line 981, sass/_pages/_home.scss */
+
+.homepage-products .products-presentation .products-next-arrow .products-arrow-r {
+    width: 0;
+    height: 0;
+    border-top: 0.8vw solid transparent;
+    border-bottom: 0.8vw solid transparent;
+    border-left: 1vw solid #cd927a;
+}
+
+@media (max-width: 1025px) {
+    /* line 981, sass/_pages/_home.scss */
+    .homepage-products .products-presentation .products-next-arrow .products-arrow-r {
+        border-top: 2vw solid transparent;
+        border-bottom: 2vw solid transparent;
+        border-left: 3vw solid #cd927a;
+        margin-top: -0.5vw;
+        float: right;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 981, sass/_pages/_home.scss */
+    .homepage-products .products-presentation .products-next-arrow .products-arrow-r {
+        border-top: 1.5vw solid transparent;
+        border-bottom: 1.5vw solid transparent;
+        border-left: 2vw solid #cd927a;
+        margin-top: 0.25vw;
+    }
+}
+
+
+/* line 1002, sass/_pages/_home.scss */
+
+.homepage-products .products-presentation .products-prev-arrow {
+    display: none;
+}
+
+@media (max-width: 1025px) {
+    /* line 1002, sass/_pages/_home.scss */
+    .homepage-products .products-presentation .products-prev-arrow {
+        /* Capability flexbox is not prefixed with -moz because 0% of users are affected which is less than the threshold of 0.01. */
+        /* Capability flexbox is not prefixed with -ms because 0% of users are affected which is less than the threshold of 0.01. */
+        /* Capability flexbox is not prefixed with -o because 0% of users are affected which is less than the threshold of 0.01. */
+        /* Capability flexbox is prefixed with -webkit because 9.47897% of users need it which is more than the threshold of 0.01%. */
+        /* Creating new -webkit context. */
+        display: -webkit-flex;
+        display: flex;
+        /* Capability flexbox is not prefixed with -moz because 0% of users are affected which is less than the threshold of 0.01. */
+        /* Capability flexbox is not prefixed with -ms because 0% of users are affected which is less than the threshold of 0.01. */
+        /* Capability flexbox is not prefixed with -o because 0% of users are affected which is less than the threshold of 0.01. */
+        /* Capability flexbox is prefixed with -webkit because 9.47897% of users need it which is more than the threshold of 0.01%. */
+        /* Creating new -webkit context. */
+        -webkit-flex-direction: row;
+        flex-direction: row;
+        align-items: center;
+        position: absolute;
+        left: 8vw;
+        top: 50vw;
+    }
+}
+
+
+/* line 1012, sass/_pages/_home.scss */
+
+.homepage-products .products-presentation .products-prev-arrow .products-horizontal-line {
+    width: 12vw;
+    height: 0.5vw;
+    background-color: #c6a89a;
+    /* Content for ie 8.
+  Min version: unspecified.
+  User threshold to keep: 0.1%. If ie 8 are omitted: 4.46163%. */
+    *zoom: 1;
+    filter: progid: DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#FFEDEDED', endColorstr='#FFC6A89A');
+    /* Content for ie 9.
+  Min version: unspecified.
+  User threshold to keep: 0.1%. If ie 9 are omitted: 2.6001%. */
+    /* Creating new -svg context. */
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjEuMCIgeTE9IjAuNSIgeDI9IjAuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VkZWRlZCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2M2YTg5YSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+    background-size: 100%;
+    /* Content for android 2.1 - 3.
+  Min version: unspecified.
+  User threshold to keep: 0.1%. If android 2.1 - 3 are omitted: 1.11224%. */
+    /* Creating new -owg context. */
+    background-image: -webkit-gradient(linear, 100% 50%, 0% 50%, color-stop(0%, #ededed), color-stop(100%, #c6a89a));
+    /* Capability css-gradients is prefixed with -moz because 0.75106% of users need it which is more than the threshold of 0.1%. */
+    /* Creating new -moz context. */
+    background-image: -moz-linear-gradient(right, #ededed 0%, #c6a89a 100%);
+    /* Capability css-gradients is not prefixed with -ms because 0% of users are affected which is less than the threshold of 0.1. */
+    /* Capability css-gradients is not prefixed with -o because 0.07115% of users are affected which is less than the threshold of 0.1. */
+    /* Capability css-gradients is prefixed with -webkit because 9.61489% of users need it which is more than the threshold of 0.1%. */
+    /* Creating new -webkit context. */
+    background-image: -webkit-linear-gradient(right, #ededed 0%, #c6a89a 100%);
+    background-image: linear-gradient(to left, #ededed 0%, #c6a89a 100%);
+    position: relative;
+    z-index: 300;
+}
+
+
+/* line 1021, sass/_pages/_home.scss */
+
+.homepage-products .products-presentation .products-prev-arrow .products-arrow-l {
+    width: 0;
+    height: 0;
+    border-top: 2vw solid transparent;
+    border-bottom: 2vw solid transparent;
+    border-right: 3vw solid #cd927a;
+    z-index: 500;
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 1021, sass/_pages/_home.scss */
+    .homepage-products .products-presentation .products-prev-arrow .products-arrow-l {
+        border-top: 1.5vw solid transparent;
+        border-bottom: 1.5vw solid transparent;
+        border-right: 2vw solid #cd927a;
+    }
+}
+
+
+/* line 1036, sass/_pages/_home.scss */
+
+.homepage-products .ai3 {
+    position: absolute;
+    right: 0;
+    top: 87vw;
+    z-index: 100;
+}
+
+@media (max-width: 1025px) {
+    /* line 1036, sass/_pages/_home.scss */
+    .homepage-products .ai3 {
+        display: none;
+    }
+}
+
+
+/* line 1044, sass/_pages/_home.scss */
+
+.homepage-products .ai3 img {
+    width: 37.5vw;
+}
+
+
+/* line 1050, sass/_pages/_home.scss */
+
+.hidden {
+    display: none;
+}
+
+@media (max-width: 1025px) {
+    /* line 1050, sass/_pages/_home.scss */
+    .hidden {
+        display: block;
+    }
+}
+
+.hide {
+    visibility: hidden;
+}
+
+@media (max-width: 1025px) {
+    /* line 1057, sass/_pages/_home.scss */
+    .hide {
+        visibility: visible;
+    }
+}
+
+
+/* line 1064, sass/_pages/_home.scss */
+
+.hhs1 span,
+.hhs2 span,
+.ps1 span,
+.ps2 span,
+.ps3 span,
+.ps4 span,
+.bs1 span,
+.bs2 span,
+.personal-subtitle span {
+    position: absolute;
+}
+
+
+/* line 1076, sass/_pages/_home.scss */
+
+span.and,
+span.luxury,
+span.feed,
+span.it,
+span.with,
+span.for,
+span.upgraded,
+span.withh,
+span.inn,
+span.first,
+span.app {
+    margin-top: -1.45vw;
+}
+
+
+/* line 1090, sass/_pages/_home.scss */
+
+span.learned,
+span.from {
+    margin-top: -4.8vw;
+}
+
+
+/* line 1095, sass/_pages/_home.scss */
+
+span.learned span,
+span.from span {
+    opacity: 0;
+}
+
+
+/* line 1100, sass/_pages/_home.scss */
+
+.leaf-image img {
+    filter: grayscale(100%);
+    visibility: hidden;
+}
+
+@media (max-width: 1025px) {
+    /* line 1100, sass/_pages/_home.scss */
+    .leaf-image img {
+        visibility: visible;
+    }
+}
+
+
+/* line 1108, sass/_pages/_home.scss */
+
+.from-hedonism-to-nature .under-hedonism .vertical-fading-line {
+    height: 0;
+    opacity: 0;
+}
+
+
+/* line 1113, sass/_pages/_home.scss */
+
+.from-nature-to-products .personal-approach-group .horizontal-gradient-line {
+    width: 0;
+}
+
+
+/* line 1117, sass/_pages/_home.scss */
+
+.science-helper {
+    position: absolute;
+    top: 25vw;
+}
+
+
+/* line 1122, sass/_pages/_home.scss */
+
+.slick-prev:before,
+.slick-prev,
+.slick-next,
+.slick-next:before {
+    display: none !important;
+}
+
+
+/* line 1129, sass/_pages/_home.scss */
+
+span {
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1, 1);
+    transform: translateZ(0);
+}
+
+
+
+/* line 1152, sass/_pages/_home.scss */
+
+.video-ultra-wrapper {
+    width: 100vw;
+    height: 500vh;
+    background-color: rgba(24, 25, 27, 0.95);
+    margin-top: -40vw;
+    z-index: 13000;
+    position: relative;
+}
+
+@media (max-width: 1025px) {
+    /* line 1152, sass/_pages/_home.scss */
+    .video-ultra-wrapper {
+        margin-top: -200vw;
+    }
+}
+
+
+/* line 1164, sass/_pages/_home.scss */
+
+.video-close {
+    color: #fff;
+    float: right;
+    font-weight: bold;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 100;
+    position: relative;
+    margin-top: -2.5vw;
+    margin-right: -2.5vw;
+}
+
+@media (max-width: 1025px) {
+    /* line 1164, sass/_pages/_home.scss */
+    .video-close {
+        margin-top: -13.5vw;
+        margin-right: -1.5vw;
+    }
+}
+
+
+/* line 1180, sass/_pages/_home.scss */
+
+.video-close .fa {
+    color: #fff;
+    font-size: 2vw;
+    transition: 0.5s ease all;
+}
+
+@media (max-width: 1025px) {
+    /* line 1180, sass/_pages/_home.scss */
+    .video-close .fa {
+        font-size: 9vw;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 1180, sass/_pages/_home.scss */
+    .video-close .fa {
+        font-size: 5vw;
+    }
+}
+
+
+/* line 1192, sass/_pages/_home.scss */
+
+.video-close .fa:hover {
+    color: #CD927A;
+}
+
+
+/* line 1196, sass/_pages/_home.scss */
+
+.leafloader img {
+    width: 14vw !important;
+    position: absolute !important;
+    top: 47vw !important;
+    left: 11vw !important;
+}
+
+
+/* line 1204, sass/_pages/_home.scss */
+
+.hhs1m,
+.hh-vertical-line,
+.hhs2m,
+.hhl1,
+.hhl2,
+.hhl3,
+#branding,
+#hamburger,
+.image {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 1219, sass/_pages/_home.scss */
+    .page-template-home_cro .homepage-header .homepage-header-inner .hhs2m {
+        margin-left: -14vw;
+    }
+}
+
+
+/* line 1224, sass/_pages/_home.scss */
+
+.page-template-home_cro .from-hedonism-to-nature .under-hedonism .ps3 {
+    right: 21.7vw;
+}
+
+@media (max-width: 1025px) {
+    /* line 1224, sass/_pages/_home.scss */
+    .page-template-home_cro .from-hedonism-to-nature .under-hedonism .ps3 {
+        right: 14vw;
+    }
+}
+
+
+/* line 1230, sass/_pages/_home.scss */
+
+.page-template-home_cro .from-hedonism-to-nature .under-hedonism .skin-title {
+    right: 16vw;
+}
+
+@media (max-width: 1025px) {
+    /* line 1230, sass/_pages/_home.scss */
+    .page-template-home_cro .from-hedonism-to-nature .under-hedonism .skin-title {
+        right: 5vw;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 1230, sass/_pages/_home.scss */
+    .page-template-home_cro .from-hedonism-to-nature .under-hedonism .skin-title {
+        right: 12vw;
+    }
+}
+
+
+/* line 1239, sass/_pages/_home.scss */
+
+.page-template-home_cro .from-nature-to-products .personal-approach-group .personal-title {
+    left: 32.5vw;
+    letter-spacing: 1.8vw;
+    z-index: 600;
+}
+
+@media (max-width: 1025px) {
+    /* line 1239, sass/_pages/_home.scss */
+    .page-template-home_cro .from-nature-to-products .personal-approach-group .personal-title {
+        font-size: 20vw;
+        left: 9vw;
+        margin-top: 2vw;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 1239, sass/_pages/_home.scss */
+    .page-template-home_cro .from-nature-to-products .personal-approach-group .personal-title {
+        font-size: 10.7vw;
+        margin-top: -22vw;
+    }
+}
+
+@media (max-width: 1025px) {
+    /* line 1253, sass/_pages/_home.scss */
+    .page-template-home_cro .from-nature-to-products .science-title {
+        letter-spacing: 2.1vw;
+    }
+}
+
+
+/* line 1258, sass/_pages/_home.scss */
+
+.page-template-home_cro #footer #mc_embed_signup .mc-field-group {
+    width: 44.5% !important;
+}
+
+
+/* line 1264, sass/_pages/_home.scss */
+
+canvas#c {
+    position: absolute;
+    top: 119vw;
+    z-index: 2;
+}
+
+@media (max-width: 1025px) {
+    /* line 1264, sass/_pages/_home.scss */
+    canvas#c {
+        top: 305vw;
+        z-index: 100;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    /* line 1264, sass/_pages/_home.scss */
+    canvas#c {
+        top: 266vw;
+    }
+}
+
+
+/* line 1277, sass/_pages/_home.scss */
+
+canvas#d {
+    position: absolute;
+    top: 151vw;
+    right: -34vw;
+    z-index: 0;
+    overflow: hidden;
+}
+
+@media (max-width: 1025px) {
+    /* line 1277, sass/_pages/_home.scss */
+    canvas#d {
+        top: 305vw;
+        z-index: 100;
+    }
+}
+
+
+/* line 1307, sass/_pages/_home.scss */
+
+.line {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.1;
+    background: #000000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #000000, #181818, #292929, #3c3c3c, #4f4f4f);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #000000, #181818, #292929, #3c3c3c, #4f4f4f);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+/* line 1321, sass/_pages/_home.scss */
+
+img.kutija {
+    position: absolute;
+    left: 7.7vw;
+    z-index: 0 !important;
+    top: 6.5vw;
+    width: 85vw;
+    z-index: 0 !important;
+    display: none;
+}
+
+@media (max-width: 1025px) {
+    /* line 1321, sass/_pages/_home.scss */
+    img.kutija {
+        display: none;
+    }
+}
+
+
+/* line 1335, sass/_pages/_home.scss */
+
+.x_video {
+    position: relative;
+    display: inline-block;
+    width: 2.5vw;
+    height: 2.5vw;
+    overflow: hidden;
+    transition: 0.5s ease all;
+}
+
+@media (max-width: 1025px) {
+    /* line 1335, sass/_pages/_home.scss */
+    .x_video {
+        width: 7.5vw;
+        height: 7.5vw;
+    }
+}
+
+
+/* line 1347, sass/_pages/_home.scss */
+
+.x_video:hover::before,
+.x_video:hover::after {
+    background: #CD927A;
+}
+
+
+/* line 1352, sass/_pages/_home.scss */
+
+.x_video::before,
+.x_video::after {
+    content: '';
+    position: absolute;
+    height: 0.1vw;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    margin-top: -0.1vw;
+    background: #fff;
+}
+
+
+/* line 1363, sass/_pages/_home.scss */
+
+.x_video::before {
+    /* Capability transforms2d is prefixed with -moz because 0.77252% of users need it which is more than the threshold of 0.1%. */
+    /* Creating new -moz context. */
+    -moz-transform: rotate(45deg);
+    /* Capability transforms2d is prefixed with -ms because 2.6001% of users need it which is more than the threshold of 0.1%. */
+    /* Creating new -ms context. */
+    -ms-transform: rotate(45deg);
+    /* Capability transforms2d is not prefixed with -o because 0.08196% of users are affected which is less than the threshold of 0.1. */
+    /* Capability transforms2d is prefixed with -webkit because 52.08628% of users need it which is more than the threshold of 0.1%. */
+    /* Creating new -webkit context. */
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
+/* line 1366, sass/_pages/_home.scss */
+
+.x_video::after {
+    /* Capability transforms2d is prefixed with -moz because 0.77252% of users need it which is more than the threshold of 0.1%. */
+    /* Creating new -moz context. */
+    -moz-transform: rotate(-45deg);
+    /* Capability transforms2d is prefixed with -ms because 2.6001% of users need it which is more than the threshold of 0.1%. */
+    /* Creating new -ms context. */
+    -ms-transform: rotate(-45deg);
+    /* Capability transforms2d is not prefixed with -o because 0.08196% of users are affected which is less than the threshold of 0.1. */
+    /* Capability transforms2d is prefixed with -webkit because 52.08628% of users need it which is more than the threshold of 0.1%. */
+    /* Creating new -webkit context. */
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+
+/* line 1370, sass/_pages/_home.scss */
+
+.x_video.heavy::before,
+.x_video.heavy::after {
+    height: 0.6vw;
+    margin-top: -0.3vw;
+}
+
+@media (max-width: 1025px) {
+    /* line 1370, sass/_pages/_home.scss */
+    .x_video.heavy::before,
+    .x_video.heavy::after {
+        height: 1.5vw;
+    }
+}
+
+
+/* line 1380, sass/_pages/_home.scss */
+
+.x_video.rounded::before,
+.x_video.rounded::after {
+    border-radius: 0.25vw;
+}
+
+@media (max-width: 1025px) {
+    /* line 1380, sass/_pages/_home.scss */
+    .x_video.rounded::before,
+    .x_video.rounded::after {
+        border-radius: 0.7vw;
+    }
+}
+
+
+/*Use this section to declare sitewide repeatable stuff*/
+
+
+/* line 47, sass/style.scss */
+
+.text_left {
+    text-align: left;
+}
+
+
+/* line 51, sass/style.scss */
+
+.text_center {
+    text-align: center;
+}
+
+
+/* line 55, sass/style.scss */
+
+.text_right {
+    text-align: center;
+}
+
+
+/* line 63, sass/style.scss */
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+
+/* line 73, sass/style.scss */
+
+body {
+    background-color: #18191b;
+}
+
+
+/* line 78, sass/style.scss */
+
+textarea:focus,
+input:focus {
+    outline: none;
+}
+
+
+/* line 83, sass/style.scss */
+
+textarea,
+input {
+    border: none;
+    overflow: auto;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+
+/* line 93, sass/style.scss */
+
+ul {
+    list-style-type: none;
+}
+
+
+/* line 98, sass/style.scss */
+
+textarea,
+input.text,
+input[type="text"],
+input[type="button"],
+input[type="submit"],
+.input-checkbox {
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+
+
+/*POPUPS*/
+
+.popup-wrapper {
+    background: #fff;
+    width: 40.625vw;
+    color: #000;
+    margin: auto;
+    margin-top: 10vw;
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    .popup-wrapper {
+        width: 80vw;
+    }
+}
+
+@media (max-width: 767px) {
+    /* line 487, sass/_pages/_homepage.scss */
+    .popup-wrapper {
+        float: right;
+        width: 91vw;
+        margin-top: 9vw;
+    }
+}
+
+
+/* line 500, sass/_pages/_homepage.scss */
+
+.popup-title {
+    font-family: Unica One;
+    padding: 2.5vw;
+    text-align: center;
+    font-size: 1.6vw;
+    line-height: 2vw;
+    color: #ce9179;
+    font-weight: 500;
+    width: 34vw;
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    .popup-title {
+        padding: 5.5vw;
+        font-size: 4vw;
+        line-height: 10vw;
+        text-align: left;
+    }
+}
+
+@media (max-width: 767px) {
+    /* line 500, sass/_pages/_homepage.scss */
+    .popup-title {
+        padding: 15vw 5vw 9vw 9vw;
+        font-size: 4.5vw;
+        line-height: 5.5vw;
+        width: 77vw;
+        font-family: "Montserrat", cursive;
+    }
+}
+
+
+/* line 517, sass/_pages/_homepage.scss */
+
+.popup-content {
+    font-size: 0.9375vw;
+    line-height: 1.40625vw;
+    padding: 0 2.5vw;
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    .popup-content {
+        font-size: 2.5vw;
+        padding: 0 5.5vw;
+        line-height: 4vw;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    .popup-content p {
+        line-height: 4vw;
+    }
+}
+
+@media (max-width: 767px) {
+    /* line 517, sass/_pages/_homepage.scss */
+    .popup-content {
+        font-size: 3.6vw;
+        line-height: 5.2vw;
+        padding: 0 5vw 9vw 9vw;
+    }
+}
+
+
+/* line 528, sass/_pages/_homepage.scss */
+
+.natecaj_close,
+.video_close,
+.varstvo_close,
+.vec_close,
+.emailpopup_close {
+    background: transparent;
+    border: none;
+}
+
+
+/* line 537, sass/_pages/_homepage.scss */
+
+.varstvo_close,
+.emailpopup_close {
+    position: absolute;
+    top: 8vw;
+    right: -1vw;
+    z-index: 100005;
+    width: 3vw;
+    height: 2vw;
+    cursor: pointer;
+}
+
+@media (max-width: 767px) {
+    /* line 537, sass/_pages/_homepage.scss */
+    .varstvo_close,
+    .emailpopup_close {
+        top: 10vw;
+        right: 1vw;
+        width: 8vw;
+        height: 8vw;
+    }
+}
+
+
+/* line 552, sass/_pages/_homepage.scss */
+
+.varstvo_close i.fa.fa-times,
+.emailpopup_close i.fa.fa-times {
+    top: 0;
+    right: 1vw;
+    cursor: pointer;
+    transition: 0.3s ease all;
+}
+
+
+/* line 560, sass/_pages/_homepage.scss */
+
+#terms,
+#privacy {
+    display: none;
+}
+
+.video_close {
+    position: relative;
+    float: right;
+    margin-top: -2vw;
+}
+
+.popup-background {
+    position: absolute;
+    width: 32.29167vw;
+    height: 42.91667vw;
+    background: #CE9179;
+    z-index: -1;
+    top: 5vw;
+    left: 23vw;
+}
+
+@media (max-width: 767px) {
+    /* line 592, sass/_pages/_homepage.scss */
+    .popup-background {
+        top: 0;
+        width: 74vw;
+        height: 75vw;
+        left: 0;
+    }
+}
+
+.terms_close.x_video.rounded.heavy,
+.privacy_close.x_video.rounded.heavy {
+    position: absolute;
+    top: -3vw;
+    right: 25vw;
+    cursor: pointer;
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    .terms_close.x_video.rounded.heavy,
+    .privacy_close.x_video.rounded.heavy {
+        top: -8vw;
+        right: 6vw;
+    }
+}
+
+@media (max-width: 767px) {
+    .terms_close.x_video.rounded.heavy::before,
+    .terms_close.x_video.rounded.heavy::after,
+    .privacy_close.x_video.rounded.heavy::before,
+    .privacy_close.x_video.rounded.heavy::after {
+        background: #000;
+    }
+    .terms_close.x_video.rounded.heavy,
+    .privacy_close.x_video.rounded.heavy {
+        top: 12vw;
+        right: 3vw;
+    }
+}
+
+b {
+    font-weight: 500;
+    color: #18191b;
+}
+
+.terms_open,
+.privacy_open {
+    cursor: pointer;
+    transition: 0.3s ease all;
+}
+
+.terms_open:hover,
+.privacy_open:hover {
+    color: #fff;
+}
+
+
+/*terms & conditions accordion*/
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: #ce9179;
+    text-decoration: none;
+}
+
+
+/** =======================
+ * Contenedor Principal
+ ===========================*/
+
+.accordion {
+    width: 100%;
+    margin: 1vw auto 1vw;
+    background: #FFF;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.accordion .link {
+    cursor: pointer;
+    display: block;
+    padding: 0.7vw 0.7vw 0.7vw 1.3vw;
+    color: #4D4D4D;
+    font-size: 0.95vw;
+    font-weight: 700;
+    border-bottom: 1px solid #CCC;
+    position: relative;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.accordion li:last-child .link {
+    border-bottom: 0;
+}
+
+.accordion li i {
+    position: absolute;
+    top: 0.75vw;
+    color: #595959;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.accordion li p {
+    font-size: 0.95vw;
+}
+
+.accordion li i.fa-chevron-down {
+    right: 1vw;
+    left: auto;
+    margin-top: 0.35vw;
+    border: solid #595959;
+    border-width: 0 0.2vw 0.2vw 0;
+    display: inline-block;
+    padding: 0.3vw;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    border-radius: 10%;
+}
+
+.accordion li.open .link {
+    color: #ce9179;
+}
+
+.accordion li.open i {
+    border-color: #ce9179;
+}
+
+.accordion li.open i.fa-chevron-down {
+    -webkit-transform: rotate(225deg);
+    -ms-transform: rotate(225deg);
+    -o-transform: rotate(225deg);
+    transform: rotate(225deg);
+}
+
+.accordion li.default .submenu {
+    display: block;
+}
+
+.submenu {
+    display: none;
+    background: transparent;
+    font-size: 1vw;
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+    .accordion .link {
+        padding: 1.7vw 4.7vw 1.7vw 2.3vw;
+        font-size: 2.5vw;
+    }
+    .accordion li i.fa-chevron-down {
+        right: 2vw;
+        margin-top: 2vw;
+        border-width: 0 0.7vw 0.7vw 0;
+        padding: 1vw;
+    }
+    .accordion li i {
+        top: 0vw;
+    }
+    .accordion li p {
+        font-size: 2.5vw;
+    }
+}
+
+@media (max-width: 767px) and (orientation: portrait) {
+    .accordion .link {
+        padding: 4vw 10vw 4vw 0;
+        font-size: 3.5vw;
+        font-weight: 600;
+    }
+    .accordion li i.fa-chevron-down {
+        right: 1vw;
+        margin-top: 2vw;
+        border-width: 0 0.8vw 0.8vw 0;
+        padding: 1vw;
+    }
+    .accordion li i {
+        top: 4vw;
+    }
+    .accordion li p {
+        font-size: 3.5vw;
+    }
+}
+
+@media (min-width: 1025px) {
+    body {
+        position: fixed;
+    }
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+canvas {
+    display: none;
+}
+
+
+/**uvjeti kartice**/
+
+.cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+
+.card-logo {
+    margin-right: 10px;
+}
+
+
+/*landscape turn to portrait*/
+
+.landscape-message {
+    display: none;
+}
+
+@media only screen and (max-device-width: 1190px) and (orientation:landscape) {
+    .landscape-message {
+        display: block;
+        color: #fff;
+        font-weight: 300;
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: -7vh;
+        bottom: 0;
+        text-align: center;
+        height: 0vh;
+        font-size: 2.65vw;
+        width: 100vw;
+    }
+    #wrapper {
+        display: none !important;
+    }
+    body {
+        position: fixed;
+    }
+    .loading-text {
+        font-size: 4.5vw;
+        top: 10vh;
+    }
+    .loading {
+        height: 104vh;
+    }
+}
+
+@media (max-width: 1025px) {
+    .menu-hide {
+        visibility: hidden;
+    }
+    .nobr {
+        display: none;
+    }
+}
