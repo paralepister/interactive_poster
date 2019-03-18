@@ -69,15 +69,168 @@ a {
   a,
   ul,
   ol {
-    font-size: 3.5vw;
-    line-height: 1.67em;
+     font-size: 3.5vw;
+     line-height: 1.67em;
   }
 
+  p {
+     margin-bottom: 0.80025em;
+  }
+
+   p {
+     font-size: 1.13849em;
+     margin: 0.85387em;
+     line-height: 1.42311em;
+  }
+
+  h1 {
+     font-size: 1.68002em;
+     margin: 0.84001em 0;
+     line-height: 1.26002em;
+  }
+
+  h2 {
+     font-size: 1.57453em;
+     margin: 0.78726em 0;
+     line-height: 1.1809em;
+  }
+
+  h3 {
+    font-size: 1.47566em;
+    margin: 0.73783em 0;
+    line-height: 1.10675em;
+  }
+
+  h4 {
+    font-size: 1.383em;
+    margin: 0.6915em 0;
+    line-height: 1.03725em;
+  }
+
+  h5 {
+    font-size: 1.29616em;
+    margin: 0.64808em 0;
+    line-height: 0.97212em;
+  }
+
+  h6 {
+    font-size: 1.21477em;
+    line-height: 0.91108em;
+  }
+
+  ul li,
+  ol li {
+    font-size: 1.067em;
+    line-height: 1.33375em;
+  }
+
+  ul,
+  ol {
+    margin: 2.0273em;
+  }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
+  html {
+    font-size: 2vw;
+  }
+  body,
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  a,
+  ul,
+  ol {
+    font-size: 1.067em;
+    line-height: 1.33375em;
+  }
+
+ p {
+   margin-bottom: 0.80025em;
+ }
+
+ p {
+   font-size: 1.13849em;
+   margin: 0.85387em;
+   line-height: 1.42311em;
+ }
+
+ h1 {
+   font-size: 1.68002em;
+   margin: 0.84001em 0;
+   line-height: 1.26002em;
+ }
+
+ h2 {
+   font-size: 1.57453em;
+   margin: 0.78726em 0;
+   line-height: 1.1809em;
+ }
+
+ h3 {
+   font-size: 1.47566em;
+   margin: 0.73783em 0;
+   line-height: 1.10675em;
+ }
+
+ h4 {
+   font-size: 1.383em;
+   margin: 0.6915em 0;
+   line-height: 1.03725em;
+ }
+
+ h5 {
+   font-size: 1.29616em;
+   margin: 0.64808em 0;
+   line-height: 0.97212em;
+ }
+
+ h6 {
+   font-size: 1.21477em;
+   margin: 0.60738em 0;
+   line-height: 0.91108em;
+ }
+
+ ul li,
+ ol li {
+   font-size: 1.067em;
+   line-height: 1.33375em;
+ }
+
+ ul,
+ ol {
+   margin: 2.0273em;
+ }
+}
+
+@media (min-width: 1025px) {
+  html {
+    font-size: 1vw;
+  }
+
+  body,
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  a,
+  ul,
+  ol {
+    font-size: 1.067em;
+    line-height: 1.33375em;
+  }
   p {
     margin-bottom: 0.80025em;
   }
 
-   p {
+  p {
     font-size: 1.13849em;
     margin: 0.85387em;
     line-height: 1.42311em;
@@ -96,200 +249,47 @@ a {
   }
 
   h3 {
-   font-size: 1.47566em;
-   margin: 0.73783em 0;
-   line-height: 1.10675em;
+    font-size: 1.47566em;
+    margin: 0.73783em 0;
+    line-height: 1.10675em;
   }
 
   h4 {
-   font-size: 1.383em;
-   margin: 0.6915em 0;
-   line-height: 1.03725em;
+    font-size: 1.383em;
+    margin: 0.6915em 0;
+    line-height: 1.03725em;
   }
 
   h5 {
-   font-size: 1.29616em;
-   margin: 0.64808em 0;
-   line-height: 0.97212em;
+    font-size: 1.29616em;
+    margin: 0.64808em 0;
+    line-height: 0.97212em;
   }
 
   h6 {
-   font-size: 1.21477em;
-   line-height: 0.91108em;
+    font-size: 1.21477em;
+    margin: 0.60738em 0;
+    line-height: 0.91108em;
   }
 
   ul li,
   ol li {
-   font-size: 1.067em;
-   line-height: 1.33375em;
+    font-size: 1.067em;
+    line-height: 1.33375em;
   }
 
   ul,
   ol {
-   margin: 2.0273em;
-  }
-}
-
-@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
-  html {
-   font-size: 2vw;
-  }
-  body,
-  p,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  a,
-  ul,
-  ol {
-   font-size: 1.067em;
-   line-height: 1.33375em;
-  }
-
- p {
-   margin-bottom: 0.80025em;
- }
-
- p {
-   font-size: 1.13849em;
-   margin: 0.85387em;
-   line-height: 1.42311em;
- }
-
- h1 {
-  font-size: 1.68002em;
-  margin: 0.84001em 0;
-  line-height: 1.26002em;
- }
-
- h2 {
-  font-size: 1.57453em;
-  margin: 0.78726em 0;
-  line-height: 1.1809em;
- }
-
- h3 {
-  font-size: 1.47566em;
-  margin: 0.73783em 0;
-  line-height: 1.10675em;
- }
-
- h4 {
-  font-size: 1.383em;
-  margin: 0.6915em 0;
-  line-height: 1.03725em;
- }
-
- h5 {
-  font-size: 1.29616em;
-  margin: 0.64808em 0;
-  line-height: 0.97212em;
- }
-
- h6 {
-  font-size: 1.21477em;
-  margin: 0.60738em 0;
-  line-height: 0.91108em;
- }
-
- ul li,
- ol li {
-  font-size: 1.067em;
-  line-height: 1.33375em;
- }
-
- ul,
- ol {
-  margin: 2.0273em;
- }
-}
-
-@media (min-width: 1025px) {
-  html {
-   font-size: 1vw;
-  }
-
-  body,
-  p,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  a,
-  ul,
-  ol {
-   font-size: 1.067em;
-   line-height: 1.33375em;
-  }
-  p {
-   margin-bottom: 0.80025em;
-  }
-
-  p {
-   font-size: 1.13849em;
-   margin: 0.85387em;
-   line-height: 1.42311em;
-  }
-
-  h1 {
-   font-size: 1.68002em;
-   margin: 0.84001em 0;
-   line-height: 1.26002em;
-  }
-
-  h2 {
-   font-size: 1.57453em;
-   margin: 0.78726em 0;
-   line-height: 1.1809em;
-  }
-
-  h3 {
-   font-size: 1.47566em;
-   margin: 0.73783em 0;
-   line-height: 1.10675em;
-  }
-
-  h4 {
-   font-size: 1.383em;
-   margin: 0.6915em 0;
-   line-height: 1.03725em;
-  }
-
-  h5 {
-   font-size: 1.29616em;
-   margin: 0.64808em 0;
-   line-height: 0.97212em;
-  }
-
-  h6 {
-   font-size: 1.21477em;
-   margin: 0.60738em 0;
-   line-height: 0.91108em;
-  }
-
-  ul li,
-  ol li {
-   font-size: 1.067em;
-   line-height: 1.33375em;
-  }
-
-  ul,
-  ol {
-   margin: 2.0273em;
+    margin: 2.0273em;
   }
 }
 
 ul {
- list-style: disc;
+  list-style: disc;
 }
 
 #menu label {
- display: none;
+  display: none;
 }
 
 @media (max-width: 1025px) {
@@ -340,6 +340,24 @@ ul {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
   .homepage-header .homepage-header-inner,
   .from-hedonism-to-nature {
@@ -349,168 +367,67 @@ ul {
 
 .vertical-pink-line,
 .from-hedonism-to-nature .under-hedonism .vertical-fading-line {
-    height: 36vw;
-    width: 0.1vw;
-    background-color: #18191b;
-    /* Content for ie 8.
-  Min version: unspecified.
-  User threshold to keep: 0.1%. If ie 8 are omitted: 4.46163%. */
-    *zoom: 1;
-    filter: progid: DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF18191B', endColorstr='#FFB88A74');
-    /* Content for ie 9.
-  Min version: unspecified.
-  User threshold to keep: 0.1%. If ie 9 are omitted: 2.6001%. */
-    /* Creating new -svg context. */
-    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzE4MTkxYiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2I4OGE3NCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-    background-size: 100%;
-    /* Content for android 2.1 - 3.
-  Min version: unspecified.
-  User threshold to keep: 0.1%. If android 2.1 - 3 are omitted: 1.11224%. */
-    /* Creating new -owg context. */
-    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #18191b), color-stop(100%, #b88a74));
-    /* Capability css-gradients is prefixed with -moz because 0.75106% of users need it which is more than the threshold of 0.1%. */
-    /* Creating new -moz context. */
-    background-image: -moz-linear-gradient(top, #18191b 0%, #b88a74 100%);
-    /* Capability css-gradients is not prefixed with -ms because 0% of users are affected which is less than the threshold of 0.1. */
-    /* Capability css-gradients is not prefixed with -o because 0.07115% of users are affected which is less than the threshold of 0.1. */
-    /* Capability css-gradients is prefixed with -webkit because 9.61489% of users need it which is more than the threshold of 0.1%. */
-    /* Creating new -webkit context. */
-    background-image: -webkit-linear-gradient(top, #18191b 0%, #b88a74 100%);
-    background-image: linear-gradient(to bottom, #18191b 0%, #b88a74 100%);
+  height: 36vw;
+  width: 0.1vw;
+  background-color: #18191b;
+  *zoom: 1;
+  filter: progid: DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF18191B', endColorstr='#FFB88A74');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #18191b), color-stop(100%, #b88a74));
+  background-image: -moz-linear-gradient(top, #18191b 0%, #b88a74 100%);
+  background-image: -webkit-linear-gradient(top, #18191b 0%, #b88a74 100%);
+  background-image: linear-gradient(to bottom, #18191b 0%, #b88a74 100%);
 }
-
-
-/* line 31, sass/_partials/_gradient-lines.scss */
 
 .black-pink-line,
 .from-nature-to-products .personal-approach-group .horizontal-gradient-line {
-    width: 64vw;
-    height: 0.1vw;
-    background-color: #18191b;
-    /* Content for ie 8.
-  Min version: unspecified.
-  User threshold to keep: 0.1%. If ie 8 are omitted: 4.46163%. */
-    *zoom: 1;
-    filter: progid: DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#FF18191B', endColorstr='#FFDAB19C');
-    /* Content for ie 9.
-  Min version: unspecified.
-  User threshold to keep: 0.1%. If ie 9 are omitted: 2.6001%. */
-    /* Creating new -svg context. */
-    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzE4MTkxYiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2RhYjE5YyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-    background-size: 100%;
-    /* Content for android 2.1 - 3.
-  Min version: unspecified.
-  User threshold to keep: 0.1%. If android 2.1 - 3 are omitted: 1.11224%. */
-    /* Creating new -owg context. */
-    background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #18191b), color-stop(100%, #dab19c));
-    /* Capability css-gradients is prefixed with -moz because 0.75106% of users need it which is more than the threshold of 0.1%. */
-    /* Creating new -moz context. */
-    background-image: -moz-linear-gradient(left, #18191b 0%, #dab19c 100%);
-    /* Capability css-gradients is not prefixed with -ms because 0% of users are affected which is less than the threshold of 0.1. */
-    /* Capability css-gradients is not prefixed with -o because 0.07115% of users are affected which is less than the threshold of 0.1. */
-    /* Capability css-gradients is prefixed with -webkit because 9.61489% of users need it which is more than the threshold of 0.1%. */
-    /* Creating new -webkit context. */
-    background-image: -webkit-linear-gradient(left, #18191b 0%, #dab19c 100%);
-    background-image: linear-gradient(to right, #18191b 0%, #dab19c 100%);
+  width: 64vw;
+  height: 0.1vw;
+  background-color: #18191b;
+  *zoom: 1;
+  filter: progid: DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#FF18191B', endColorstr='#FFDAB19C');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #18191b), color-stop(100%, #dab19c));
+  background-image: -moz-linear-gradient(left, #18191b 0%, #dab19c 100%);
+  background-image: -webkit-linear-gradient(left, #18191b 0%, #dab19c 100%);
+  background-image: linear-gradient(to right, #18191b 0%, #dab19c 100%);
 }
-
-
-/* line 40, sass/_partials/_gradient-lines.scss */
 
 .vertical-pink-beige-line,
 .homepage-products .products-vertical-line {
-    height: 17vw;
-    width: 0.1vw;
-    background-color: #c6a89a;
-    /* Content for ie 8.
-  Min version: unspecified.
-  User threshold to keep: 0.1%. If ie 8 are omitted: 4.46163%. */
-    *zoom: 1;
-    filter: progid: DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFC6A89A', endColorstr='#FFEDEDED');
-    /* Content for ie 9.
-  Min version: unspecified.
-  User threshold to keep: 0.1%. If ie 9 are omitted: 2.6001%. */
-    /* Creating new -svg context. */
-    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2M2YTg5YSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2VkZWRlZCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-    background-size: 100%;
-    /* Content for android 2.1 - 3.
-  Min version: unspecified.
-  User threshold to keep: 0.1%. If android 2.1 - 3 are omitted: 1.11224%. */
-    /* Creating new -owg context. */
-    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c6a89a), color-stop(100%, #ededed));
-    /* Capability css-gradients is prefixed with -moz because 0.75106% of users need it which is more than the threshold of 0.1%. */
-    /* Creating new -moz context. */
-    background-image: -moz-linear-gradient(top, #c6a89a 0%, #ededed 100%);
-    /* Capability css-gradients is not prefixed with -ms because 0% of users are affected which is less than the threshold of 0.1. */
-    /* Capability css-gradients is not prefixed with -o because 0.07115% of users are affected which is less than the threshold of 0.1. */
-    /* Capability css-gradients is prefixed with -webkit because 9.61489% of users need it which is more than the threshold of 0.1%. */
-    /* Creating new -webkit context. */
-    background-image: -webkit-linear-gradient(top, #c6a89a 0%, #ededed 100%);
-    background-image: linear-gradient(to bottom, #c6a89a 0%, #ededed 100%);
+  height: 17vw;
+  width: 0.1vw;
+  background-color: #c6a89a;
+  *zoom: 1;
+  filter: progid: DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFC6A89A', endColorstr='#FFEDEDED');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c6a89a), color-stop(100%, #ededed));
+  background-image: -moz-linear-gradient(top, #c6a89a 0%, #ededed 100%);
+  background-image: -webkit-linear-gradient(top, #c6a89a 0%, #ededed 100%);
+  background-image: linear-gradient(to bottom, #c6a89a 0%, #ededed 100%);
 }
-
-
-/* line 49, sass/_partials/_gradient-lines.scss */
 
 .horizontal-pink-beige-line,
 .homepage-products .products-presentation .products-next-arrow .products-horizontal-line {
-    width: 12vw;
-    height: 0.1vw;
-    background-color: #c6a89a;
-    /* Content for ie 8.
-  Min version: unspecified.
-  User threshold to keep: 0.1%. If ie 8 are omitted: 4.46163%. */
-    *zoom: 1;
-    filter: progid: DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#FFEDEDED', endColorstr='#FFC6A89A');
-    /* Content for ie 9.
-  Min version: unspecified.
-  User threshold to keep: 0.1%. If ie 9 are omitted: 2.6001%. */
-    /* Creating new -svg context. */
-    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VkZWRlZCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2M2YTg5YSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-    background-size: 100%;
-    /* Content for android 2.1 - 3.
-  Min version: unspecified.
-  User threshold to keep: 0.1%. If android 2.1 - 3 are omitted: 1.11224%. */
-    /* Creating new -owg context. */
-    background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #ededed), color-stop(100%, #c6a89a));
-    /* Capability css-gradients is prefixed with -moz because 0.75106% of users need it which is more than the threshold of 0.1%. */
-    /* Creating new -moz context. */
-    background-image: -moz-linear-gradient(left, #ededed 0%, #c6a89a 100%);
-    /* Capability css-gradients is not prefixed with -ms because 0% of users are affected which is less than the threshold of 0.1. */
-    /* Capability css-gradients is not prefixed with -o because 0.07115% of users are affected which is less than the threshold of 0.1. */
-    /* Capability css-gradients is prefixed with -webkit because 9.61489% of users need it which is more than the threshold of 0.1%. */
-    /* Creating new -webkit context. */
-    background-image: -webkit-linear-gradient(left, #ededed 0%, #c6a89a 100%);
-    background-image: linear-gradient(to right, #ededed 0%, #c6a89a 100%);
+  width: 12vw;
+  height: 0.1vw;
+  background-color: #c6a89a;
+  *zoom: 1;
+  filter: progid: DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#FFEDEDED', endColorstr='#FFC6A89A');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #ededed), color-stop(100%, #c6a89a));
+  background-image: -moz-linear-gradient(left, #ededed 0%, #c6a89a 100%);
+  background-image: -webkit-linear-gradient(left, #ededed 0%, #c6a89a 100%);
+  background-image: linear-gradient(to right, #ededed 0%, #c6a89a 100%);
 }
-
-
-/* line 2, sass/_pages/_header.scss */
 
 .white-title,
 .from-hedonism-to-nature .under-hedonism .three-words,
 .from-hedonism-to-nature .under-hedonism .skin-title {
-    font-family: 'Unica One', cursive;
-    text-transform: uppercase;
-    color: white;
+  font-family: 'Unica One', cursive;
+  text-transform: uppercase;
+  color: white;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .yellow-sentance {
   font-family: "Montserrat", cursive;
@@ -541,815 +458,592 @@ ul {
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .hh-slash {
-    /* Capability transforms2d is prefixed with -moz because 0.77252% of users need it which is more than the threshold of 0.1%. */
-    /* Creating new -moz context. */
-    -moz-transform: rotate(135deg);
-    /* Capability transforms2d is prefixed with -ms because 2.6001% of users need it which is more than the threshold of 0.1%. */
-    /* Creating new -ms context. */
-    -ms-transform: rotate(135deg);
-    /* Capability transforms2d is not prefixed with -o because 0.08196% of users are affected which is less than the threshold of 0.1. */
-    /* Capability transforms2d is prefixed with -webkit because 52.08628% of users need it which is more than the threshold of 0.1%. */
-    /* Creating new -webkit context. */
-    -webkit-transform: rotate(135deg);
-    transform: rotate(135deg);
-    width: 14.7vw;
-    height: 0.05vw;
-    background-color: white;
-    opacity: 0;
+  -moz-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+  width: 14.7vw;
+  height: 0.05vw;
+  background-color: white;
+  opacity: 0;
 }
 
 @media (max-width: 1025px) {
-    /* line 55, sass/_pages/_header.scss */
-    .hh-slash {
-        height: 0.5vw;
-        width: 35.7vw;
-        opacity: 1;
-        filter: blur(0px);
-    }
+  .hh-slash {
+    height: 0.5vw;
+    width: 35.7vw;
+    opacity: 1;
+    filter: blur(0px);
+  }
 }
 
 @media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
-    /* line 55, sass/_pages/_header.scss */
-    .hh-slash {
-        width: 28.7vw;
-        height: 0.2vw;
-    }
+  .hh-slash {
+    width: 28.7vw;
+    height: 0.2vw;
+  }
 }
-
-/* line 91, sass/_pages/_header.scss */
 
 img.homeheader-logo {
-    width: 3.5vw;
+  width: 3.5vw;
 }
 
 @media (max-width: 1025px) {
-    /* line 91, sass/_pages/_header.scss */
-    img.homeheader-logo {
-        width: 8.5vw;
-        position: relative;
-        z-index: 3000;
-    }
+  img.homeheader-logo {
+    width: 8.5vw;
+    position: relative;
+    z-index: 3000;
+  }
 }
 
 @media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
-    /* line 91, sass/_pages/_header.scss */
-    img.homeheader-logo {
-        width: 6.5vw;
-    }
+  img.homeheader-logo {
+    width: 6.5vw;
+  }
 }
 
 @media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: landscape) {
-    /* line 91, sass/_pages/_header.scss */
-    img.homeheader-logo {
-        width: 4.5vw;
-    }
+  img.homeheader-logo {
+    width: 4.5vw;
+  }
 }
 
 .homepage-header {
-    background-color: #18191b;
+  background-color: #18191b;
 }
 
 @media (max-width: 1025px) {
-    .homepage-header {
-        background-color: transparent;
-    }
+  .homepage-header {
+    background-color: transparent;
+  }
 }
 
 @media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
-    /* line 113, sass/_pages/_header.scss */
-    .homepage-header {
-        margin-bottom: -30vw !important;
-    }
+  .homepage-header {
+    margin-bottom: -30vw !important;
+  }
 }
-
-
-/* line 118, sass/_pages/_header.scss */
 
 .homepage-header .homepage-header-inner {
-    position: relative;
-    overflow: hidden;
-    height: 81vw;
-    margin-top: -2.8vw;
+  position: relative;
+  overflow: hidden;
+  height: 81vw;
+  margin-top: -2.8vw;
 }
 
 @media (max-width: 1025px) {
-    /* line 118, sass/_pages/_header.scss */
-    .homepage-header .homepage-header-inner {
-        height: 183vw;
-        margin-top: 0;
-    }
+  .homepage-header .homepage-header-inner {
+    height: 183vw;
+    margin-top: 0;
+  }
 }
 
 @media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: landscape) {
-    /* line 118, sass/_pages/_header.scss */
-    .homepage-header .homepage-header-inner {
-        margin-top: 2.2vw;
-    }
+  .homepage-header .homepage-header-inner {
+    margin-top: 2.2vw;
+  }
 }
-
-
-/* line 130, sass/_pages/_header.scss */
 
 .homepage-header .homepage-header-inner #branding {
-    opacity: 0;
-    filter: blur(3px);
-    padding: 4vw 5vw 0 5vw;
-    /* Capability flexbox is not prefixed with -moz because 0% of users are affected which is less than the threshold of 0.01. */
-    /* Capability flexbox is not prefixed with -ms because 0% of users are affected which is less than the threshold of 0.01. */
-    /* Capability flexbox is not prefixed with -o because 0% of users are affected which is less than the threshold of 0.01. */
-    /* Capability flexbox is prefixed with -webkit because 9.47897% of users need it which is more than the threshold of 0.01%. */
-    /* Creating new -webkit context. */
-    display: -webkit-flex;
-    display: flex;
-    position: relative;
-    justify-content: space-between;
-    z-index: 5000;
-    margin-top: 3vw;
-    margin-bottom: -2vw;
+  opacity: 0;
+  filter: blur(3px);
+  padding: 4vw 5vw 0 5vw;
+  display: -webkit-flex;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  z-index: 5000;
+  margin-top: 3vw;
+  margin-bottom: -2vw;
 }
 
 @media (max-width: 1025px) {
-    /* line 130, sass/_pages/_header.scss */
-    .homepage-header .homepage-header-inner #branding {
-        padding: 8vw 0 0 8vw;
-        filter: blur(0px);
-        width: 69vw;
-        margin: 0;
-    }
+  .homepage-header .homepage-header-inner #branding {
+      padding: 8vw 0 0 8vw;
+      filter: blur(0px);
+      width: 69vw;
+      margin: 0;
+  }
 }
 
 @media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
-    /* line 130, sass/_pages/_header.scss */
-    .homepage-header .homepage-header-inner #branding {
-        padding: 5vw 0 0 8vw;
-    }
+  .homepage-header .homepage-header-inner #branding {
+    padding: 5vw 0 0 8vw;
+  }
 }
 
 @media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: landscape) {
-    /* line 130, sass/_pages/_header.scss */
-    .homepage-header .homepage-header-inner #branding {
-        margin-top: -1vw;
-    }
+  .homepage-header .homepage-header-inner #branding {
+    margin-top: -1vw;
+  }
 }
-
-
-/* line 152, sass/_pages/_header.scss */
 
 .homepage-header .homepage-header-inner #branding .language-switch {
-    /* Capability flexbox is not prefixed with -moz because 0% of users are affected which is less than the threshold of 0.01. */
-    /* Capability flexbox is not prefixed with -ms because 0% of users are affected which is less than the threshold of 0.01. */
-    /* Capability flexbox is not prefixed with -o because 0% of users are affected which is less than the threshold of 0.01. */
-    /* Capability flexbox is prefixed with -webkit because 9.47897% of users need it which is more than the threshold of 0.01%. */
-    /* Creating new -webkit context. */
-    display: -webkit-flex;
-    display: flex;
-    /* Capability flexbox is not prefixed with -moz because 0% of users are affected which is less than the threshold of 0.01. */
-    /* Capability flexbox is not prefixed with -ms because 0% of users are affected which is less than the threshold of 0.01. */
-    /* Capability flexbox is not prefixed with -o because 0% of users are affected which is less than the threshold of 0.01. */
-    /* Capability flexbox is prefixed with -webkit because 9.47897% of users need it which is more than the threshold of 0.01%. */
-    /* Creating new -webkit context. */
-    -webkit-flex-direction: row;
-    flex-direction: row;
-    font-family: "Montserrat", cursive;
-    font-weight: 400;
-    color: #cd927a;
-    text-transform: uppercase;
-    letter-spacing: 0.3vw;
-    font-size: 1vw;
-    margin-top: 0.5vw;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  font-family: "Montserrat", cursive;
+  font-weight: 400;
+  color: #cd927a;
+  text-transform: uppercase;
+  letter-spacing: 0.3vw;
+  font-size: 1vw;
+  margin-top: 0.5vw;
 }
 
 @media (max-width: 1025px) {
-    /* line 152, sass/_pages/_header.scss */
-    .homepage-header .homepage-header-inner #branding .language-switch {
-        font-size: 5vw;
-        margin: 3vw 0 0 0;
+  .homepage-header .homepage-header-inner #branding .language-switch {
+    font-size: 5vw;
+    margin: 3vw 0 0 0;
     }
 }
 
 @media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
-    /* line 152, sass/_pages/_header.scss */
-    .homepage-header .homepage-header-inner #branding .language-switch {
-        font-size: 4vw;
-    }
+  .homepage-header .homepage-header-inner #branding .language-switch {
+    font-size: 4vw;
+  }
 }
 
 @media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: landscape) {
-    /* line 152, sass/_pages/_header.scss */
-    .homepage-header .homepage-header-inner #branding .language-switch {
-        font-size: 2.05vw;
-    }
+  .homepage-header .homepage-header-inner #branding .language-switch {
+    font-size: 2.05vw;
+  }
 }
 
 @media (max-width: 1025px) {
-    /* line 168, sass/_pages/_header.scss */
-    .homepage-header .homepage-header-inner #branding .language-switch a {
-        margin-top: -1.2vw;
-    }
+  .homepage-header .homepage-header-inner #branding .language-switch a {
+    margin-top: -1.2vw;
+  }
 }
-
-
-/* line 173, sass/_pages/_header.scss */
 
 .homepage-header .homepage-header-inner #branding .language-switch .inactive {
-    transition: all 0.3s;
+  transition: all 0.3s;
 }
-
-
-/* line 176, sass/_pages/_header.scss */
 
 .homepage-header .homepage-header-inner #branding .language-switch .inactive:hover {
-    color: white;
+  color: white;
 }
 
 @media (max-width: 1025px) {
-    /* line 180, sass/_pages/_header.scss */
-    .homepage-header .homepage-header-inner #branding .eng {
-        padding-left: 1vw;
-    }
+  .homepage-header .homepage-header-inner #branding .eng {
+    padding-left: 1vw;
+  }
 }
 
 @media (max-width: 1025px) {
-    /* line 185, sass/_pages/_header.scss */
-    .homepage-header .homepage-header-inner #branding .cro {
-        padding-right: 1vw;
-    }
+  .homepage-header .homepage-header-inner #branding .cro {
+      padding-right: 1vw;
+  }
 }
-
-
-/* line 190, sass/_pages/_header.scss */
 
 .homepage-header .homepage-header-inner #branding .language-switch-active {
-    font-size: 1.5vw;
-    color: #ffffff;
-    margin-top: -0.15vw;
+  font-size: 1.5vw;
+  color: #ffffff;
+  margin-top: -0.15vw;
 }
 
 @media (max-width: 1025px) {
-    /* line 190, sass/_pages/_header.scss */
-    .homepage-header .homepage-header-inner #branding .language-switch-active {
-        font-size: 7vw;
-    }
+  .homepage-header .homepage-header-inner #branding .language-switch-active {
+    font-size: 7vw;
+  }
 }
 
 @media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
-    /* line 190, sass/_pages/_header.scss */
-    .homepage-header .homepage-header-inner #branding .language-switch-active {
-        font-size: 5vw;
-    }
+  .homepage-header .homepage-header-inner #branding .language-switch-active {
+    font-size: 5vw;
+  }
 }
 
 @media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: landscape) {
-    /* line 190, sass/_pages/_header.scss */
-    .homepage-header .homepage-header-inner #branding .language-switch-active {
-        font-size: 2.05vw;
-    }
+  .homepage-header .homepage-header-inner #branding .language-switch-active {
+    font-size: 2.05vw;
+  }
 }
 
 @media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: landscape) {
-    /* line 190, sass/_pages/_header.scss */
-    .homepage-header .homepage-header-inner #branding .language-switch-active {
-        font-size: 2vw;
-    }
+  .homepage-header .homepage-header-inner #branding .language-switch-active {
+    font-size: 2vw;
+  }
 }
-
-
-/* line 209, sass/_pages/_header.scss */
 
 ul#menu-glavni-hr {
-    display: none;
+  display: none;
 }
 
 .homepage-header .homepage-header-inner #menu ul#menu-glavni-meni,
 .homepage-header .homepage-header-inner #menu #menu-glavni-hr {
-    /* Capability transforms2d is prefixed with -moz because 0.77252% of users need it which is more than the threshold of 0.1%. */
-    /* Creating new -moz context. */
-    -moz-transform: rotate(90deg);
-    /* Capability transforms2d is prefixed with -ms because 2.6001% of users need it which is more than the threshold of 0.1%. */
-    /* Creating new -ms context. */
-    -ms-transform: rotate(90deg);
-    /* Capability transforms2d is not prefixed with -o because 0.08196% of users are affected which is less than the threshold of 0.1. */
-    /* Capability transforms2d is prefixed with -webkit because 52.08628% of users need it which is more than the threshold of 0.1%. */
-    /* Creating new -webkit context. */
-    -webkit-transform: rotate(90deg);
-    transform: rotate(90deg);
-    /* Capability transforms2d is prefixed with -moz because 0.77252% of users need it which is more than the threshold of 0.1%. */
-    /* Creating new -moz context. */
-    -moz-transform-origin: 98% 50%;
-    /* Capability transforms2d is prefixed with -ms because 2.6001% of users need it which is more than the threshold of 0.1%. */
-    /* Creating new -ms context. */
-    -ms-transform-origin: 98% 50%;
-    /* Capability transforms2d is not prefixed with -o because 0.08196% of users are affected which is less than the threshold of 0.1. */
-    /* Capability transforms2d is prefixed with -webkit because 52.08628% of users need it which is more than the threshold of 0.1%. */
-    /* Creating new -webkit context. */
-    -webkit-transform-origin: 98% 50%;
-    transform-origin: 98% 50%;
-    float: right;
-    margin-right: 4vw;
-    margin-top: 66.9vh;
-    z-index: 1000;
-    position: relative;
-    opacity: 0;
-    filter: blur(5px);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  -moz-transform-origin: 98% 50%;
+  -ms-transform-origin: 98% 50%;
+  -webkit-transform-origin: 98% 50%;
+  transform-origin: 98% 50%;
+  float: right;
+  margin-right: 4vw;
+  margin-top: 66.9vh;
+  z-index: 1000;
+  position: relative;
+  opacity: 0;
+  filter: blur(5px);
 }
 
 @media (max-width: 1025px) {
-    /* line 209, sass/_pages/_header.scss */
-    .homepage-header .homepage-header-inner #menu ul#menu-glavni-meni,
-    .homepage-header .homepage-header-inner #menu #menu-glavni-hr {
-        opacity: 1;
-        filter: blur(0px);
-    }
+  .homepage-header .homepage-header-inner #menu ul#menu-glavni-meni,
+  .homepage-header .homepage-header-inner #menu #menu-glavni-hr {
+    opacity: 1;
+    filter: blur(0px);
+  }
 }
 
 @media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: landscape) {
-    /* line 209, sass/_pages/_header.scss */
-    .homepage-header .homepage-header-inner #menu ul#menu-glavni-meni,
-    .homepage-header .homepage-header-inner #menu #menu-glavni-hr {
-        margin-top: 43vw;
-    }
+  .homepage-header .homepage-header-inner #menu ul#menu-glavni-meni,
+  .homepage-header .homepage-header-inner #menu #menu-glavni-hr {
+    margin-top: 43vw;
+  }
 }
-
-
-/* line 227, sass/_pages/_header.scss */
 
 .homepage-header .homepage-header-inner #menu ul#menu-glavni-meni a,
 .homepage-header .homepage-header-inner #menu #menu-glavni-hr a {
-    font-family: "Montserrat", cursive;
-    font-weight: 400;
-    color: #cd927a;
-    text-transform: uppercase;
-    letter-spacing: 0.3vw;
-    text-decoration: none;
-    font-size: 1vw;
-    padding: 1.8vw;
+  font-family: "Montserrat", cursive;
+  font-weight: 400;
+  color: #cd927a;
+  text-transform: uppercase;
+  letter-spacing: 0.3vw;
+  text-decoration: none;
+  font-size: 1vw;
+  padding: 1.8vw;
 }
 
 @media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: landscape) {
-    /* line 227, sass/_pages/_header.scss */
-    .homepage-header .homepage-header-inner #menu ul#menu-glavni-meni a,
-    .homepage-header .homepage-header-inner #menu #menu-glavni-hr a {
-        font-size: 1.7vw;
-    }
+  .homepage-header .homepage-header-inner #menu ul#menu-glavni-meni a,
+  .homepage-header .homepage-header-inner #menu #menu-glavni-hr a {
+    font-size: 1.7vw;
+  }
 }
-
-
-/* line 238, sass/_pages/_header.scss */
 
 .homepage-header .homepage-header-inner .clearfix::after {
-    display: none;
+  display: none;
 }
 
-
-/* line 241, sass/_pages/_header.scss */
-
 .homepage-header .homepage-header-inner .homeheader-letter {
-
-    font-family: "Unica one", cursive;
-    font-weight: 400;
-    color: #cd927a;
-    text-transform: uppercase;
-    letter-spacing: 0.3vw;
-    position: absolute;
-    font-size: 16vw !important;
-    line-height: 10vw;
-    z-index: 100;
+  font-family: "Unica one", cursive;
+  font-weight: 400;
+  color: #cd927a;
+  text-transform: uppercase;
+  letter-spacing: 0.3vw;
+  position: absolute;
+  font-size: 16vw !important;
+  line-height: 10vw;
+  z-index: 100;
 }
 
 @media (max-width: 1025px) {
-    /* line 241, sass/_pages/_header.scss */
-    .homepage-header .homepage-header-inner .homeheader-letter {
-        line-height: 30vw;
-        font-size: 39vw !important;
-    }
+  .homepage-header .homepage-header-inner .homeheader-letter {
+    line-height: 30vw;
+    font-size: 39vw !important;
+  }
 }
 
 @media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
-    /* line 241, sass/_pages/_header.scss */
-    .homepage-header .homepage-header-inner .homeheader-letter {
-        font-size: 31vw !important;
-    }
+  .homepage-header .homepage-header-inner .homeheader-letter {
+    font-size: 31vw !important;
+  }
 }
 
-
-/* line 255, sass/_pages/_header.scss */
-
 .homepage-header .homepage-header-inner .homeheader-sentance {
-    font-family: "Montserrat", cursive;
-    font-weight: 400;
-    color: #cd927a;
-    text-transform: uppercase;
-    letter-spacing: 0.3vw;
-    color: #fff;
-    letter-spacing: 0.5vw;
-    /* Capability flexbox is not prefixed with -moz because 0% of users are affected which is less than the threshold of 0.01. */
-    /* Capability flexbox is not prefixed with -ms because 0% of users are affected which is less than the threshold of 0.01. */
-    /* Capability flexbox is not prefixed with -o because 0% of users are affected which is less than the threshold of 0.01. */
-    /* Capability flexbox is prefixed with -webkit because 9.47897% of users need it which is more than the threshold of 0.01%. */
-    /* Creating new -webkit context. */
-    display: -webkit-flex;
-    display: flex;
-    justify-content: space-between;
-    position: absolute;
-    width: 68.7vw;
-    font-size: 1.3vw;
-    letter-spacing: 0.88vw;
-    top: 52.9vh;
-    left: 14.6vw;
+  font-family: "Montserrat", cursive;
+  font-weight: 400;
+  color: #cd927a;
+  text-transform: uppercase;
+  letter-spacing: 0.3vw;
+  color: #fff;
+  letter-spacing: 0.5vw;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 68.7vw;
+  font-size: 1.3vw;
+  letter-spacing: 0.88vw;
+  top: 52.9vh;
+  left: 14.6vw;
 }
 
 @media (max-width: 1025px) {
-    /* line 255, sass/_pages/_header.scss */
-    .homepage-header .homepage-header-inner .homeheader-sentance {
-        display: none;
-    }
+  .homepage-header .homepage-header-inner .homeheader-sentance {
+    display: none;
+  }
 }
 
 @media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: landscape) {
-    /* line 255, sass/_pages/_header.scss */
-    .homepage-header .homepage-header-inner .homeheader-sentance {
-        font-size: 2vw;
-    }
+  .homepage-header .homepage-header-inner .homeheader-sentance {
+    font-size: 2vw;
+  }
 }
 
-
-/* line 274, sass/_pages/_header.scss */
-
 .homepage-header .homepage-header-inner .homeheader-sentance-mobile {
-    /* Capability transforms2d is prefixed with -moz because 0.77252% of users need it which is more than the threshold of 0.1%. */
-    /* Creating new -moz context. */
-    -moz-transform: rotate(90deg);
-    /* Capability transforms2d is prefixed with -ms because 2.6001% of users need it which is more than the threshold of 0.1%. */
-    /* Creating new -ms context. */
-    -ms-transform: rotate(90deg);
-    /* Capability transforms2d is not prefixed with -o because 0.08196% of users are affected which is less than the threshold of 0.1. */
-    /* Capability transforms2d is prefixed with -webkit because 52.08628% of users need it which is more than the threshold of 0.1%. */
-    /* Creating new -webkit context. */
-    -webkit-transform: rotate(90deg);
-    transform: rotate(90deg);
-    /* Capability transforms2d is prefixed with -moz because 0.77252% of users need it which is more than the threshold of 0.1%. */
-    /* Creating new -moz context. */
-    -moz-transform-origin: 98% 50%;
-    /* Capability transforms2d is prefixed with -ms because 2.6001% of users need it which is more than the threshold of 0.1%. */
-    /* Creating new -ms context. */
-    -ms-transform-origin: 98% 50%;
-    /* Capability transforms2d is not prefixed with -o because 0.08196% of users are affected which is less than the threshold of 0.1. */
-    /* Capability transforms2d is prefixed with -webkit because 52.08628% of users need it which is more than the threshold of 0.1%. */
-    /* Creating new -webkit context. */
-    -webkit-transform-origin: 98% 50%;
-    transform-origin: 98% 50%;
-    display: block !important;
-    width: 81vw;
-    font-size: 5vw;
-    letter-spacing: 4vw;
-    top: 109vw;
-    left: -28.5vw;
-    /* Capability flexbox is not prefixed with -moz because 0% of users are affected which is less than the threshold of 0.01. */
-    /* Capability flexbox is not prefixed with -ms because 0% of users are affected which is less than the threshold of 0.01. */
-    /* Capability flexbox is not prefixed with -o because 0% of users are affected which is less than the threshold of 0.01. */
-    /* Capability flexbox is prefixed with -webkit because 9.47897% of users need it which is more than the threshold of 0.01%. */
-    /* Creating new -webkit context. */
-    display: -webkit-flex;
-    display: flex;
-    justify-content: space-between;
-    position: absolute;
-    font-family: "Montserrat", cursive;
-    font-weight: 400;
-    color: #cd927a;
-    text-transform: uppercase;
-    letter-spacing: 0.3vw;
-    color: #fff;
-    z-index: 500;
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  -moz-transform-origin: 98% 50%;
+  -ms-transform-origin: 98% 50%;
+  -webkit-transform-origin: 98% 50%;
+  transform-origin: 98% 50%;
+  display: block !important;
+  width: 81vw;
+  font-size: 5vw;
+  letter-spacing: 4vw;
+  top: 109vw;
+  left: -28.5vw;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  font-family: "Montserrat", cursive;
+  font-weight: 400;
+  color: #cd927a;
+  text-transform: uppercase;
+  letter-spacing: 0.3vw;
+  color: #fff;
+  z-index: 500;
 }
 
 @media (min-width: 1025px) {
-    /* line 274, sass/_pages/_header.scss */
-    .homepage-header .homepage-header-inner .homeheader-sentance-mobile {
-        display: none !important;
-    }
+  .homepage-header .homepage-header-inner .homeheader-sentance-mobile {
+    display: none !important;
+  }
 }
 
 @media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
-    /* line 274, sass/_pages/_header.scss */
-    .homepage-header .homepage-header-inner .homeheader-sentance-mobile {
-        width: 80vw;
-        font-size: 3vw;
-        top: 95vw;
-    }
+  .homepage-header .homepage-header-inner .homeheader-sentance-mobile {
+    width: 80vw;
+    font-size: 3vw;
+    top: 95vw;
+  }
 }
-
-
-/* line 298, sass/_pages/_header.scss */
 
 .homepage-header .homepage-header-inner .hhs1m,
 .homepage-header .homepage-header-inner .hhs2m {
-    padding: 3vw;
-    letter-spacing: 4vw;
-    opacity: 0;
+  padding: 3vw;
+  letter-spacing: 4vw;
+  opacity: 0;
 }
-
-
-/* line 304, sass/_pages/_header.scss */
 
 .homepage-header .homepage-header-inner .hhs2 {
-    letter-spacing: 0.7vw;
+  letter-spacing: 0.7vw;
 }
-
-
-/* line 307, sass/_pages/_header.scss */
 
 .homepage-header .homepage-header-inner .hhs2m {
-    text-align: right;
+  text-align: right;
 }
 
 @media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
-    /* line 307, sass/_pages/_header.scss */
-    .homepage-header .homepage-header-inner .hhs2m {
-        text-align: center;
-    }
+  .homepage-header .homepage-header-inner .hhs2m {
+    text-align: center;
+  }
 }
-
-
-/* line 313, sass/_pages/_header.scss */
 
 .homepage-header .homepage-header-inner .hhl1 {
-    top: 9.5vw;
-    left: 32vw;
-    opacity: 0;
-    filter: blur(10px);
+  top: 9.5vw;
+  left: 32vw;
+  opacity: 0;
+  filter: blur(10px);
 }
 
 @media (max-width: 1025px) {
-    /* line 313, sass/_pages/_header.scss */
-    .homepage-header .homepage-header-inner .hhl1 {
-        top: 51vw;
-        left: 12vw;
-    }
+  .homepage-header .homepage-header-inner .hhl1 {
+    top: 51vw;
+    left: 12vw;
+  }
 }
 
 @media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
-    /* line 313, sass/_pages/_header.scss */
-    .homepage-header .homepage-header-inner .hhl1 {
-        top: 18vw;
-        left: 22vw;
-    }
+  .homepage-header .homepage-header-inner .hhl1 {
+    top: 18vw;
+    left: 22vw;
+  }
 }
-
-
-/* line 327, sass/_pages/_header.scss */
 
 .homepage-header .homepage-header-inner .hhl2 {
-    top: 23.8vw;
-    left: 60vw;
-    z-index: 250;
-    opacity: 0;
-    filter: blur(10px);
+  top: 23.8vw;
+  left: 60vw;
+  z-index: 250;
+  opacity: 0;
+  filter: blur(10px);
 }
 
 @media (max-width: 1025px) {
-    /* line 327, sass/_pages/_header.scss */
-    .homepage-header .homepage-header-inner .hhl2 {
-        top: 73vw;
-        left: 69vw;
-    }
+  .homepage-header .homepage-header-inner .hhl2 {
+    top: 73vw;
+    left: 69vw;
+  }
 }
 
 @media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
-    /* line 327, sass/_pages/_header.scss */
-    .homepage-header .homepage-header-inner .hhl2 {
-        top: 46vw;
-        left: 66vw;
-    }
+  .homepage-header .homepage-header-inner .hhl2 {
+    top: 46vw;
+    left: 66vw;
+  }
 }
-
-
-/* line 342, sass/_pages/_header.scss */
 
 .homepage-header .homepage-header-inner .hhl3 {
-    top: 79.5vh;
-    width: 100%;
-    text-align: center;
-    opacity: 0;
-    filter: blur(10px);
+  top: 79.5vh;
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+  filter: blur(10px);
 }
 
 @media (max-width: 1025px) {
-    /* line 342, sass/_pages/_header.scss */
-    .homepage-header .homepage-header-inner .hhl3 {
-        top: 123vw;
-    }
+  .homepage-header .homepage-header-inner .hhl3 {
+    top: 123vw;
+  }
 }
 
 @media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
-    /* line 342, sass/_pages/_header.scss */
-    .homepage-header .homepage-header-inner .hhl3 {
-        top: 83vw;
-    }
+  .homepage-header .homepage-header-inner .hhl3 {
+    top: 83vw;
+  }
 }
-
-
-/* line 356, sass/_pages/_header.scss */
 
 .homepage-header .homepage-header-inner .circle-overlay {
-    width: 25vw;
-    height: 25vw;
-    border-radius: 50%;
-    position: absolute;
-    z-index: 200;
-    margin: auto;
-    left: 0;
-    right: 0;
+  width: 25vw;
+  height: 25vw;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 200;
+  margin: auto;
+  left: 0;
+  right: 0;
 }
 
 @media (max-width: 1025px) {
-    /* line 356, sass/_pages/_header.scss */
-    .homepage-header .homepage-header-inner .circle-overlay {
-        display: none;
-    }
+  .homepage-header .homepage-header-inner .circle-overlay {
+    display: none;
+  }
 }
-
-
-/* line 369, sass/_pages/_header.scss */
 
 .homepage-header .homepage-header-inner .co1 {
-    top: 20.2vh;
-    background-color: #373737;
-    opacity: 0;
-    z-index: 200;
+  top: 20.2vh;
+  background-color: #373737;
+  opacity: 0;
+  z-index: 200;
 }
 
 @media (max-width: 1025px) {
-    /* line 369, sass/_pages/_header.scss */
-    .homepage-header .homepage-header-inner .co1 {
-        opacity: 1;
-    }
+  .homepage-header .homepage-header-inner .co1 {
+    opacity: 1;
+  }
 }
-
-
-/* line 378, sass/_pages/_header.scss */
 
 .homepage-header .homepage-header-inner .co2 {
-    top: 41.5vh;
-    opacity: 0;
-    z-index: 190;
-    background: -moz-linear-gradient(289deg, rgba(150, 150, 150, 0.1) 39%, rgba(147, 147, 147, 0.1) 40%, #343434 78%, #1e1e1e 87%);
-    /* ff3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(39%, rgba(150, 150, 150, 0.1)), color-stop(40%, rgba(147, 147, 147, 0.1)), color-stop(78%, #343434), color-stop(87%, #1e1e1e));
-    /* safari4+,chrome */
-    background: -webkit-linear-gradient(289deg, rgba(150, 150, 150, 0.1) 39%, rgba(147, 147, 147, 0.1) 40%, #343434 78%, #1e1e1e 87%);
-    /* safari5.1+,chrome10+ */
-    background: -o-linear-gradient(289deg, rgba(150, 150, 150, 0.815) 39%, rgba(147, 147, 147, 0.1) 40%, #343434 78%, #1e1e1e 87%);
-    /* opera 11.10+ */
-    background: -ms-linear-gradient(289deg, rgba(150, 150, 150, 0.1) 39%, rgba(147, 147, 147, 0.1) 40%, #343434 78%, #1e1e1e 87%);
-    /* ie10+ */
-    background: linear-gradient(161deg, rgba(150, 150, 150, 0.1) 39%, rgba(147, 147, 147, 0.1) 40%, #343434 78%, #1e1e1e 87%);
-    /* w3c */
-    /*filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#969696', endColorstr='#1e1e1e', GradientType=0);
-   ie6-9 */
+  top: 41.5vh;
+  opacity: 0;
+  z-index: 190;
+  background: -moz-linear-gradient(289deg, rgba(150, 150, 150, 0.1) 39%, rgba(147, 147, 147, 0.1) 40%, #343434 78%, #1e1e1e 87%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(39%, rgba(150, 150, 150, 0.1)), color-stop(40%, rgba(147, 147, 147, 0.1)), color-stop(78%, #343434), color-stop(87%, #1e1e1e));
+  background: -webkit-linear-gradient(289deg, rgba(150, 150, 150, 0.1) 39%, rgba(147, 147, 147, 0.1) 40%, #343434 78%, #1e1e1e 87%);
+  background: -o-linear-gradient(289deg, rgba(150, 150, 150, 0.815) 39%, rgba(147, 147, 147, 0.1) 40%, #343434 78%, #1e1e1e 87%);
+  background: -ms-linear-gradient(289deg, rgba(150, 150, 150, 0.1) 39%, rgba(147, 147, 147, 0.1) 40%, #343434 78%, #1e1e1e 87%);
+  background: linear-gradient(161deg, rgba(150, 150, 150, 0.1) 39%, rgba(147, 147, 147, 0.1) 40%, #343434 78%, #1e1e1e 87%);
 }
 
 @media (max-width: 1025px) {
-    /* line 378, sass/_pages/_header.scss */
-    .homepage-header .homepage-header-inner .co2 {
-        opacity: 1;
-    }
+  .homepage-header .homepage-header-inner .co2 {
+    opacity: 1;
+  }
 }
-
-
-/* line 400, sass/_pages/_header.scss */
 
 .homepage-header .homepage-header-inner .hh-vertical-line {
-    width: 0.07vw;
-    background-color: #161619;
-    /* Content for ie 8.
-  Min version: unspecified.
-  User threshold to keep: 0.1%. If ie 8 are omitted: 4.46163%. */
-    *zoom: 1;
-    filter: progid: DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF161619', endColorstr='#FF161619');
-    /* Content for ie 9.
-  Min version: unspecified.
-  User threshold to keep: 0.1%. If ie 9 are omitted: 2.6001%. */
-    /* Creating new -svg context. */
-    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzE2MTYxOSIvPjxzdG9wIG9mZnNldD0iMTAlIiBzdG9wLWNvbG9yPSIjMmYyZjM1Ii8+PHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiM3YzdjN2MiLz48c3RvcCBvZmZzZXQ9Ijc2JSIgc3RvcC1jb2xvcj0iIzJmMzEzNSIvPjxzdG9wIG9mZnNldD0iOTklIiBzdG9wLWNvbG9yPSIjMTYxNjE5Ii8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
-    background-size: 100%;
-    /* Content for android 2.1 - 3.
-  Min version: unspecified.
-  User threshold to keep: 0.1%. If android 2.1 - 3 are omitted: 1.11224%. */
-    /* Creating new -owg context. */
-    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #161619), color-stop(10%, #2f2f35), color-stop(50%, #7c7c7c), color-stop(76%, #2f3135), color-stop(99%, #161619));
-    /* Capability css-gradients is prefixed with -moz because 0.75106% of users need it which is more than the threshold of 0.1%. */
-    /* Creating new -moz context. */
-    background-image: -moz-linear-gradient(top, #161619 0%, #2f2f35 10%, #7c7c7c 50%, #2f3135 76%, #161619 99%);
-    /* Capability css-gradients is not prefixed with -ms because 0% of users are affected which is less than the threshold of 0.1. */
-    /* Capability css-gradients is not prefixed with -o because 0.07115% of users are affected which is less than the threshold of 0.1. */
-    /* Capability css-gradients is prefixed with -webkit because 9.61489% of users need it which is more than the threshold of 0.1%. */
-    /* Creating new -webkit context. */
-    background-image: -webkit-linear-gradient(top, #161619 0%, #2f2f35 10%, #7c7c7c 50%, #2f3135 76%, #161619 99%);
-    background-image: linear-gradient(to bottom, #161619 0%, #2f2f35 10%, #7c7c7c 50%, #2f3135 76%, #161619 99%);
-    margin-left: 49.8%;
-    position: relative;
-    z-index: 300;
-    margin-top: -8vw;
+  width: 0.07vw;
+  background-color: #161619;
+  *zoom: 1;
+  filter: progid: DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF161619', endColorstr='#FF161619');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #161619), color-stop(10%, #2f2f35), color-stop(50%, #7c7c7c), color-stop(76%, #2f3135), color-stop(99%, #161619));
+  background-image: -moz-linear-gradient(top, #161619 0%, #2f2f35 10%, #7c7c7c 50%, #2f3135 76%, #161619 99%);
+  background-image: -webkit-linear-gradient(top, #161619 0%, #2f2f35 10%, #7c7c7c 50%, #2f3135 76%, #161619 99%);
+  background-image: linear-gradient(to bottom, #161619 0%, #2f2f35 10%, #7c7c7c 50%, #2f3135 76%, #161619 99%);
+  margin-left: 49.8%;
+  position: relative;
+  z-index: 300;
+  margin-top: -8vw;
 }
 
 @media (max-width: 1025px) {
-    /* line 400, sass/_pages/_header.scss */
-    .homepage-header .homepage-header-inner .hh-vertical-line {
-        margin-top: -230vw;
-        width: 0.35vw;
-        height: 164vw;
-        background-color: #1d1e22;
-        /* Content for ie 8.
-    Min version: unspecified.
-    User threshold to keep: 0.1%. If ie 8 are omitted: 4.46163%. */
-        *zoom: 1;
-        filter: progid: DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF1D1E22', endColorstr='#FF1D1E22');
-        /* Content for ie 9.
-    Min version: unspecified.
-    User threshold to keep: 0.1%. If ie 9 are omitted: 2.6001%. */
-        /* Creating new -svg context. */
-        background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzFkMWUyMiIvPjxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjOGI3MzY3Ii8+PHN0b3Agb2Zmc2V0PSI1MiUiIHN0b3AtY29sb3I9IiNiYzg2NmQiLz48c3RvcCBvZmZzZXQ9IjY1JSIgc3RvcC1jb2xvcj0iIzhiNzM2NyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzFkMWUyMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-        background-size: 100%;
-        /* Content for android 2.1 - 3.
-    Min version: unspecified.
-    User threshold to keep: 0.1%. If android 2.1 - 3 are omitted: 1.11224%. */
-        /* Creating new -owg context. */
-        background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #1d1e22), color-stop(35%, #8b7367), color-stop(52%, #bc866d), color-stop(65%, #8b7367), color-stop(100%, #1d1e22));
-        /* Capability css-gradients is prefixed with -moz because 0.75106% of users need it which is more than the threshold of 0.1%. */
-        /* Creating new -moz context. */
-        background-image: -moz-linear-gradient(top, #1d1e22 0%, #8b7367 35%, #bc866d 52%, #8b7367 65%, #1d1e22 100%);
-        /* Capability css-gradients is not prefixed with -ms because 0% of users are affected which is less than the threshold of 0.1. */
-        /* Capability css-gradients is not prefixed with -o because 0.07115% of users are affected which is less than the threshold of 0.1. */
-        /* Capability css-gradients is prefixed with -webkit because 9.61489% of users need it which is more than the threshold of 0.1%. */
-        /* Creating new -webkit context. */
-        background-image: -webkit-linear-gradient(top, #1d1e22 0%, #8b7367 35%, #bc866d 52%, #8b7367 65%, #1d1e22 100%);
-        background-image: linear-gradient(to bottom, #1d1e22 0%, #8b7367 35%, #bc866d 52%, #8b7367 65%, #1d1e22 100%);
-    }
+  .homepage-header .homepage-header-inner .hh-vertical-line {
+    margin-top: -230vw;
+    width: 0.35vw;
+    height: 164vw;
+    background-color: #1d1e22;
+    *zoom: 1;
+    filter: progid: DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF1D1E22', endColorstr='#FF1D1E22');
+    background-size: 100%;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #1d1e22), color-stop(35%, #8b7367), color-stop(52%, #bc866d), color-stop(65%, #8b7367), color-stop(100%, #1d1e22));
+    background-image: -moz-linear-gradient(top, #1d1e22 0%, #8b7367 35%, #bc866d 52%, #8b7367 65%, #1d1e22 100%);
+    background-image: -webkit-linear-gradient(top, #1d1e22 0%, #8b7367 35%, #bc866d 52%, #8b7367 65%, #1d1e22 100%);
+    background-image: linear-gradient(to bottom, #1d1e22 0%, #8b7367 35%, #bc866d 52%, #8b7367 65%, #1d1e22 100%);
+  }
 }
 
 @media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
-    /* line 400, sass/_pages/_header.scss */
-    .homepage-header .homepage-header-inner .hh-vertical-line {
-        width: 0.2vw;
-    }
+  .homepage-header .homepage-header-inner .hh-vertical-line {
+    width: 0.2vw;
+  }
 }
 
 @media (max-width: 1025px) {
-    /* line 421, sass/_pages/_header.scss */
-    .homepage-header .homepage-header-inner .header-line {
-        opacity: 0;
-    }
+  .homepage-header .homepage-header-inner .header-line {
+    opacity: 0;
+  }
 }
-
-
-/* line 426, sass/_pages/_header.scss */
 
 .homepage-header .homepage-header-inner .hh-slash1 {
-    position: absolute;
-    top: 46.3vw;
-    left: 42.2vw;
-    z-index: 300;
+  position: absolute;
+  top: 46.3vw;
+  left: 42.2vw;
+  z-index: 300;
 }
 
 @media (max-width: 1025px) {
-    /* line 426, sass/_pages/_header.scss */
-    .homepage-header .homepage-header-inner .hh-slash1 {
-        top: 138.45vw;
-        left: 32vw;
-        opacity: 0;
-    }
+  .homepage-header .homepage-header-inner .hh-slash1 {
+    top: 138.45vw;
+    left: 32vw;
+    opacity: 0;
+  }
 }
 
 @media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
-    /* line 426, sass/_pages/_header.scss */
-    .homepage-header .homepage-header-inner .hh-slash1 {
-        top: 98vw;
-        left: 35vw;
-    }
+  .homepage-header .homepage-header-inner .hh-slash1 {
+    top: 98vw;
+    left: 35vw;
+  }
 }
 
 
-/* line 441, sass/_pages/_header.scss */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .homepage-header .homepage-header-inner .hh-shopnow {
     font-family: "Montserrat", cursive;
@@ -1496,7 +1190,6 @@ ul#menu-glavni-hr {
 }
 
 @media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
-    /* line 530, sass/_pages/_header.scss */
     .homepage-header .homepage-header-inner #menu ul#menu-glavni-meni,
     .homepage-header .homepage-header-inner #menu ul#menu-glavni-hr {
         padding: 26vw 0 70vw 0;
@@ -1504,10 +1197,8 @@ ul#menu-glavni-hr {
 }
 
 @media (max-width: 1025px) {
-    /* line 556, sass/_pages/_header.scss */
     .homepage-header .homepage-header-inner #menu ul#menu-glavni-meni a,
     .homepage-header .homepage-header-inner #menu ul#menu-glavni-hr a {
-
         font-weight: 400;
         color: #cd927a;
         text-transform: uppercase;
@@ -1519,12 +1210,27 @@ ul#menu-glavni-hr {
 }
 
 @media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
-    /* line 556, sass/_pages/_header.scss */
     .homepage-header .homepage-header-inner #menu ul#menu-glavni-meni a,
     .homepage-header .homepage-header-inner #menu ul#menu-glavni-hr a {
         font-size: 4vw;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* line 567, sass/_pages/_header.scss */
