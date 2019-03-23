@@ -19,33 +19,33 @@ document.getElementById('load').appendChild(line);
     let countEveryChildren = jQuery("span.every span").length;
     let countSkinChildren = jQuery("span.skin span").length;
 
-// НОВАЯ
-    setTimeout(function() {
-      for (let i = 0; i < countEveryChildren; i++) {
-        jQuery(everyChildren.eq(i)).text(function(index) {
-          return every[i];
-        });
-        let Every = jQuery(everyChildren.eq(i));
-        let fromEvery = { left: '-6.5vw', autoAlpha: 0, filter: 'blur(100px)' }
-        let toEvery = { left: '0' + (i * 1.5) + 'vw', autoAlpha: 1, filter: 'blur(0px)' }
-        TweenMax.to(jQuery('span.every'), 1.8, { left: '5.65vw' });
-        TweenMax.fromTo(Every, 1 * 2.5, fromEvery, toEvery);
-      }
-    }, 3000);
+  // НОВАЯ
+      setTimeout(function() {
+        for (let i = 0; i < countEveryChildren; i++) {
+          jQuery(everyChildren.eq(i)).text(function(index) {
+            return every[i];
+          });
+          let Every = jQuery(everyChildren.eq(i));
+          let fromEvery = { left: '-6.5vw', autoAlpha: 0, filter: 'blur(100px)' }
+          let toEvery = { left: '0' + (i * 1.5) + 'vw', autoAlpha: 1, filter: 'blur(0px)' }
+          TweenMax.to(jQuery('span.every'), 1.8, { left: '5.65vw' });
+          TweenMax.fromTo(Every, 1 * 2.5, fromEvery, toEvery);
+        }
+      }, 3000);
 
-// СИЛА
-    setTimeout(function() {
-      for (let i = 0; i < countSkinChildren; i++) {
-        jQuery(skinChildren.eq(i)).text(function(index) {
-          return skin[i];
-        });
-        let Skin = jQuery(skinChildren.eq(i));
-        let fromSkin = { left: '1vw', autoAlpha: 0, filter: 'blur(100px)' }
-        let toSkin = { left: '0' + (i * 1.5) + 'vw', autoAlpha: 1, filter: 'blur(0px)' }
-        TweenMax.to(jQuery('span.skin'), 1.8, { left: '14.65vw' });
-        TweenMax.fromTo(Skin, 1 * 2.5, fromSkin, toSkin);
-      }
-    }, 3500);
+  // СИЛА
+      setTimeout(function() {
+        for (let i = 0; i < countSkinChildren; i++) {
+          jQuery(skinChildren.eq(i)).text(function(index) {
+            return skin[i];
+          });
+          let Skin = jQuery(skinChildren.eq(i));
+          let fromSkin = { left: '1vw', autoAlpha: 0, filter: 'blur(100px)' }
+          let toSkin = { left: '0' + (i * 1.5) + 'vw', autoAlpha: 1, filter: 'blur(0px)' }
+          TweenMax.to(jQuery('span.skin'), 1.8, { left: '14.65vw' });
+          TweenMax.fromTo(Skin, 1 * 2.5, fromSkin, toSkin);
+        }
+      }, 3500);
 
 //ЭТО МЫ
     let hasChildren = jQuery('span.has').children();
@@ -53,52 +53,52 @@ document.getElementById('load').appendChild(line);
     let countHasChildren = jQuery("span.has span").length;
     let countAnChildren = jQuery("span.an span").length;
 
- // ЭТО
-   setTimeout(function() {
-       for (let i = 0; i < countHasChildren; i++) {
-         jQuery(hasChildren.eq(i)).text(function(index) {
-          return has[i];
+   // ЭТО
+     setTimeout(function() {
+         for (let i = 0; i < countHasChildren; i++) {
+           jQuery(hasChildren.eq(i)).text(function(index) {
+            return has[i];
+           });
+           let Has = jQuery(hasChildren.eq(i));
+           let fromHas = { left: '-11vw', autoAlpha: 0, filter: 'blur(5px)' }
+           let toHas = { left: '0' + (i * 1.5) + 'vw', autoAlpha: 1, filter: 'blur(0px)' }
+           TweenMax.to(jQuery('span.has'), 1.8, { left: '50.5vw' });
+           TweenMax.fromTo(Has, 1 * 2, fromHas, toHas);
+    }
+
+          let tl = new TimelineLite();
+
+          //ВЕРХНИЙ КРУГ
+          tl.add(TweenLite.to(jQuery('.co1'), 2, { autoAlpha: 0.21, top: '10.2vw' }), "-=0.8");
+          //НИЖНИЙ КРУГ
+          tl.add(TweenLite.to(jQuery('.co2'), 2, { autoAlpha: 0.25, top: '21.5vw' }), "-=0.8");
+          //ТЫ
+          tl.add(TweenLite.to(jQuery('.hhl2'), 2.3, { autoAlpha: 1, left: '57.8vw', filter: 'blur(0px)' }), "-=1.8");
+          //УВИДИШЬ
+          tl.add(TweenLite.to(jQuery('.hhl3'), 2.3, { autoAlpha: 1, top: '41.5vw', filter: 'blur(0px)' }), "-=1.7");
+          //ЛОГО ВЕРХНИЙ ЛЕВЫЙ УГОЛ
+          tl.add(TweenLite.to(jQuery('#branding'), 1.2, { autoAlpha: 1, padding: '2.5vw 5vw 0 5vw', filter: 'blur(0px)' }), "-=1.6");
+          //МЕНЮ СПРАВА
+          tl.add(TweenLite.to(jQuery('ul#menu-glavni-hr'), 1.2, { display: 'flex', autoAlpha: 1, filter: 'blur(0px)', marginRight: '4.8vw' }), "-=1");
+          //СКРОЛЛ
+          tl.add(TweenLite.to(jQuery('body'), 0.5, { position: 'initial' }), "-=1.4");
+          tl.add(TweenLite.to(jQuery('canvas'), 0.5, { display: 'block' }), "-=1.4");
+
+   }, 3750);
+
+  //МЫ
+    setTimeout(function() {
+       for (let i = 0; i < countAnChildren; i++) {
+         jQuery(anChildren.eq(i)).text(function(index) {
+           return an[i];
          });
-         let Has = jQuery(hasChildren.eq(i));
-         let fromHas = { left: '-11vw', autoAlpha: 0, filter: 'blur(5px)' }
-         let toHas = { left: '0' + (i * 1.5) + 'vw', autoAlpha: 1, filter: 'blur(0px)' }
-         TweenMax.to(jQuery('span.has'), 1.8, { left: '50.5vw' });
-         TweenMax.fromTo(Has, 1 * 2, fromHas, toHas);
-  }
-
-        let tl = new TimelineLite();
-
-        //ВЕРХНИЙ КРУГ
-        tl.add(TweenLite.to(jQuery('.co1'), 2, { autoAlpha: 0.21, top: '10.2vw' }), "-=0.8");
-        //НИЖНИЙ КРУГ
-        tl.add(TweenLite.to(jQuery('.co2'), 2, { autoAlpha: 0.25, top: '21.5vw' }), "-=0.8");
-        //ТЫ
-        tl.add(TweenLite.to(jQuery('.hhl2'), 2.3, { autoAlpha: 1, left: '57.8vw', filter: 'blur(0px)' }), "-=1.8");
-        //УВИДИШЬ
-        tl.add(TweenLite.to(jQuery('.hhl3'), 2.3, { autoAlpha: 1, top: '41.5vw', filter: 'blur(0px)' }), "-=1.7");
-        //ЛОГО ВЕРХНИЙ ЛЕВЫЙ УГОЛ
-        tl.add(TweenLite.to(jQuery('#branding'), 1.2, { autoAlpha: 1, padding: '2.5vw 5vw 0 5vw', filter: 'blur(0px)' }), "-=1.6");
-        //МЕНЮ СПРАВА
-        tl.add(TweenLite.to(jQuery('ul#menu-glavni-hr'), 1.2, { display: 'flex', autoAlpha: 1, filter: 'blur(0px)', marginRight: '4.8vw' }), "-=1");
-        //СКРОЛЛ
-        tl.add(TweenLite.to(jQuery('body'), 0.5, { position: 'initial' }), "-=1.4");
-        tl.add(TweenLite.to(jQuery('canvas'), 0.5, { display: 'block' }), "-=1.4");
-
- }, 3750);
-
-//МЫ
-  setTimeout(function() {
-     for (let i = 0; i < countAnChildren; i++) {
-       jQuery(anChildren.eq(i)).text(function(index) {
-         return an[i];
-       });
-       let An = jQuery(anChildren.eq(i));
-       let fromAn = { left: '-8vw', autoAlpha: 0, filter: 'blur(100px)' }
-       let toAn = { left: '0' + (i * 1.5) + 'vw', autoAlpha: 9, filter: 'blur(0px)' }
-       TweenMax.to(jQuery('span.an'), 1.5, { left: '57vw' });
-       TweenMax.fromTo(An, 1 * 2, fromAn, toAn);
-     }
- }, 4000);
+         let An = jQuery(anChildren.eq(i));
+         let fromAn = { left: '-8vw', autoAlpha: 0, filter: 'blur(100px)' }
+         let toAn = { left: '0' + (i * 1.5) + 'vw', autoAlpha: 9, filter: 'blur(0px)' }
+         TweenMax.to(jQuery('span.an'), 1.5, { left: '57vw' });
+         TweenMax.fromTo(An, 1 * 2, fromAn, toAn);
+       }
+   }, 4000);
 
 //картинка и текст середина
     let feedChildren = jQuery('span.feed').children();
@@ -128,13 +128,13 @@ jQuery('.ps3')
              tl.add(TweenMax.to(jQuery('span.for'), 1.5, { left: '0vw' }));
              tl.add(TweenMax.fromTo(For, 1 * 2, fromFor, toFor), "-=1.5");
              }
-          }, 300);
+          }, 800);
 
 //КАРТИНКА СКОРОСТЬ ПОЯВЛЕНИЯ
             let tl = new TimelineLite();
 //картинка
             tl.add(TweenMax.to(jQuery('.leaf-image img'), 3, { autoAlpha: 1 }), "-=1.3");
-            tl.add(TweenMax.to(jQuery('.leaf-image img'), 2, { filter: 'grayscale(0%)', width: '27vw' }), "-=2.5");
+            tl.add(TweenMax.to(jQuery('.leaf-image img'), 10, { filter: 'grayscale(0%)', width: '23vw' }), "-=2.5");
         })
 
 jQuery('.bs4')
@@ -144,7 +144,7 @@ jQuery('.bs4')
                 let tl = new TimelineLite();
                 tl.add(TweenMax.to(jQuery('.bs4'), 1.5, { autoAlpha: 1, filter: 'blur(0px)' }));
                 tl.add(TweenMax.to(jQuery('.homepage-products .products-slash'), 1.5, { autoAlpha: 1, marginTop: '0vw' }), "-=1");
-            }, 0000);
+            }, 1000);
         })
 
     sr.reveal('.homepage-products .skinfinity-sign img, .menu-product1, #footer .footer_second_row img', param);
@@ -160,7 +160,7 @@ jQuery('#footer .footer_third_row .footer_full')
         .one('scrolledin', function() {
             setTimeout(function() {
                 TweenMax.to(jQuery('#footer .footer_third_row .footer_full'), 1.5, { autoAlpha: 1, filter: 'blur(0px)' });
-            }, 1000);
+            }, 10000);
         })
 
 jQuery('.menu-product1').on('click', function(e) {

@@ -366,15 +366,16 @@ ul {
 .white-title,
 .from-hedonism-to-nature .under-hedonism .three-words,
 .from-hedonism-to-nature .under-hedonism .skin-title {
-  font-family: 'Unica One', cursive;
+  font-family: 'Montserrat', cursive;
   text-transform: uppercase;
-  color: white;
+  color: #cbb7d7;
 }
+
 
 .yellow-sentance {
   font-family: "Montserrat", cursive;
   font-weight: 400;
-  color: 	#FDDC22;
+  color: 	#d7b7c3;
   text-transform: uppercase;
   letter-spacing: 0.3vw;
   font-size: 0.8vw;
@@ -1264,22 +1265,6 @@ ul#menu-glavni-hr {
 }
 
 
-/* line 642, sass/_pages/_header.scss */
-
-.loading::before {
-    content: "";
-    z-index: 100;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url("/../img/noise.png");
-    animation: 0.2s infinite noise;
-    pointer-events: none;
-    opacity: 1;
-}
-
 
 /* line 657, sass/_pages/_header.scss */
 
@@ -1871,103 +1856,6 @@ ul#menu-footer-link a:hover,
 }
 
 
-/* line 74, sass/_pages/_footer.scss */
-
-#footer #mc_embed_signup_scroll input[type="email" i] {
-    letter-spacing: 0.5vw;
-    font-size: 0.9vw;
-    font-family: "Montserrat" !important;
-    text-transform: initial;
-    color: white;
-    font-weight: 400;
-    opacity: 1;
-}
-
-
-/* line 82, sass/_pages/_footer.scss */
-
-#footer #mc_embed_signup_scroll input[type="email" i] ::-webkit-input-placeholder {
-    /* WebKit, Blink, Edge */
-    color: #ffffff !important;
-    letter-spacing: 0.5vw;
-    font-size: 0.9vw;
-    font-family: "Montserrat" !important;
-    font-weight: 400;
-    opacity: 1;
-}
-
-
-/* line 91, sass/_pages/_footer.scss */
-
-#footer #mc_embed_signup_scroll input[type="email" i] :-moz-placeholder {
-    /* Mozilla Firefox 4 to 18 */
-    color: #ffffff !important;
-    letter-spacing: 0.5vw;
-    font-size: 0.9vw;
-    font-family: "Montserrat" !important;
-    font-weight: 400;
-    opacity: 1;
-}
-
-
-/* line 100, sass/_pages/_footer.scss */
-
-#footer #mc_embed_signup_scroll input[type="email" i] ::-moz-placeholder {
-    /* Mozilla Firefox 19+ */
-    color: #ffffff !important;
-    letter-spacing: 0.5vw;
-    font-size: 0.9vw;
-    font-family: "Unica One" !important;
-    font-weight: 400;
-    opacity: 1;
-}
-
-
-/* line 109, sass/_pages/_footer.scss */
-
-#footer #mc_embed_signup_scroll input[type="email" i] :-ms-input-placeholder {
-    /* Internet Explorer 10-11 */
-    color: #ffffff !important;
-    letter-spacing: 0.5vw;
-    font-size: 0.9vw;
-    font-family: "Unica One" !important;
-    font-weight: 400;
-    opacity: 1;
-}
-
-
-/* line 118, sass/_pages/_footer.scss */
-
-#footer #mc_embed_signup_scroll input[type="email" i] ::-ms-input-placeholder {
-    /* Microsoft Edge */
-    color: #ffffff !important;
-    letter-spacing: 0.5vw;
-    font-size: 0.9vw;
-    font-family: "Unica One" !important;
-    font-weight: 400;
-    opacity: 1;
-}
-
-
-/* line 127, sass/_pages/_footer.scss */
-
-#footer #mc_embed_signup_scroll input[type="email" i] ::placeholder {
-    /* Most modern browsers support this now. */
-    color: #ffffff !important;
-    letter-spacing: 0.5vw;
-    font-size: 0.9vw;
-    font-family: "Unica One" !important;
-    font-weight: 400;
-    opacity: 1;
-}
-
-@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: landscape) {
-    /* line 74, sass/_pages/_footer.scss */
-    #footer #mc_embed_signup_scroll input[type="email" i] {
-        font-size: 1.6vw;
-    }
-}
-
 
 /* line 140, sass/_pages/_footer.scss */
 
@@ -1979,7 +1867,7 @@ ul#menu-footer-link a:hover,
     letter-spacing: 0.5vw;
     width: 100%;
     color: #cd927a;
-    font-family: "Unica One" !important;
+    font-family: "Montserrat" !important;
     transition: all 0.3s;
 }
 
@@ -2044,7 +1932,7 @@ ul#menu-footer-link a:hover,
 #footer #mc_embed_signup_scroll #mce-responses #mce-error-response,
 #footer #mc_embed_signup_scroll #mce-responses #mce-success-response {
     font-size: 1vw;
-    font-family: "Unica One", cursive;
+    font-family: "Montserrat", cursive;
     font-weight: 400;
     color: #cd927a;
     text-transform: uppercase;
@@ -2216,12 +2104,12 @@ ul#menu-footer-link a:hover,
 
 #footer .footer_third_row .menu a,
 #footer .footer_third_row .footer_social_menu a {
-    font-family: "Unica One", cursive;
+    font-family: "Montserrat", cursive;
     font-weight: 400;
     color: #cd927a;
     text-transform: uppercase;
     letter-spacing: 0.3vw;
-    font-size: 1.5vw;
+    font-size: 1.25vw;
     letter-spacing: 0.7vw;
     text-decoration: none;
     line-height: 3vw;
@@ -2571,14 +2459,20 @@ body {
 
 /* line 62, sass/_pages/_home.scss */
 
+
 .from-hedonism-to-nature .under-hedonism .three-words {
-    font-size: 7vw;
-    line-height: 10vw;
-    margin-top: 4.4vw;
-    margin-left: 7.2vw;
-    letter-spacing: 0.8vw;
-    opacity: 0;
-    filter: blur(5px);
+  text-align: center;
+  position: relative;
+  z-index: 3;
+  width: 80%;
+  margin: auto;
+  top: 50%;
+  transform: translateY(-50%);
+    font-size: 4vw;
+    line-height: 5vw;
+    margin-top: 15vw;
+    letter-spacing: 0.7vw;
+    filter: blur(0px);
 }
 
 @media (max-width: 1025px) {
@@ -3508,11 +3402,19 @@ body {
 /* line 593, sass/_pages/_home.scss */
 
 .from-nature-to-products .scarf-mockup {
+    filter: url(#blur);
+    filter: blur(40px);
+    filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='10');
+    transition: 5s;
     position: relative;
     z-index: 500;
     padding-left: 9.5vw;
     padding-top: 8vw;
 }
+    .scarf-mockup:hover  {
+     filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='0');
+     filter: blur(0px);
+    }
 
 @media (max-width: 1025px) {
     /* line 593, sass/_pages/_home.scss */
@@ -3605,6 +3507,7 @@ body {
 /* line 649, sass/_pages/_home.scss */
 
 .homepage-products {
+  background-color: #18191b;
     text-align: center;
     margin-top: -1.1vw;
     position: relative;
@@ -3626,7 +3529,6 @@ body {
     transform: rotate(45deg);
     width: 11vw;
     height: 0.15vw;
-    background-color: #FDA996;
 }
 
 @media (max-width: 1025px) {
@@ -3650,10 +3552,20 @@ body {
 /* line 672, sass/_pages/_home.scss */
 
 .homepage-products .logo-big {
-    width: 100%;
-    display: inline-block;
-    margin-top: 7.5vw;
+  filter: url(#blur);
+  filter: blur(600px);
+  filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='10');
+  transition: 3s;
+  position: relative;
+  z-index: 500;
+  padding-left: auto;
+  padding-top: auto;
 }
+  .logo-big:hover  {
+   filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='0');
+   filter: blur(0px);
+  }
+
 
 @media (max-width: 1025px) {
     /* line 672, sass/_pages/_home.scss */
@@ -3674,7 +3586,7 @@ body {
 /* line 683, sass/_pages/_home.scss */
 
 .homepage-products .logo-big img {
-    width: 50.1vw;
+    width: 90.1vw;
 }
 
 @media (max-width: 1025px) {
@@ -3733,9 +3645,6 @@ body {
 	transition: 0.5s ease all;
 }
 
-.homepage-products .products-readmore:hover {
-    color: #fff;
-}
 
 @media (max-width: 1025px) {
     /* line 714, sass/_pages/_home.scss */
@@ -3826,7 +3735,7 @@ body {
 /* line 764, sass/_pages/_home.scss */
 
 .homepage-products .products-presentation .left-menu {
-    background-color: #111111;
+
     width: 21.4vw;
     /* Capability flexbox is not prefixed with -moz because 0% of users are affected which is less than the threshold of 0.01. */
     /* Capability flexbox is not prefixed with -ms because 0% of users are affected which is less than the threshold of 0.01. */
@@ -3873,20 +3782,6 @@ body {
     transition: all 0.3s;
 }
 
-
-/* line 786, sass/_pages/_home.scss */
-
-.homepage-products .products-presentation .left-menu .menu-product:hover {
-    color: #ffffff;
-}
-
-
-/* line 790, sass/_pages/_home.scss */
-
-.homepage-products .products-presentation .right-product {
-    background-color: #EDEDED;
-    width: 59.5vw;
-}
 
 @media (max-width: 1025px) {
     /* line 790, sass/_pages/_home.scss */
@@ -4056,18 +3951,6 @@ body {
         margin-top: 11vw;
         margin-bottom: -1vw;
     }
-}
-
-
-/* line 870, sass/_pages/_home.scss */
-
-.homepage-products .products-presentation .right-product .product-info .product-collection a {
-    color: #797979;
-    letter-spacing: 0.65vw;
-}
-
-.product-shopnow a:hover {
-    color: #000;
 }
 
 
@@ -4355,10 +4238,7 @@ body {
 .homepage-products .products-presentation .products-prev-arrow .products-horizontal-line {
     width: 12vw;
     height: 0.5vw;
-    background-color: #c6a89a;
-    /* Content for ie 8.
-  Min version: unspecified.
-  User threshold to keep: 0.1%. If ie 8 are omitted: 4.46163%. */
+
     *zoom: 1;
     filter: progid: DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#FFEDEDED', endColorstr='#FFC6A89A');
     /* Content for ie 9.
@@ -4386,15 +4266,6 @@ body {
 }
 
 
-/* line 1021, sass/_pages/_home.scss */
-
-.homepage-products .products-presentation .products-prev-arrow .products-arrow-l {
-    width: 0;
-    height: 0;
-    border-top: 2vw solid transparent;
-    border-bottom: 2vw solid transparent;
-    border-right: 3vw solid #cd927a;
-    z-index: 500;
 }
 
 @media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
@@ -4560,88 +4431,6 @@ span {
     transform: translateZ(0);
 }
 
-
-
-/* line 1152, sass/_pages/_home.scss */
-
-.video-ultra-wrapper {
-    width: 100vw;
-    height: 500vh;
-    background-color: rgba(24, 25, 27, 0.95);
-    margin-top: -40vw;
-    z-index: 13000;
-    position: relative;
-}
-
-@media (max-width: 1025px) {
-    /* line 1152, sass/_pages/_home.scss */
-    .video-ultra-wrapper {
-        margin-top: -200vw;
-    }
-}
-
-
-/* line 1164, sass/_pages/_home.scss */
-
-.video-close {
-    color: #fff;
-    float: right;
-    font-weight: bold;
-    opacity: 0;
-    cursor: pointer;
-    z-index: 100;
-    position: relative;
-    margin-top: -2.5vw;
-    margin-right: -2.5vw;
-}
-
-@media (max-width: 1025px) {
-    /* line 1164, sass/_pages/_home.scss */
-    .video-close {
-        margin-top: -13.5vw;
-        margin-right: -1.5vw;
-    }
-}
-
-
-/* line 1180, sass/_pages/_home.scss */
-
-.video-close .fa {
-    color: #fff;
-    font-size: 2vw;
-    transition: 0.5s ease all;
-}
-
-@media (max-width: 1025px) {
-    /* line 1180, sass/_pages/_home.scss */
-    .video-close .fa {
-        font-size: 9vw;
-    }
-}
-
-@media (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) {
-    /* line 1180, sass/_pages/_home.scss */
-    .video-close .fa {
-        font-size: 5vw;
-    }
-}
-
-
-/* line 1192, sass/_pages/_home.scss */
-
-.video-close .fa:hover {
-    color: #CD927A;
-}
-
-
-/* line 1196, sass/_pages/_home.scss */
-
-.leafloader img {
-    width: 14vw !important;
-    position: absolute !important;
-    top: 47vw !important;
-    left: 11vw !important;
-}
 
 
 /* line 1204, sass/_pages/_home.scss */
