@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&subset=latin-ext");
 @import url("https://fonts.googleapis.com/css?family=Unica+One&subset=latin-ext");
+@import url("https://fonts.googleapis.com/css?family=Domine");
 
 html {
   line-height: 1;
@@ -647,7 +648,7 @@ ul#menu-glavni-hr {
 }
 
 .homepage-header .homepage-header-inner .homeheader-letter {
-  font-family: "Unica one", cursive;
+  font-family: 'Domine', serif;
   font-weight: 400;
   color: #cd927a;
   text-transform: uppercase;
