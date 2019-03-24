@@ -2124,6 +2124,7 @@ body {
 }
 
 .from-nature-to-products .bs1 {
+  background-color: #18191a;
   padding-top: 26.2vw;
   padding-left: 15.7vw;
   padding-bottom: 4.5vw;
@@ -2412,20 +2413,6 @@ body {
   }
 }
 
-.from-nature-to-products .scarf-general-wrapper {
-  margin-top: -28.3vw;
-  background-color: #faf0ee;
-  position: relative;
-  *zoom: 1;
-  filter: progid: DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#FFFAF0EE', endColorstr='#FFF1DCD7');
-  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjEuMCIgeDI9IjEuMCIgeTI9IjAuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZhZjBlZSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2YxZGNkNyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-  background-size: 100%;
-  background-image: -webkit-gradient(linear, 0% 100%, 100% 0%, color-stop(0%, #faf0ee), color-stop(100%, #f1dcd7));
-  background-image: -moz-linear-gradient(left bottom, #faf0ee 0%, #f1dcd7 100%);
-  background-image: -webkit-linear-gradient(left bottom, #faf0ee 0%, #f1dcd7 100%);
-  background-image: linear-gradient(to right top, #faf0ee 0%, #f1dcd7 100%);
-}
-
 @media (max-width: 1025px) {
   .from-nature-to-products .scarf-general-wrapper {
     margin-top: -60vw;
@@ -2438,15 +2425,22 @@ body {
   }
 }
 
+.scarf-general-wrapper {
+  background-color: #18191a;
+
+
+}
 .from-nature-to-products .scarf-mockup {
+  background-color: #050505;
   filter: url(#blur);
   filter: blur(40px);
   filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='10');
   transition: 5s;
   position: relative;
   z-index: 500;
-  padding-left: 9.5vw;
-  padding-top: 8vw;
+      overflow: hidden;
+
+
 }
 
 .scarf-mockup:hover {
@@ -2473,7 +2467,7 @@ body {
 
 .from-nature-to-products .scarf-mockup img,
 .from-nature-to-products .scarf-mockup svg {
-  width: 77.5vw;
+  width: 100.5vw;
   z-index: 10;
 }
 
@@ -2570,8 +2564,8 @@ p {
   text-align: center;
   font-size: 4vw;
   font-family: "Montserrat", cursive;
-  font-weight: 600;
-  color: #e8f0f2;
+  font-weight: 200;
+  color: #e7c3d1;
   text-transform: uppercase;
   letter-spacing: 0.5vw;
   position: absolute;
@@ -2581,7 +2575,7 @@ p {
 
 .homepage-products .logo-big {
   filter: url(#blur);
-  filter: blur(300px);
+  filter: blur(700px);
   filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='10');
   transition: 3s;
   position: relative;
