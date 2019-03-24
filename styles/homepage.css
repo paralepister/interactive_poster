@@ -313,14 +313,6 @@ ul {
 .homepage-products .products-vertical-line {
   height: 17vw;
   width: 0.1vw;
-  background-color: #c6a89a;
-  *zoom: 1;
-  filter: progid: DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFC6A89A', endColorstr='#FFEDEDED');
-  background-size: 100%;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c6a89a), color-stop(100%, #ededed));
-  background-image: -moz-linear-gradient(top, #c6a89a 0%, #ededed 100%);
-  background-image: -webkit-linear-gradient(top, #c6a89a 0%, #ededed 100%);
-  background-image: linear-gradient(to bottom, #c6a89a 0%, #ededed 100%);
 }
 
 .horizontal-pink-beige-line,
@@ -2526,9 +2518,10 @@ body {
 }
 
 .homepage-products {
+  height: 0vw;
   background-color: #18191b;
   text-align: center;
-  margin-top: -1.1vw;
+  margin-top: 1vw;
   position: relative;
 }
 
@@ -2577,8 +2570,8 @@ p {
 .homepage-products .logo-big {
   filter: url(#blur);
   filter: blur(700px);
-  filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='10');
-  transition: 3s;
+  filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='5');
+  transition: 2s;
   position: relative;
   z-index: 500;
   padding-left: auto;
@@ -2604,7 +2597,7 @@ p {
 }
 
 .homepage-products .logo-big img {
-  width: 90.1vw;
+  width: 100vw;
 }
 
 @media (max-width: 1025px) {
