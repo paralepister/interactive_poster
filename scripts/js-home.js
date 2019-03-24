@@ -86,20 +86,6 @@ document.getElementById('load').appendChild(line);
 
    }, 3750);
 
-  //МЫ
-    setTimeout(function() {
-       for (let i = 0; i < countAnChildren; i++) {
-         jQuery(anChildren.eq(i)).text(function(index) {
-           return an[i];
-         });
-         let An = jQuery(anChildren.eq(i));
-         let fromAn = { left: '-8vw', autoAlpha: 0, filter: 'blur(100px)' }
-         let toAn = { left: '0' + (i * 1.5) + 'vw', autoAlpha: 9, filter: 'blur(0px)' }
-         TweenMax.to(jQuery('span.an'), 1.5, { left: '57vw' });
-         TweenMax.fromTo(An, 1 * 2, fromAn, toAn);
-       }
-   }, 4000);
-
 //картинка и текст середина
     let feedChildren = jQuery('span.feed').children();
     let countFeedChildren = jQuery("span.feed span").length;
