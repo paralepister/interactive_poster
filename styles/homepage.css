@@ -2567,6 +2567,10 @@ p {
   z-index: 1000;
 }
 
+.nothing {
+  background-color: #18191b;
+      height: 200px;
+}
 .homepage-products .logo-big {
   filter: url(#blur);
   filter: blur(700px);
@@ -3090,7 +3094,7 @@ span.withh,
 span.inn,
 span.first,
 span.app {
-  margin-top: -1.45vw;
+  margin-top: -0.45vw;
 }
 
 span.learned,

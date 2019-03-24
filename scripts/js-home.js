@@ -120,7 +120,7 @@ jQuery('.ps3')
             let tl = new TimelineLite();
 //картинка
             tl.add(TweenMax.to(jQuery('.leaf-image img'), 3, { autoAlpha: 1 }), "-=1.3");
-            tl.add(TweenMax.to(jQuery('.leaf-image img'), 10, { filter: 'grayscale(0%)', width: '23vw' }), "-=2.5");
+            tl.add(TweenMax.to(jQuery('.leaf-image img'), 5, { filter: 'grayscale(0%)', width: '23vw' }), "-=2.5");
         })
 
 jQuery('.bs4')
