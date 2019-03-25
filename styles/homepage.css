@@ -1406,10 +1406,45 @@ a {
   color: inherit;
   text-decoration: inherit;
 }
-@media (max-width: 1024px) {
+@media screen and (max-width: 1800px) {
+  p {
+    left: 255px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  p {
+    left: 203px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
 #footer .footer_third_row .footer_full {
   font-size: 2vw;
 }
 p {
   left: 150px;
 }
+}
+@media screen and (max-width: 768px) {
+  #footer .footer_third_row .footer_full {
+    font-size: 3,5vw;
+  }
+  p {
+    left: 110px;
+  }
+  .from-hedonism-to-nature .under-hedonism .ps4 {
+    line-height: 1.4vw;
+  }
+  }
+  @media screen and (max-width: 320px) {
+    #footer .footer_third_row .footer_full {
+      font-size: 3,5vw;
+      line-height: 1vw;
+    }
+    p {
+      left: 40px;
+    }
+    .from-hedonism-to-nature .under-hedonism .ps4 {
+      line-height: 1.4vw;
+    }
+    }
